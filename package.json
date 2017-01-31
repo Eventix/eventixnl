@@ -1,0 +1,24 @@
+{
+  "name": "ticketshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "mkdir css; sass stylesheets/main.scss:css/main.css",
+    "start": "mkdir css; sass -w stylesheets/main.scss:css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gafderks@github.com/gafderks/eventixnl.git"
+  },
+  "author": "Eventix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gafderks/eventixnl/issues"
+  },
+  "homepage": "https://github.com/gafderks/eventixnl#readme",
+  "dependencies": {
+
+  }
+}
