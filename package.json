@@ -1,5 +1,5 @@
 {
-  "name": "ticketshop",
+  "name": "eventixnl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/gafderks/eventixnl#readme",
   "dependencies": {
-
+    "bootstrap-sass": "^3.3.7"
   }
 }
