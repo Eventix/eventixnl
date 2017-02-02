@@ -1,0 +1,53 @@
+nav.navbar {
+
+  background: transparent;
+  border: 0;
+  color: $color-text-inverse;
+  font-size: 20.36pt;
+
+  ul.navbar-nav {
+
+    > li {
+
+      a {
+        text-transform: lowercase;
+        letter-spacing: $size-font-tracking-large;
+      }
+
+      &.active {
+
+        a {
+          background: transparent; // override bootstrap default color
+          color: $color-text-accent;
+        }
+      }
+
+      &.dropdown {
+
+        &.open {
+          background: $color-text-inverse;
+          box-shadow: none;
+
+        }
+
+        ul.dropdown-menu {
+          border: 0;
+          width: 100%;
+
+          a {
+            text-transform: initial;
+            color: $color-text-subtle;
+            letter-spacing: normal;
+
+            &:hover {
+              color: $color-text-accent;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// COLORS
+
+$color-text-primary: #002e6c;
+$color-text-accent: #ff4c00;
+$color-text-subtle: #808285;
+
+$color-text-inverse: white;
+$color-text-inverse-secondary: #67b2e7;
+
+
+$color-background-primary: #cfeeff;
+$color-background-dark: #002855;
+
+$color-success: #3fd4ad;
+
+// FONT SIZES
+$size-font-body: 15pt;
+$size-font-tracking-large: 0.2em; // tracking of 200 (https://stackoverflow.com/questions/2760784/how-to-calculate-css-letter-spacing-v-s-tracking-in-typography)
+
+// BORDERS
+$radius-default: 5pt;

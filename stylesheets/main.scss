@@ -2,19 +2,36 @@
 
 
 // 1. Configuration and helpers
-
+@import
+'abstracts/variables';
 
 // 2. Vendors
 @import
-'../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+'../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss';
+
+// 2a. Extensions to vendors
+@import
+'extensions/viewport-conditionals.scss';
 
 // 3. Base stuff
+@import
+'base/base.scss';
 
-//
-//// 4. Layout-related sections
+#eventixnl-root {
 
-//
-// 5. Components
+  //
+  //// 4. Layout-related sections
+  @import
+  'layout/footer.scss';
 
-//
-// 6. Page-specific styles
+  //
+  // 5. Components
+  @import
+  'components/button.scss',
+  'components/list.scss',
+  'components/navbar.scss';
+
+  //
+  // 6. Page-specific styles
+
+}

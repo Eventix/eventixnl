@@ -1,0 +1,22 @@
+ol.list-accent, ul.list-accent {
+  counter-reset: list-counter;
+  list-style: none;
+
+  li {
+    counter-increment: list-counter;
+
+    &:before {
+      margin-right: 1em; // TODO navragen
+      display: inline-block;
+      color: $color-text-accent;
+    }
+  }
+}
+
+ol.list-accent li:before {
+  content: counter(list-counter, decimal) ".";
+}
+
+ul.list-accent li:before {
+  content: counter(list-counter, disc);
+}

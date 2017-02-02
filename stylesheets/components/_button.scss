@@ -1,0 +1,29 @@
+.btn {
+
+  $button-text-size: 26pt;
+
+  font-size: $button-text-size;
+  text-transform: lowercase;
+  border-radius: $radius-default;
+  padding: 0.6em; // TODO navragen
+  letter-spacing: $size-font-tracking-large;
+  background: transparent;
+  border: $color-text-accent 4pt solid;
+  color: $color-text-primary;
+
+  &.btn-default {
+    // defined above
+  }
+
+  &.btn-primary {
+    color: $color-text-inverse;
+    background: $color-text-accent;
+    border: 0;
+  }
+
+  &.btn-success {
+    border-color: $color-success;
+    color: $color-success;
+  }
+
+}
