@@ -1,0 +1,56 @@
+&.page-home, body.page-home {
+  background-color: #0f3b68;
+
+  .home-upper {
+    background-image: url('../img/bg_home_header_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: auto;
+    min-height: 100vh;
+
+  }
+
+  .home-upper-overlay {
+    background-image: url('../img/bg_home_header_overlay_transparent.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .home-hero {
+
+    height: auto;
+    padding-bottom: 20pt;
+    padding-top: 65pt;
+
+    section {
+      padding: 10pt;
+
+      h1 {
+        margin-bottom: .8*$size-font-h1;
+      }
+
+      p {
+        margin-bottom: .8*$size-font-h1;
+      }
+    }
+
+    .home-video {
+      margin: 10pt;
+    }
+
+  }
+
+  @media (min-width: $screen-lg-min) {
+    .home-hero {
+      padding-top: 20vh;
+
+      .home-video {
+        margin-top: 10vh;
+      }
+    }
+  }
+
+}

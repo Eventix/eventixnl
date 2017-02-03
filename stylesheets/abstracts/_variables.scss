@@ -13,13 +13,18 @@ $color-text-inverse-secondary: #67b2e7;
 
 
 $color-background-primary: #cfeeff;
-$color-background-dark: #002855;
+$color-background-dark: #012f6c;
 
 $color-success: #3fd4ad;
 
 // FONT SIZES
-$size-font-body: 15pt;
+$size-font-body: 11pt; $font-size-base: $size-font-body;
+$size-font-body-larger: 13pt;
+$size-font-body-large: 20pt; $font-size-large: $size-font-body-large;
+
 $size-font-tracking-large: 0.2em; // tracking of 200 (https://stackoverflow.com/questions/2760784/how-to-calculate-css-letter-spacing-v-s-tracking-in-typography)
+
+$size-font-h1: 58pt;
 
 // BORDERS
 $radius-default: 5pt;

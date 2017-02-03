@@ -1,9 +1,36 @@
 nav.navbar {
 
-  background: transparent;
+  background: transparentize($color-background-dark, 0.1);
+  transition: background-color 300ms linear;
   border: 0;
   color: $color-text-inverse;
-  font-size: 20.36pt;
+  font-size: 15pt;
+  margin: 0;
+  padding: 8pt 0;
+
+  .navbar-header {
+
+    .navbar-brand {
+
+      padding: 5px;
+      //padding-left: 15px;
+      //margin-top: -4px;;
+
+      img {
+        height: 30pt;
+      }
+
+      @media (min-width: $screen-lg-min) {
+
+        padding: 0;
+        padding-left: 15px;
+
+        img {
+          height: 40pt;
+        }
+      }
+    }
+  }
 
   ul.navbar-nav {
 
@@ -12,6 +39,12 @@ nav.navbar {
       a {
         text-transform: lowercase;
         letter-spacing: $size-font-tracking-large;
+        color: $color-text-inverse;
+
+        &.btn {
+
+        }
+
       }
 
       &.active {
@@ -47,6 +80,13 @@ nav.navbar {
 
       }
 
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    &.on-top {
+      background: transparent;
+      transition: background-color 300ms linear;
     }
   }
 

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+
+// BODY DEFAULTS
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: $size-font-body;
+}
+
+// FONT SIZES
+.font-larger {
+  font-size: $size-font-body-larger;
+}
+
+.font-large {
+  font-size: $size-font-body-large;
+}
+
+// CHARACTER SPACING
+.tracking-large {
+  letter-spacing: $size-font-tracking-large;
+}
+
+// HEADINGS
+h1 {
+  font-size: $size-font-h1;
+  letter-spacing: 0.095em;
+  font-weight: normal;
+}
+
+// COLORS
+.color-secondary {
+  color: $color-text-subtle;
+}
+
+.color-inverse {
+  color: $color-text-inverse;
+
+  .color-secondary {
+    color: $color-text-inverse-secondary;
+  }
+}

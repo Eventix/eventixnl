@@ -1,11 +1,9 @@
 .btn {
 
-  $button-text-size: 26pt;
-
-  font-size: $button-text-size;
+  font-size: $size-font-body-large;
   text-transform: lowercase;
   border-radius: $radius-default;
-  padding: 0.6em; // TODO navragen
+  padding: 0.65em 1.1em;
   letter-spacing: $size-font-tracking-large;
   background: transparent;
   border: $color-text-accent 4pt solid;
