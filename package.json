@@ -8,7 +8,7 @@
   },
   "scripts": {
     "postinstall": "npm run sass & npm run bundle",
-    "start": "(npm run sass & npm run bundle) && npm run server",
+    "start": "npm run server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
     "sass": "mkdir css || sass stylesheets/main.scss:css/main.css",
