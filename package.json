@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
     "sass": "mkdir css || sass stylesheets/main.scss:css/main.css",
-    "bundle": "browserify scripts/main.js -o js/bundle.js"
+    "bundle": "mkdir js || browserify scripts/main.js -o js/bundle.js"
   },
   "repository": {
     "type": "git",
