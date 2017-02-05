@@ -1,0 +1,42 @@
+article {
+
+  margin-bottom: 5em;
+
+  &:first-of-type {
+    margin-top: 10em;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: $size-font-h2;
+    letter-spacing: 0.1em;
+
+    span {
+      font-weight: normal;
+      letter-spacing: 0.04em;
+
+      &:before {
+        content: "|";
+        padding-right: .3em;
+      }
+    }
+  }
+
+  h3 {
+    font-size: $size-font-body-larger;
+    letter-spacing: .05em;
+  }
+
+  .subtitle {
+    color: $color-text-accent;
+    font-size: 0.6*$size-font-h2;
+    letter-spacing: .05em;
+    font-weight: 300;
+    margin-top: -0.4em;
+    margin-bottom: 0.8em;
+  }
+
+
+
+
+}

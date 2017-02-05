@@ -40,6 +40,7 @@ nav.navbar {
         text-transform: lowercase;
         letter-spacing: $size-font-tracking-large;
         color: $color-text-inverse;
+        background: transparent;
 
         &.btn {
 
@@ -60,6 +61,10 @@ nav.navbar {
         &.open {
           background: $color-text-inverse;
           box-shadow: none;
+
+          a {
+            color: $color-text-subtle;
+          }
 
         }
 
