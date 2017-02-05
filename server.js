@@ -5,6 +5,6 @@ var port = process.env.PORT || 80;
 
 app.use('/', express.static(__dirname + '/'));
 
-app.listen(part, function() {
+app.listen(port, function() {
   console.log('Eventixnl listening on port ' + port);
 });
