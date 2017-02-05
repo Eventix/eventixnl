@@ -1,6 +1,5 @@
 .btn {
 
-  font-size: $size-font-body-large;
   text-transform: lowercase;
   border-radius: $radius-default;
   padding: 0.65em 1.1em;
@@ -8,6 +7,10 @@
   background: transparent;
   border: $color-text-accent 4pt solid;
   color: $color-text-primary;
+
+  &.btn-large {
+    font-size: $size-font-body-large;
+  }
 
   &.btn-default {
     // defined above

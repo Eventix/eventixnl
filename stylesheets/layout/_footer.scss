@@ -1,20 +1,33 @@
 footer {
   background: $color-background-dark;
   color: $color-text-inverse-secondary;
+  padding: 30pt 0;
 
   .footer-links {
 
+    padding-bottom: 40pt;
+
+    .col-sm-4 {
+      padding: 0;
+    }
+
     ul {
       list-style-type: none;
+      padding-left: 0;
 
       li {
 
         a {
           color: $color-text-inverse;
           text-transform: lowercase;
+          font-size: $size-font-body-larger;
+          font-weight: bold;
+          line-height: 1.8em;
+          letter-spacing: 0.05em;
 
           &:hover {
             text-decoration: none;
+            color: $color-text-inverse-secondary;
           }
         }
       }
@@ -22,7 +35,49 @@ footer {
   }
 
   .footer-social {
+    font-size: $size-font-body-larger;
+    font-weight: bold;
 
+    input[type=email] {
+      display: block;
+      padding: 5pt;
+      width: 100%;
+      margin: 1em 0;
+    }
+
+    ul.networks {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+        font-size: 50pt;
+        margin: 0 .5em;
+
+        a {
+          color: $color-background-light;
+
+          &:hover {
+            color: $color-background-primary;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+
+    a {
+      color: $color-text-accent;
+      text-decoration: dotted;
+    }
+  }
+
+  .footer-logo {
+    height: 110pt;
   }
 
 
