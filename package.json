@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
     "dirs": "node mkdir.js",
-    "sass": "npm run dirs && sass stylesheets/main.scss:css/main.css",
+    "sass": "npm run dirs && node-sass stylesheets/main.scss css/main.css",
     "bundle": "npm run dirs && browserify scripts/main.js -o js/bundle.js"
   },
   "repository": {
@@ -31,7 +31,8 @@
     "express": "^4.14.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.1.1",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.5.0"
   },
   "devDependencies": {}
 }
