@@ -25,6 +25,12 @@
   &.btn-success {
     border-color: $color-success;
     color: $color-success;
+
+    &.btn-primary {
+      background: $color-success;
+      border: 0;
+      color: $color-text-primary;
+    }
   }
 
 }

@@ -21,9 +21,9 @@ footer {
           color: $color-text-inverse;
           text-transform: lowercase;
           font-size: $size-font-body-larger;
-          font-weight: bold;
+          font-weight: normal;
           line-height: 1.8em;
-          letter-spacing: 0.05em;
+          letter-spacing: 0.08em;
 
           &:hover {
             text-decoration: none;
@@ -51,7 +51,7 @@ footer {
 
       li {
         display: inline-block;
-        font-size: 50pt;
+        font-size: 40pt;
         margin: 0 .5em;
 
         a {
