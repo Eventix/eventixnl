@@ -3,6 +3,7 @@
 
 // 1. Configuration and helpers
 @import
+'abstracts/mixins.scss',
 'abstracts/variables';
 
 // 2. Vendors
@@ -31,6 +32,7 @@
   @import
   'components/article.scss',
   'components/button.scss',
+  'components/hexagon-grid.scss',
   'components/list.scss',
   'components/navbar.scss';
 
