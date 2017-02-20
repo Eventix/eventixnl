@@ -63,6 +63,16 @@
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+
+    section {
+      margin-top: 200px;
+
+      h2 {
+        font-size: 42pt;
+        margin-bottom: 20pt;
+      }
+
+    }
   }
 
 }

@@ -10,6 +10,7 @@ $color-text-subtle: #808285;
 
 $color-text-inverse: white;
 $color-text-inverse-secondary: #67b2e7;
+$color-text-inverse-tertiary: #bbd9ea;
 
 
 $color-background-primary: #cfeeff;
@@ -24,6 +25,7 @@ $size-font-body-larger: 13pt;
 $size-font-body-large: 20pt; $font-size-large: $size-font-body-large;
 
 $size-font-tracking-large: 0.2em; // tracking of 200 (https://stackoverflow.com/questions/2760784/how-to-calculate-css-letter-spacing-v-s-tracking-in-typography)
+$size-font-tracking-larger: 0.1em;
 
 $size-font-h1: 50pt;
 $size-font-h2: 28pt;

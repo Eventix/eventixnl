@@ -16,6 +16,10 @@ body {
 }
 
 // CHARACTER SPACING
+.tracking-larger {
+  letter-spacing: $size-font-tracking-larger;
+}
+
 .tracking-large {
   letter-spacing: $size-font-tracking-large;
 }
@@ -38,4 +42,13 @@ h1 {
   .color-secondary {
     color: $color-text-inverse-secondary;
   }
+
+  .color-tertiary {
+    color: $color-text-inverse-tertiary;
+  }
+}
+
+// STYLES
+.text-bold {
+  font-weight: bold;
 }
