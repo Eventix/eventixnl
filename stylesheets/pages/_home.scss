@@ -75,4 +75,42 @@
     }
   }
 
+  .integration-bar {
+    background: $color-background-dark;
+    margin-top: 20px;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+
+      .fa {
+        font-size: 70pt;
+        padding: 20px 0.5em;
+      }
+
+      &:hover {
+        .fa {
+          color: $color-text-accent;
+        }
+
+        .dropdown-menu {
+          display: block;
+          color: $color-text-subtle;
+          letter-spacing: $size-font-tracking-larger;
+
+          .integration-bar-description {
+            padding: 20px 20px;;
+          }
+
+          a {
+            color: $color-text-accent;
+          }
+        }
+
+      }
+    }
+
+  }
+
 }
