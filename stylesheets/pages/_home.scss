@@ -219,7 +219,7 @@
           letter-spacing: $size-font-tracking-larger;
 
           .integration-bar-description {
-            padding: 20px 20px;;
+            padding: 20px 20px;
           }
 
           a {
@@ -230,6 +230,13 @@
       }
     }
 
+  }
+
+  // BACKGROUNDS
+  .bg-pt-1 {
+    background: url('../img/back-svg/back1.svg');
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
   }
 
 }
