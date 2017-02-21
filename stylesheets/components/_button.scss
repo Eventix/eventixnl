@@ -29,8 +29,21 @@
     &.btn-primary {
       background: $color-success;
       border: 0;
-      color: $color-text-primary;
+      color: $color-text-inverse;
     }
+  }
+
+  &.btn-blue {
+    border-color: $color-text-inverse-secondary;
+    color: $color-text-inverse-secondary;
+
+    &.btn-primary {
+      background: $color-text-inverse-secondary;
+      border: 0;
+      color: $color-text-inverse;
+    }
+
+
   }
 
 }

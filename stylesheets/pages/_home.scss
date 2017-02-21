@@ -86,7 +86,7 @@
 
       .fa {
         font-size: 70pt;
-        padding: 20px 0.5em;
+        padding: 35px 0.5em;
       }
 
       &:hover {
@@ -105,6 +105,125 @@
 
           a {
             color: $color-text-accent;
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .ipad-container {
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 15%;
+      left: 15%;
+      height: 71%;
+      width: 72%;
+      border: 5px #FBFAFA solid;
+
+      @media (min-width: 640px) and (max-width: $screen-md-min) {
+        left: 95px;
+        width: 445px;
+      }
+    }
+  }
+
+  .ipad-lscape-container {
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 12%;
+      left: 11%;
+      height: 75%;
+      width: 53%;
+      border: 5px #FBFAFA solid;
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+        width: 602px;
+        left: 13%;
+      }
+
+      @media (max-width: 992px) {
+        left: 15%;
+        width: 71%;
+      }
+    }
+  }
+
+  .iphone-container {
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 12%;
+      left: 12%;
+      height: 76%;
+      width: 75%;
+      border: 5px #FBFAFA solid;
+
+      @media (min-width: 392px) and (max-width: 991px) {
+        left: 46px;
+        width: 290px;
+      }
+    }
+  }
+
+  .ticket-scan {
+    position: relative;
+    height: 1300px;
+
+    @media (min-width: $screen-md-min) {
+      height: 1000px;
+    }
+
+    .ticket-animate {
+      width: 150%;
+      position: absolute;
+      z-index: 0;
+    }
+
+    .phone {
+      top: 50px;
+      z-index: 1;
+      position: absolute;
+    }
+
+  }
+
+  .partner-bar {
+    background: $color-background-light;
+    margin-top: 20px;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+
+      .fa {
+        font-size: 70pt;
+        padding: 35px 0.5em;
+      }
+
+      &:hover {
+        .fa {
+          color: $color-text-inverse-secondary;
+        }
+
+        .dropdown-menu {
+          display: block;
+          color: $color-text-subtle;
+          letter-spacing: $size-font-tracking-larger;
+
+          .integration-bar-description {
+            padding: 20px 20px;;
+          }
+
+          a {
+            color: $color-text-inverse-secondary;
           }
         }
 
