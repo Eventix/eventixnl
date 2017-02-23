@@ -1,0 +1,114 @@
+.device-frame {
+  $bezel-color-apple: #FBFAFA;
+  $bezel-color-ipad: $bezel-color-apple;
+  $bezel-color-iphone: $bezel-color-apple;
+
+  margin: 0 auto;
+
+  div.device {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    iframe {
+      position: absolute;
+      border: 5px solid white;
+    }
+  }
+
+  &.device-frame-ipad {
+
+    &:not(.device-frame-landscape) { // default portrait
+      $image-height: 842;
+      $image-width: 595;
+
+      max-width: $image-width * 1px;
+
+      div.device {
+        // @see https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+        padding-bottom: ($image-height / $image-width) * 100%;
+        background-image: url('../img/werkdock_ipad_air.png');
+
+        iframe {
+          border-color: $bezel-color-ipad;
+
+          top: 15%;
+          left: 13%;
+          height: 71%;
+          width: 76%;
+        }
+      }
+    }
+
+    &.device-frame-landscape {
+      $image-height: 595;
+      $image-width: 842;
+
+      max-width: $image-width * 1px;
+
+      div.device {
+        // @see https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+        padding-bottom: ($image-height / $image-width) * 100%;
+        background-image: url('../img/werkdock_ipad_air_land.png');
+
+        iframe {
+          border-color: $bezel-color-ipad;
+
+          top: 12%;
+          left: 15%;
+          height: 75%;
+          width: 71%;
+        }
+      }
+    }
+  }
+
+  &.device-frame-iphone {
+
+    &:not(.device-frame-landscape) { // default portrait
+      $image-height: 678;
+      $image-width: 350;
+
+      max-width: $image-width * 1px;
+
+      div.device {
+        // @see https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+        padding-bottom: ($image-height / $image-width) * 100%;
+        background-image: url('../img/werkdock_iphone.png');
+
+        iframe {
+          border-color: $bezel-color-iphone;
+
+          top: 12%;
+          left: 9%;
+          height: 76%;
+          width: 82%;
+        }
+
+      }
+    }
+
+    &.device-frame-landscape {
+      $image-height: 350;
+      $image-width: 678;
+
+      max-width: $image-width * 1px;
+
+      div.device {
+        // @see https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+        padding-bottom: ($image-height / $image-width) * 100%;
+        background-image: url('../img/werkdock_iphone_land.png');
+
+        iframe {
+          border-color: $bezel-color-iphone;
+
+          top: 9%;
+          left: 12%;
+          height: 82%;
+          width: 76%;
+        }
+      }
+    }
+  }
+
+}
