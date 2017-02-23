@@ -75,40 +75,19 @@
     }
   }
 
-  .integration-bar {
+  .integration-reel {
     background: $color-background-dark;
-    margin-top: 20px;
 
-    li {
-      list-style: none;
-      display: inline-block;
-      position: relative;
+    .integration-bar-description {
+      padding: 20px 20px;
+    }
 
-      .fa {
-        font-size: 70pt;
-        padding: 35px 0.5em;
-      }
+    .dropdown-menu li a {
+      color: $color-text-accent;
+    }
 
-      &:hover {
-        .fa {
+    li:hover .fa {
           color: $color-text-accent;
-        }
-
-        .dropdown-menu {
-          display: block;
-          color: $color-text-subtle;
-          letter-spacing: $size-font-tracking-larger;
-
-          .integration-bar-description {
-            padding: 20px 20px;;
-          }
-
-          a {
-            color: $color-text-accent;
-          }
-        }
-
-      }
     }
 
   }
@@ -190,44 +169,6 @@
       top: 50px;
       z-index: 1;
       position: absolute;
-    }
-
-  }
-
-  .partner-bar {
-    background: $color-background-light;
-    margin-top: 20px;
-
-    li {
-      list-style: none;
-      display: inline-block;
-      position: relative;
-
-      .fa {
-        font-size: 70pt;
-        padding: 35px 0.5em;
-      }
-
-      &:hover {
-        .fa {
-          color: $color-text-inverse-secondary;
-        }
-
-        .dropdown-menu {
-          display: block;
-          color: $color-text-subtle;
-          letter-spacing: $size-font-tracking-larger;
-
-          .integration-bar-description {
-            padding: 20px 20px;
-          }
-
-          a {
-            color: $color-text-inverse-secondary;
-          }
-        }
-
-      }
     }
 
   }

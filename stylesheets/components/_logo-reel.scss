@@ -1,0 +1,48 @@
+.logo-reel {
+  background: $color-background-light;
+  margin-top: 20px;
+
+  ul {
+    padding-left: 0;
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      position: relative;
+
+      .fa  {
+        font-size: 40pt;
+        padding: 20px 0.5em;
+
+        @media(min-width: $screen-md-min) {
+          font-size: 70pt;
+          padding: 35px 0.5em;
+        }
+      }
+
+      .dropdown-menu {
+         color: $color-text-subtle;
+         letter-spacing: $size-font-tracking-larger;
+
+         .integration-bar-description {
+           padding: 20px 20px;
+         }
+
+         a {
+           color: $color-text-inverse-secondary;
+         }
+       }
+
+      &:hover {
+        .fa {
+          color: $color-text-inverse-secondary;
+        }
+
+        .dropdown-menu {
+          display: block;
+        }
+      }
+    }
+  }
+}
