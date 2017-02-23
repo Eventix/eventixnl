@@ -10,6 +10,7 @@ article {
     font-weight: bold;
     font-size: $size-font-h2;
     letter-spacing: 0.1em;
+    position: relative;
 
     span {
       font-weight: normal;
@@ -18,6 +19,46 @@ article {
       &:before {
         content: "|";
         padding-right: .3em;
+      }
+    }
+  }
+
+  // MARKS
+  @media(min-width: $screen-sm-min) { // marks only show if the window is wide enough
+    &:not(.no-mark) { // if we want a mark
+      h2:before { // common mark properties
+        content: '';
+        height: 2em;
+        width: 2em;
+        top: -16px;
+        display: block;
+        position: absolute;
+      }
+
+      &:not(.text-right) { // left mark
+          padding-left: 5.5em;
+
+          h2:before {
+            left: -2.5em;
+          }
+      }
+
+      &.text-right { // right mark
+        padding-right: 5.5em;
+
+        h2:before {
+          right: -2.5em;
+        }
+      }
+
+      &:not(.alt-mark) h2:before { // default mark
+        background: url('../img/heading-img.png') no-repeat;
+        background-size: cover;
+      }
+
+      &.alt-mark h2:before { // alternative mark
+        background: url('../img/heading-img-inv.png') no-repeat;
+        background-size: cover;
       }
     }
   }
@@ -35,8 +76,5 @@ article {
     margin-top: -0.4em;
     margin-bottom: 0.8em;
   }
-
-
-
 
 }
