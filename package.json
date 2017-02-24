@@ -32,7 +32,8 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.1.1",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.5.0"
+    "node-sass": "^4.5.0",
+    "svgxuse": "^1.2.1"
   },
   "devDependencies": {}
 }

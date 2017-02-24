@@ -2,71 +2,53 @@
 
   margin-top: 40px;
 
-  // https://codepen.io/thebabydino/pen/XbxKbL/
-  $polygon-hexagon-rounded: polygon(98.66025% 45%, 99.39693% 46.5798%, 99.84808% 48.26352%, 100% 50%, 99.84808% 51.73648%, 99.39693% 53.4202%, 98.66025% 55%, 78.66025% 89.64102%, 77.66044% 91.06889%, 76.42788% 92.30146%, 75% 93.30127%, 73.4202% 94.03794%, 71.73648% 94.48909%, 70% 94.64102%, 30% 94.64102%, 28.26352% 94.48909%, 26.5798% 94.03794%, 25% 93.30127%, 23.57212% 92.30146%, 22.33956% 91.06889%, 21.33975% 89.64102%, 1.33975% 55%, 0.60307% 53.4202%, 0.15192% 51.73648%, 0% 50%, 0.15192% 48.26352%, 0.60307% 46.5798%, 1.33975% 45%, 21.33975% 10.35898%, 22.33956% 8.93111%, 23.57212% 7.69854%, 25% 6.69873%, 26.5798% 5.96206%, 28.26352% 5.51091%, 30% 5.35898%, 70% 5.35898%, 71.73648% 5.51091%, 73.4202% 5.96206%, 75% 6.69873%, 76.42788% 7.69854%, 77.66044% 8.93111%, 78.66025% 10.35898%);
-  $svg-hexagon-rounded: url('#clipshape');
-  $hexagon-border-width: 1px;
-  $hexagon-size: 180px;
-
-  .hexagon {
-    // border, like https://codepen.io/bennettfeely/pen/azJWWX/
-    @include clippath($polygon-hexagon-rounded);
-    @include clippath($svg-hexagon-rounded);
-    display: inline-block;
-    background: $color-text-inverse;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: $hexagon-size;
-    width: $hexagon-size;
-
-    .hexagon-inside {
-      position: absolute;
-      top: $hexagon-border-width;
-      left: $hexagon-border-width;
-      right: $hexagon-border-width;
-      bottom: $hexagon-border-width;
-      background: #1B4D7E;
-      @include clippath($polygon-hexagon-rounded);
-      @include clippath($svg-hexagon-rounded);
-
-      img {
-        $hexagon-icon-size: $hexagon-size * 0.7;
-        position: absolute;
-        width: $hexagon-icon-size;
-        height: $hexagon-icon-size;
-        margin: auto;
-        top: 0; left: 0; bottom: 0; right: 0;
-      }
-    }
-
-  }
+  $hexagon-size: 180;
 
   .hexagon-item {
 
     float: left;
-    height: $hexagon-size;
-    width: $hexagon-size;
+    height: $hexagon-size * 1px;
+    width: $hexagon-size * 1px;
     position: relative;
 
-    ul, p.hexagon-title {
-      display: none;
+    .hexagon {
+      height: $hexagon-size * 1px;
+      width: $hexagon-size * 1px;
+      position: relative;
+
+      .hex {
+        fill: #1B4D7E;
+        height: $hexagon-size * 1px;
+        width: $hexagon-size * 1px;
+      }
+
+      img {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 17%;
+      }
     }
 
     p.hexagon-title {
       color: $color-text-inverse-secondary;
       margin-top: -2em;
-      margin-left: 0.5 * $hexagon-size;
+      margin-left: 0.5px * $hexagon-size;
       font-size: 0.9 * $font-size-large;
       width: 250px;
       z-index: 5;
-      position: relative;
+      position: absolute;
+      display: none;
     }
 
     ul.dropdown-menu {
       width: 100%;
       font-size: 16pt;
       margin-top: -5px;
+      display: none;
 
       li > a {
         color: #888;
@@ -78,8 +60,8 @@
     }
 
     &.highlighted {
-      .hexagon-inside {
-        background: $color-background-light;
+      .hex {
+        fill: $color-background-light;
       }
     }
 
@@ -88,26 +70,26 @@
         display: block;
       }
 
-      .hexagon-inside {
-        background: $color-text-accent;
+      .hex {
+        fill: $color-text-accent;
+      }
 
-        img {
+      img {
           filter: brightness(0) invert(1);
-        }
       }
     }
 
     // responsive grid: https://codepen.io/vichid/pen/EKFgG
     @media (min-width: 380px) and (max-width: 539px) {
       // two in a line
-      margin-right: -30px;
+      margin-right: -(1/6) * $hexagon-size * 1px;
 
       &:nth-child(2) {
-        margin-top: 85px;
+        margin-top: (17/36) * $hexagon-size * 1px;
       }
 
       &:nth-child(2n+3) {
-        margin-top: -90px;
+        margin-top: -0.5 * $hexagon-size * 1px;
       }
 
       // make sure that the first one starts on the left
@@ -118,14 +100,14 @@
 
     @media (min-width: 540px) and (max-width: 699px) {
       // three in a line
-      margin-right: -30px;
+      margin-right: -(1/6) * $hexagon-size * 1px;
 
       &:nth-child(2) {
-        margin-top: 85px;
+        margin-top: (17/36) * $hexagon-size * 1px;
       }
 
       &:nth-child(3n+4), &:nth-child(3n+6) {
-        margin-top: -90px;
+        margin-top: -0.5 * $hexagon-size * 1px;
       }
 
       // make sure that the first one starts on the left
@@ -136,14 +118,14 @@
 
     @media (min-width: 700px) and (max-width: $screen-md-min - 1px) {
       // four in a line
-      margin-right: -30px;
+      margin-right: -(1/6) * $hexagon-size * 1px;
 
       &:nth-child(2), &:nth-child(4) {
-        margin-top: 85px;
+        margin-top: (17/36) * $hexagon-size * 1px;
       }
 
       &:nth-child(4n+5), &:nth-child(4n+7) {
-        margin-top: -90px;
+        margin-top: -0.5 * $hexagon-size * 1px;
       }
 
       // make sure that the first one starts on the left
@@ -154,14 +136,14 @@
 
     @media (min-width: $screen-md-min) and (max-width: $screen-lg-min - 1px) {
       // six in a line
-      margin-right: -30px;
+      margin-right: -(1/6) * $hexagon-size * 1px;
 
       &:nth-child(2), &:nth-child(4), &:nth-child(6) {
-        margin-top: 85px;
+        margin-top: (17/36) * $hexagon-size * 1px;
       }
 
       &:nth-child(6n+7), &:nth-child(6n+9), &:nth-child(6n+11) {
-        margin-top: -90px;
+        margin-top: -0.5 * $hexagon-size * 1px;
       }
 
       // make sure that the first one starts on the left
@@ -172,14 +154,14 @@
 
     @media (min-width: $screen-lg-min) {
       // seven in a line
-      margin-right: -30px;
+      margin-right: -(1/6) * $hexagon-size * 1px;
 
       &:nth-child(2), &:nth-child(4), &:nth-child(6) {
-        margin-top: 85px;
+        margin-top: (17/36) * $hexagon-size * 1px;
       }
 
       &:nth-child(7n+8), &:nth-child(7n+10), &:nth-child(7n+12), &:nth-child(7n+14) {
-        margin-top: -90px;
+        margin-top: -0.5 * $hexagon-size * 1px;
       }
 
       // make sure that the first one starts on the left

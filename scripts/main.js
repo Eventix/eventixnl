@@ -1,2 +1,3 @@
 window.$ = window.jQuery = require('jquery');
-require('./../node_modules/bootstrap-sass/assets/javascripts/bootstrap.js');
+require('bootstrap-sass');
+require('svgxuse');
