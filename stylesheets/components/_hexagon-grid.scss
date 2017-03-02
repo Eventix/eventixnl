@@ -35,13 +35,7 @@
 
     p.hexagon-title {
       color: $color-text-inverse-secondary;
-      margin-top: -2em;
-      margin-left: 0.5px * $hexagon-size;
-      font-size: 0.9 * $font-size-large;
-      width: 250px;
-      z-index: 5;
-      position: absolute;
-      display: none;
+      padding: 10px 20px;
     }
 
     ul.dropdown-menu {
@@ -66,7 +60,7 @@
     }
 
     &:hover {
-      ul.dropdown-menu, p.hexagon-title {
+      ul.dropdown-menu {
         display: block;
       }
 
