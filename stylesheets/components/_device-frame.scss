@@ -66,7 +66,7 @@
   &.device-frame-iphone {
 
     &:not(.device-frame-landscape) { // default portrait
-      $image-height: 678;
+      $image-height: 651;
       $image-width: 350;
 
       max-width: $image-width * 1px;
@@ -79,10 +79,10 @@
         iframe {
           border-color: $bezel-color-iphone;
 
-          top: 12%;
-          left: 9%;
-          height: 76%;
-          width: 82%;
+          top: 14%;
+          left: 12%;
+          height: 72%;
+          width: 76%;
         }
 
       }
@@ -90,7 +90,7 @@
 
     &.device-frame-landscape {
       $image-height: 350;
-      $image-width: 678;
+      $image-width: 651;
 
       max-width: $image-width * 1px;
 
@@ -102,10 +102,10 @@
         iframe {
           border-color: $bezel-color-iphone;
 
-          top: 9%;
-          left: 12%;
-          height: 82%;
-          width: 76%;
+          top: 12%;
+          left: 13%;
+          height: 76%;
+          width: 73%;
         }
       }
     }
