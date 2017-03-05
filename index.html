@@ -560,14 +560,7 @@
     <div class="container">
       <section>
         <div class="row">
-          <div class="col-md-6">
-            <div class="device-frame device-frame-ipad device-frame-portrait">
-              <div class="device">
-                <iframe src="http://www.e-try.com/black.htm"></iframe><!-- https://dashboard.eventix.nl/dashboard?demo_user=1&lang=nl -->
-              </div>
-            </div>
-          </div>
-          <article class="col-md-6 text-right">
+          <article class="col-md-6 col-md-push-6 text-right">
             <h2>
               Test kop
             </h2>
@@ -583,8 +576,14 @@
               eget dolor. Aenean massa. Cum sociis
               natoque penatibus et magnis dis
               parturient montes, Read more.</p>
-
           </article>
+          <div class="col-md-6 col-md-pull-6">
+            <div class="device-frame device-frame-ipad device-frame-portrait">
+              <div class="device">
+                <iframe src="http://www.e-try.com/black.htm"></iframe><!-- https://dashboard.eventix.nl/dashboard?demo_user=1&lang=nl -->
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -645,13 +644,8 @@
       </section>
 
       <section>
-        <span id="ticketend"></span>
         <div class="row">
-          <div class="col-md-6 col-sm-12 ticket-scan">
-            <img src="img/e-ticket-rot.png" class="ticket-animate" id="ticket" />
-            <img src="img/iphone-scan.png" class="phone img-responsive" />
-          </div>
-          <article class="col-md-6 text-right">
+          <article class="col-md-6 col-md-push-6 text-right">
             <h2>
               Test kop
               <span>toevoeging</span>
@@ -667,6 +661,11 @@
             <p class="text-center text-right-sm"><button class="btn btn-primary btn-success">Testbutton formaat</button></p>
 
           </article>
+          <div class="col-md-6 col-sm-12 col-md-pull-6 ticket-scan">
+            <span id="ticketend"></span>
+            <img src="img/e-ticket-rot.png" class="ticket-animate" id="ticket" />
+            <img src="img/iphone-scan.png" class="phone img-responsive" />
+          </div>
         </div>
       </section>
     </div><!-- /.container -->
