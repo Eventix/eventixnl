@@ -30,24 +30,24 @@ article {
         content: '';
         height: 2em;
         width: 2em;
-        top: -16px;
+        top: -9px;
         display: block;
         position: absolute;
       }
 
       &:not(.text-right) { // left mark
-          padding-left: 5.5em;
+          padding-left: 6.5em;
 
           h2:before {
-            left: -2.5em;
+            left: -2.6em;
           }
       }
 
       &.text-right { // right mark
-        padding-right: 5.5em;
+        padding-right: 6.5em;
 
         h2:before {
-          right: -2.5em;
+          right: -2.6em;
         }
       }
 
@@ -73,7 +73,7 @@ article {
     font-size: 0.6*$size-font-h2;
     letter-spacing: .05em;
     font-weight: 300;
-    margin-top: -0.4em;
+    margin-top: -0.5em;
     margin-bottom: 0.8em;
   }
 
