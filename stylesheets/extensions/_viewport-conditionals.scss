@@ -2,16 +2,52 @@
   .pull-right-sm {
     float: right;
   }
+
+  .text-center-sm {
+    text-align: center;
+  }
+
+  .text-right-sm {
+    text-align: right;
+  }
+
+  .text-left-sm {
+    text-align: left;
+  }
 }
 
 @media (min-width: $screen-md-min) {
   .pull-right-md {
     float: right;
   }
+
+  .text-center-md {
+    text-align: center;
+  }
+
+  .text-right-md {
+    text-align: right;
+  }
+
+  .text-left-md {
+    text-align: left;
+  }
 }
 
 @media (min-width: $screen-lg-min) {
   .pull-right-lg {
     float: right;
+  }
+
+  .text-center-lg {
+    text-align: center;
+  }
+
+  .text-right-lg {
+    text-align: right;
+  }
+
+  .text-left-lg {
+    text-align: left;
   }
 }
