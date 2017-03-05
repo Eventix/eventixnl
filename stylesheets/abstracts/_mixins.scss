@@ -2,3 +2,15 @@
   -webkit-clip-path: $path;
   clip-path: $path;
 }
+
+@mixin columncount($count) {
+  -moz-column-count: $count;
+  -webkit-column-count: $count;
+  column-count: $count;
+}
+
+@mixin columngap($gap) {
+  -moz-column-gap: $gap;
+  -webkit-column-gap: $gap;
+  column-gap: $gap;
+}
