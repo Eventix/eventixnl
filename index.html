@@ -117,8 +117,15 @@
 
 <div class="home-main">
   <div class="bg-pt-1">
-    <div class="container">
-      <section class="color-inverse">
+    <section class="color-inverse" style="position: relative;">
+      <nav class="hex-tabs hidden-sm">
+        <ul>
+          <li data-hexclass="6"><a href="#">Sport</a></li>
+          <li data-hexclass="4"><a href="#">Business</a></li>
+          <li data-hexclass="3"><a href="#">Theaters</a></li>
+        </ul>
+      </nav>
+      <div class="container">
         <h2 class="color-tertiary text-bold tracking-larger">Effortless ticketing trough</h2>
         <p class="color-tertiary tracking-larger">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
           ligula eget Aenean commodo ligula eget, <a href="#">Or read more.</a></p>
@@ -461,8 +468,8 @@
           </div>
           <div class="clearfix"></div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <section class="color-inverse">
       <div class="container">
@@ -917,6 +924,14 @@
   $('.hexagon-item').hover(
     function() {
      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').addClass('highlighted');
+    },
+    function() {
+      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').removeClass('highlighted');
+    }
+  );
+  $('.hex-tabs li').hover(
+    function() {
+      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').addClass('highlighted');
     },
     function() {
       $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').removeClass('highlighted');
