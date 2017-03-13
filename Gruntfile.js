@@ -11,6 +11,7 @@ module.exports = function(grunt) {
     },
     sass: {
       options: {
+        sourceMap: true,
         precision: 8 // required by bootstrap-sass
       },
       dist: {
@@ -50,7 +51,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-mkdir');
