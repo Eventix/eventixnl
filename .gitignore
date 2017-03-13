@@ -1,6 +1,8 @@
-/css
-/js
+/public/css
+/public/js
+/public/*.html
 .sass-cache/
+
 # Logs
 logs
 *.log
