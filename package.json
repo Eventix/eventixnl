@@ -26,16 +26,17 @@
     "bootstrap-sass": "^3.3.7",
     "express": "^4.14.1",
     "font-awesome": "^4.7.0",
+    "grunt": "1.0.1",
+    "grunt-browserify": "5.0.0",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-sass": "1.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-mkdir": "1.0.0",
+    "grunt-preprocess": "5.1.0",
     "jquery": "^3.1.1",
     "preprocess": "^3.1.0",
     "svgxuse": "^1.2.1"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-mkdir": "^1.0.0",
-    "grunt-preprocess": "^5.1.0"
   }
 }
