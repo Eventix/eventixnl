@@ -92,6 +92,54 @@
 
   }
 
+  .partner-window-container {
+    background: $color-background-dark;
+
+    .partner-window {
+      color: $color-text-inverse-secondary;
+      font-size: 0.9em;
+      display: none;
+
+      &.active {
+        display: block;
+      }
+
+      .row:first-of-type > div {
+        padding: 50px 25px;
+        padding-bottom: 0;
+      }
+
+      .partner-image {
+        img {
+          margin: 0 auto;
+        }
+      }
+
+      .signature {
+        .name {
+          font-size: 1.3em;
+          font-weight: bold;
+        }
+      }
+
+      p {
+        line-height: 2em;
+      }
+
+      .btn {
+        margin: 0 1em;
+      }
+
+      h2 {
+        color: $color-text-inverse-secondary;
+        font-weight: bold;
+        letter-spacing: $size-font-tracking-larger;
+        margin-top: 0;
+        font-size: 3em;
+      }
+    }
+  }
+
   .ticket-scan {
     position: relative;
     height: 1300px;

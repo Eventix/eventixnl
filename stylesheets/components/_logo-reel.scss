@@ -43,6 +43,12 @@
           display: block;
         }
       }
+
+      &.active, &.active:hover {
+        .fa {
+          color: $color-text-accent;
+        }
+      }
     }
   }
 }
