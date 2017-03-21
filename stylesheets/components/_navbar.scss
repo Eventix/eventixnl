@@ -40,14 +40,15 @@ nav.navbar {
         text-transform: lowercase;
         letter-spacing: $size-font-tracking-large;
         color: $color-text-inverse;
-        background: transparent;
 
-        &.btn {
-          background: $color-text-accent;
-          font-size: 15pt;
-
+        &:not(.btn) {
+          background: transparent;
         }
 
+        &.btn {
+          font-size: 15pt;
+          margin-left: 5px;
+        }
       }
 
       &.active {
