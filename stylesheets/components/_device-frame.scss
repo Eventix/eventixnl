@@ -29,9 +29,11 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_ipad_air.png');
 
-        > iframe, > div {
+        iframe, div {
           border-color: $bezel-color-ipad;
+        }
 
+        > iframe, > div {
           top: 15%;
           left: 13%;
           height: 71%;
@@ -51,9 +53,11 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_ipad_air_land.png');
 
-        > iframe, > div {
+        iframe, div {
           border-color: $bezel-color-ipad;
+        }
 
+        > iframe, > div {
           top: 12%;
           left: 15%;
           height: 75%;
@@ -76,9 +80,11 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_iphone.png');
 
-        > iframe, > div {
+        iframe, div {
           border-color: $bezel-color-iphone;
+        }
 
+        > iframe, > div {
           top: 14%;
           left: 12%;
           height: 72%;
@@ -99,9 +105,11 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_iphone_land.png');
 
-        > iframe, > div {
+        iframe, div {
           border-color: $bezel-color-iphone;
+        }
 
+        > iframe, > div {
           top: 12%;
           left: 13%;
           height: 76%;
