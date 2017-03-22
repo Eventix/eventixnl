@@ -78,6 +78,20 @@ footer {
     }
   }
 
+  .footer-privacy {
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      font-weight: bold;
+      display: inline-block;
+
+      &:after {
+        content: " | ";
+      }
+    }
+  }
+
   .footer-logo-container {
     text-align: center;
   }
@@ -85,6 +99,5 @@ footer {
   .footer-logo {
     height: 110pt;
   }
-
 
 }
