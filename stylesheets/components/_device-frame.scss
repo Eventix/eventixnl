@@ -10,7 +10,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 
-    iframe {
+    > iframe, > div {
       position: absolute;
       border: 5px solid white;
     }
@@ -29,7 +29,7 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_ipad_air.png');
 
-        iframe {
+        > iframe, > div {
           border-color: $bezel-color-ipad;
 
           top: 15%;
@@ -51,7 +51,7 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_ipad_air_land.png');
 
-        iframe {
+        > iframe, > div {
           border-color: $bezel-color-ipad;
 
           top: 12%;
@@ -76,7 +76,7 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_iphone.png');
 
-        iframe {
+        > iframe, > div {
           border-color: $bezel-color-iphone;
 
           top: 14%;
@@ -99,7 +99,7 @@
         padding-bottom: ($image-height / $image-width) * 100%;
         background-image: url('../img/werkdock_iphone_land.png');
 
-        iframe {
+        > iframe, > div {
           border-color: $bezel-color-iphone;
 
           top: 12%;
