@@ -49,6 +49,13 @@ nav.navbar {
           font-size: 15pt;
           margin-left: 5px;
         }
+
+        &.inline {
+
+          &:before {
+            content: '> ';
+          }
+        }
       }
 
       &.active {
