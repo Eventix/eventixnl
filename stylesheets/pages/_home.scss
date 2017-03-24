@@ -170,7 +170,7 @@
 
   // BACKGROUNDS
   .bg-pt-1 {
-    background: url('../img/back-svg/back1.svg');
+    //background: url('../img/back-svg/back1.svg');
     background-repeat: no-repeat;
     background-position: right 0 top 0;
   }
@@ -196,3 +196,60 @@
   }
 
 }
+
+$ratio: 1.64;
+$base1: 1500;
+$base2: 70;
+$base3: 3000;
+$base2TopOffset: 0;
+
+#diamond-group{
+  position:absolute;
+  height:100px;
+  z-index:0;
+  width:100%;
+  overflow:hidden;
+}
+#diamond-1 {
+  position:relative;
+  left:300px;
+  margin-top:000px;
+  width: 0;
+  height: 0;
+  border:$base1+px solid transparent;
+  border-bottom: ($base1*$ratio)+px solid #c9e0f1;
+  position: relative;
+  top: -624px;
+  max-width:100px;
+}
+#diamond-1:after {
+  content: '';
+  position: absolute;
+  left: -($base1)+px; top: ($base1*$ratio)+px;
+  width: 0;
+  height: 0;
+  border: ($base1)+px solid transparent;
+  border-top: ($base1*$ratio)+px solid #c9e0f1;
+}
+
+#diamond-2 {
+  position:relative;
+  margin-top:000px;
+  width: 0;
+  height: 0;
+  border:$base3+px solid transparent;
+  border-bottom: ($base3*$ratio)+px solid #f17165;
+  position: relative;
+  top: -7380px;
+  left:-5000px;
+}
+#diamond-2:after {
+  content: '';
+  position: absolute;
+  left: -($base3)+px; top: ($base3*$ratio)+px;
+  width: 0;
+  height: 0;
+  border: ($base3)+px solid transparent;
+  border-top: ($base3*$ratio)+px solid #f17165;
+}
+
