@@ -2,6 +2,7 @@
   $bezel-color-apple: #FBFAFA;
   $bezel-color-ipad: $bezel-color-apple;
   $bezel-color-iphone: $bezel-color-apple;
+  position: relative;
 
   margin: 0 auto;
 
@@ -115,6 +116,31 @@
           height: 76%;
           width: 73%;
         }
+      }
+    }
+  }
+
+  &.device-frame-try {
+
+    &:before {
+      content: "";
+      background-image: url('../img/try_me.svg');
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      z-index: 1000;
+      left: calc(50% - 100px);
+      top: calc(50% - 100px);
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s linear;
+    }
+
+    &:hover, &:focus {
+      &:before {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 0.3s, opacity 0.3s linear;
       }
     }
   }
