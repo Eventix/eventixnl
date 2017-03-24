@@ -76,11 +76,15 @@ footer {
       color: $color-text-accent;
       text-decoration: dotted;
     }
+
+    .footer-copyright-text {
+      margin-top: 2em;
+    }
   }
 
   .footer-privacy {
     padding-left: 0;
-    margin: 0;
+    margin: 1em 0 0;
 
     li {
       font-weight: bold;
