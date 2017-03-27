@@ -4,7 +4,7 @@
   background-image: none;
 
   .home-upper {
-    background-image: url('../img/bg_home_header_back.jpg');
+    background-image: url('../img/bg_home_hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -14,9 +14,9 @@
   }
 
   .home-upper-overlay {
-    background-image: url('../img/bg_home_header_overlay_transparent.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url('../img/bg_home_header_overlay_transparent.png');
+    // background-repeat: no-repeat;
+    // background-size: cover;
     height: auto;
     min-height: 100vh;
   }
