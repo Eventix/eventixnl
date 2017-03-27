@@ -48,6 +48,43 @@ module.exports = function(grunt) {
         files: ['pages/**'],
         tasks: ['preprocess']
       }
+    },
+    uglify: {
+      dist: {
+        options: {
+
+        },
+        files: [{
+          expand: true,
+          src: ['public/**/*.js'],
+          dest: ''
+        }]
+      }
+    },
+    cssmin: {
+      dist: {
+        options: {
+
+        },
+        files: [{
+          expand: true,
+          src: ['public/**/*.css'],
+          dest: ''
+        }]
+      }
+    },
+    htmlmin: {
+      dist: {
+        options: {
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: [{
+          expand: true,
+          src: 'public/**/*.html',
+          dest: ''
+        }]
+      }
     }
   });
 
@@ -56,7 +93,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-  grunt.registerTask('default', ['mkdir', 'sass', 'browserify', 'preprocess']);
+  grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify']);
+  grunt.registerTask('default', ['mkdir', 'sass', 'browserify', 'preprocess', 'minify']);
 
 };
