@@ -93,12 +93,13 @@
   }
 
   .partner-window-container {
-    background: $color-background-dark;
+    background: darken($color-background-dark, 5);
 
     .partner-window {
       color: $color-text-inverse-secondary;
       font-size: 0.9em;
       display: none;
+      text-align: justify;
 
       &.active {
         display: block;
