@@ -80,6 +80,24 @@ nav.navbar {
 
         }
 
+        @media (min-width: $screen-sm-min) {
+          &:hover {
+
+            background: $color-text-inverse;
+            box-shadow: none;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            a {
+              color: $color-text-subtle;
+            }
+
+            ul.dropdown-menu {
+              display: block;
+            }
+          }
+        }
+
         ul.dropdown-menu {
           border: 0;
           width: 100%;
