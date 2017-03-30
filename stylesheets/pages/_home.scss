@@ -170,4 +170,24 @@
     background-position: right 0 top 0;
   }
 
+  // Mobile backgrounds
+  @media (max-width: $screen-xs-max) {
+    section {
+
+      &.bg-dark {
+        background-color: $color-background-dark;
+      }
+
+      &.bg-light {
+        background-color: $color-background-light;
+      }
+
+      &.bg-primary {
+        background-color: $color-background-primary;
+      }
+
+    }
+
+  }
+
 }
