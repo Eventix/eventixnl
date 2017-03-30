@@ -13,14 +13,15 @@
     li {
       position: relative;
       display: inline-block;
-      padding: 1.5em 1.5em 1em;
+      padding: 2.5em 1.5em 1em;
       color: inherit;
       text-decoration: none;
-      margin: 0 -7px;
+      margin: 0 -15px;
       list-style: none;
       width: 12em;
-      height: 7em;
+      height: 9em;
       margin-bottom: 5em;
+      transition: margin 0.3s;
 
       a {
         position: absolute;
@@ -47,6 +48,11 @@
         border-radius: 10px 10px 0 0;
         transform: perspective(4px) rotateX(1deg);
         transform-origin: bottom;
+      }
+
+      &:hover, &.highlighted {
+        margin-bottom: 105px;
+        transition: margin 0.3s;
       }
 
       &:nth-child(3n) {
