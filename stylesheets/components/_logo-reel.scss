@@ -11,6 +11,22 @@
       display: inline-block;
       position: relative;
 
+      img, svg {
+        padding: 0 1.5em;
+        height: 40pt;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -1.5em;
+        fill: white;
+
+        @media(min-width: $screen-md-min) {
+          font-size: 70pt;
+          padding: 0 50px;
+          height: 70pt;
+          margin-top: -50px;
+        }
+      }
+
       .fa  {
         font-size: 40pt;
         padding: 20px 0.5em;
@@ -22,17 +38,19 @@
       }
 
       .dropdown-menu {
-         color: $color-text-subtle;
-         letter-spacing: $size-font-tracking-larger;
+        color: $color-text-subtle;
+        letter-spacing: $size-font-tracking-larger;
+        width: 300px;
+        margin-left: -50px;
 
-         .integration-bar-description {
-           padding: 20px 20px;
-         }
+        .integration-bar-description {
+          padding: 20px 20px;
+        }
 
-         a {
-           color: $color-text-inverse-secondary;
-         }
-       }
+        a {
+          color: $color-text-inverse-secondary;
+        }
+      }
 
       &:hover {
         .fa {
@@ -47,6 +65,10 @@
       &.active, &.active:hover {
         .fa {
           color: $color-text-accent;
+        }
+
+        svg {
+          fill: $color-text-accent;
         }
       }
     }

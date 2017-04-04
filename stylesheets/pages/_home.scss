@@ -87,7 +87,11 @@
     }
 
     li:hover .fa {
-          color: $color-text-accent;
+      color: $color-text-accent;
+    }
+
+    li:hover svg {
+      fill: $color-text-accent;
     }
 
   }
