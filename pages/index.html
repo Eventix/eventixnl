@@ -9,7 +9,7 @@
 
 <!-- @include partials/_header.html -->
 
-<div class="home-upper" id="startchange">
+<div class="home-upper">
   <div class="home-upper-overlay">
     <div class="container home-hero">
       <div class="row">
@@ -390,7 +390,7 @@
     <section id="partners" class="color-inverse bg-dark">
       <div class="container">
         <h2 class="text-center color-tertiary text-bold tracking-larger">Seamless integration</h2>
-        <p class="text-center tracking-larger">Eventix’s open structure allows to integrate easily with any platform. Connect using preset plugins of industry leading web services, or build on top of our open API. <br>To read more about building custom integrations check out our <a href="#">API documentation</a>. 
+        <p class="text-center tracking-larger">Eventix’s open structure allows to integrate easily with any platform. Connect using preset plugins of industry leading web services, or build on top of our open API. <br>To read more about building custom integrations check out our <a href="#">API documentation</a>.
 </p>
       </div>
       <div class="integration-reel logo-reel">
@@ -599,8 +599,8 @@
           </article>
           <div class="col-md-6 col-sm-12 col-md-pull-6 ticket-scan">
             <span id="ticketend"></span>
-            <img src="img/e-ticket-rot.png" class="ticket-animate" id="ticket" />
-            <img src="img/iphone-scan.png" class="phone img-responsive" />
+            <img src="img/e-ticket.svg" class="ticket-animate" id="ticket" />
+            <img src="img/iphone-scan-red.svg" id="phone-scan" class="phone img-responsive" />
           </div>
         </div>
       </div>
@@ -661,161 +661,163 @@
 
   <section id="customers" class="partner-section bg-light">
     <h2 class="text-center">Meet our partners</h2>
-    <div class="partner-reel logo-reel">
-      <div class="container">
-        <ul>
-          <li data-partner="1">
-            <div class="partner-bar-item">
-              <i class="fa fa-chrome"></i>
-            </div>
-          </li>
-          <li data-partner="2">
-            <div class="partner-bar-item">
-              <i class="fa fa-facebook-square"></i>
-            </div>
-          </li>
-          <li data-partner="3">
-            <div class="partner-bar-item">
-              <i class="fa fa-twitter"></i>
-            </div>
-          </li>
-          <li data-partner="4">
-            <div class="partner-bar-item">
-              <i class="fa fa-chrome"></i>
-            </div>
-          </li>
-          <li data-partner="5">
-            <div class="partner-bar-item">
-              <i class="fa fa-facebook-square"></i>
-            </div>
-          </li>
-        </ul>
+    <div class="reel-tabs">
+      <div class="partner-reel logo-reel tabs">
+        <div class="container">
+          <ul>
+            <li data-tab="1">
+              <div class="partner-bar-item">
+                <i class="fa fa-chrome"></i>
+              </div>
+            </li>
+            <li data-tab="2">
+              <div class="partner-bar-item">
+                <i class="fa fa-facebook-square"></i>
+              </div>
+            </li>
+            <li data-tab="3">
+              <div class="partner-bar-item">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </li>
+            <li data-tab="4">
+              <div class="partner-bar-item">
+                <i class="fa fa-chrome"></i>
+              </div>
+            </li>
+            <li data-tab="5">
+              <div class="partner-bar-item">
+                <i class="fa fa-facebook-square"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="partner-window-container">
-      <div class="container">
-        <div data-partner="1" class="partner-window">
-          <div class="row">
-            <div class="partner-image col-md-6">
-              <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+      <div class="partner-window-container windows">
+        <div class="container">
+          <div data-tab="1" class="partner-window">
+            <div class="row">
+              <div class="partner-image col-md-6">
+                <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+              </div>
+              <div class="col-md-6">
+                <h2>En toen was het party.</h2>
+                <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
+                  We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
+                  het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
+                  productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
+                  in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
+                <div class="signature">
+                  <p class="title">Owner en founder van Extrema België</p>
+                  <p class="name">Erick de Ruiter</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-              <h2>En toen was het party.</h2>
-              <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
-                We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
-                het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
-                productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
-                in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
-              <div class="signature">
-                <p class="title">Owner en founder van Extrema België</p>
-                <p class="name">Erick de Ruiter</p>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary">www.extrema.be</button>
+                <button class="btn btn-primary btn-blue">facebook</button>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <button class="btn btn-primary">www.extrema.be</button>
-              <button class="btn btn-primary btn-blue">facebook</button>
+          <div data-tab="2" class="partner-window">
+            <div class="row">
+              <div class="partner-image col-md-6">
+                <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+              </div>
+              <div class="col-md-6">
+                <h2>En toen was het feest.</h2>
+                <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
+                  We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
+                  het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
+                  productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
+                  in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
+                <div class="signature">
+                  <p class="title">Owner en founder van Extrema België</p>
+                  <p class="name">Erick de Ruiter</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div data-partner="2" class="partner-window">
-          <div class="row">
-            <div class="partner-image col-md-6">
-              <img class="img-responsive" src="img/partners/draaimolen.jpg" />
-            </div>
-            <div class="col-md-6">
-              <h2>En toen was het feest.</h2>
-              <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
-                We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
-                het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
-                productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
-                in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
-              <div class="signature">
-                <p class="title">Owner en founder van Extrema België</p>
-                <p class="name">Erick de Ruiter</p>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary">www.extrema.be</button>
+                <button class="btn btn-primary btn-blue">facebook</button>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <button class="btn btn-primary">www.extrema.be</button>
-              <button class="btn btn-primary btn-blue">facebook</button>
+          <div data-tab="3" class="partner-window">
+            <div class="row">
+              <div class="partner-image col-md-6">
+                <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+              </div>
+              <div class="col-md-6">
+                <h2>En toen was het genieten.</h2>
+                <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
+                  We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
+                  het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
+                  productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
+                  in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
+                <div class="signature">
+                  <p class="title">Owner en founder van Extrema België</p>
+                  <p class="name">Erick de Ruiter</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div data-partner="3" class="partner-window">
-          <div class="row">
-            <div class="partner-image col-md-6">
-              <img class="img-responsive" src="img/partners/draaimolen.jpg" />
-            </div>
-            <div class="col-md-6">
-              <h2>En toen was het genieten.</h2>
-              <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
-                We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
-                het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
-                productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
-                in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
-              <div class="signature">
-                <p class="title">Owner en founder van Extrema België</p>
-                <p class="name">Erick de Ruiter</p>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary">www.extrema.be</button>
+                <button class="btn btn-primary btn-blue">facebook</button>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <button class="btn btn-primary">www.extrema.be</button>
-              <button class="btn btn-primary btn-blue">facebook</button>
+          <div data-tab="4" class="partner-window">
+            <div class="row">
+              <div class="partner-image col-md-6">
+                <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+              </div>
+              <div class="col-md-6">
+                <h2>En toen was het spectaculair.</h2>
+                <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
+                  We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
+                  het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
+                  productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
+                  in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
+                <div class="signature">
+                  <p class="title">Owner en founder van Extrema België</p>
+                  <p class="name">Erick de Ruiter</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div data-partner="4" class="partner-window">
-          <div class="row">
-            <div class="partner-image col-md-6">
-              <img class="img-responsive" src="img/partners/draaimolen.jpg" />
-            </div>
-            <div class="col-md-6">
-              <h2>En toen was het spectaculair.</h2>
-              <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
-                We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
-                het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
-                productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
-                in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
-              <div class="signature">
-                <p class="title">Owner en founder van Extrema België</p>
-                <p class="name">Erick de Ruiter</p>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary">www.extrema.be</button>
+                <button class="btn btn-primary btn-blue">facebook</button>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <button class="btn btn-primary">www.extrema.be</button>
-              <button class="btn btn-primary btn-blue">facebook</button>
-            </div>
-          </div>
-        </div>
-        <div data-partner="5" class="partner-window">
-          <div class="row">
-            <div class="partner-image col-md-6">
-              <img class="img-responsive" src="img/partners/draaimolen.jpg" />
-            </div>
-            <div class="col-md-6">
-              <h2>En toen was het groots.</h2>
-              <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
-                We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
-                het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
-                productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
-                in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
-              <div class="signature">
-                <p class="title">Owner en founder van Extrema België</p>
-                <p class="name">Erick de Ruiter</p>
+          <div data-tab="5" class="partner-window">
+            <div class="row">
+              <div class="partner-image col-md-6">
+                <img class="img-responsive" src="img/partners/draaimolen.jpg" />
+              </div>
+              <div class="col-md-6">
+                <h2>En toen was het groots.</h2>
+                <p>Toen we live gingen met Eventix was ik zeer gespannen, het zou ons grootste evenement zijn tot nu toe.
+                  We verwachtten zo'n 1000 min in onze shop en hadden al tien kaartjes aangestoken voor goed geluk. Maar
+                  het overtrof onze verwachtingen, het liep zo soepel dat we tijd over hadden om te focussen op de
+                  productie. We hadden slechts twee gevallen van verkeerde e-mailadressen. We hadden gelukkig alles goed
+                  in kunnen schatten door onze marketingresultaten te meten en dat scheelt echt een hoop voorbereiding.</p>
+                <div class="signature">
+                  <p class="title">Owner en founder van Extrema België</p>
+                  <p class="name">Erick de Ruiter</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <button class="btn btn-primary">www.extrema.be</button>
-              <button class="btn btn-primary btn-blue">facebook</button>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <button class="btn btn-primary">www.extrema.be</button>
+                <button class="btn btn-primary btn-blue">facebook</button>
+              </div>
             </div>
           </div>
         </div>
@@ -827,65 +829,6 @@
 <!-- @include partials/_footer.html -->
 
 <script>
-  // transparency of the navbar
-  $('.navbar-fixed-top').addClass('on-top');
-  $(document).ready(function(){
-    var scroll_start = $(this).scrollTop();
-    var startchange = $('#startchange');
-    var offset = startchange.offset();
-    if (startchange.length){
-      $(document).scroll(function() {
-        scroll_start = $(this).scrollTop();
-        if(scroll_start > offset.top) {
-          $(".navbar-fixed-top").removeClass('on-top');
-        } else {
-          $('.navbar-fixed-top').addClass('on-top');
-        }
-      });
-    }
-  });
-
-  // highlighting of hexagons
-  $('.hexagon-item').hover(
-    function() {
-     $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').addClass('highlighted');
-     $('.hex-tabs li[data-hexclass='+$(this).data('hexclass')+']').addClass('highlighted');
-    },
-    function() {
-      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').removeClass('highlighted');
-      $('.hex-tabs li[data-hexclass='+$(this).data('hexclass')+']').removeClass('highlighted');
-    }
-  );
-  $('.hex-tabs li').hover(
-    function() {
-      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').addClass('highlighted');
-    },
-    function() {
-      $('.hexagon-item[data-hexclass='+$(this).data('hexclass')+']').removeClass('highlighted');
-    }
-  );
-
-  // partner reel tabs
-  $(document).ready(function() {
-    $(".partner-reel li").click(function() {
-      $(".partner-reel li").removeClass("active");
-      $(this).addClass("active");
-      $(".partner-window").removeClass("active");
-      $(".partner-window[data-partner="+$(this).data("partner")+"]").addClass("active");
-    });
-  });
-
-  // scaling of iframes
-  $(document).ready(function() {
-
-    $("[data-scale]").each(function() {
-      var width = $(this).find('iframe').width();
-      var scale = $(this).data('scale');
-      console.log(width/scale);
-      $(this).find('iframe').css('width', scale + 'px').css('transform', 'scale('+ (width / scale) + ')');
-    });
-  });
-
   // scanning the ticket
   $(document).ready(function(){
     var tk_scroll_start = $(this).scrollTop();
@@ -900,17 +843,33 @@
       $(document).scroll(function() {
         tk_scroll_start = $(this).scrollTop(); // current location
         if (tk_scroll_start < startoffset.top) { // before start
-          $("#ticket").css("left", animationinit + "px");
+          $("#phone-scan").css("left", animationinit + "px");
         } else if (tk_scroll_start < endoffset.top) { // between start and end
-          $("#ticket").css("left", (animationinit + (animationdistance * ((tk_scroll_start - startoffset.top) /
+          $("#phone-scan").css("left", (animationinit + (animationdistance * ((tk_scroll_start - startoffset.top) /
                                                                           (endoffset.top -
                                                     startoffset.top)))) + "px");
         } else { // after end
-          $("#ticket").css("left", (animationinit + animationdistance) + "px");
+          scanTicketOnce();
+          $("#phone-scan").css("left", (animationinit + animationdistance) + "px");
         }
       });
     }
   });
+
+  var ticketScanned = false;
+  function scanTicketOnce() {
+    if (!ticketScanned) {
+      scanTicket();
+      ticketScanned = true;
+    }
+  }
+
+  function scanTicket() {
+    $("#phone-scan").attr("src", 'img/iphone-scan-green.svg');
+    setTimeout(function() {
+      $("#phone-scan").attr("src", 'img/iphone-scan-red.svg');
+    }, 800);
+  }
 </script>
 
 </body>
