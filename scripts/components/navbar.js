@@ -4,10 +4,12 @@ module.exports = function(document) {
   init();
 
   function init() {
-    updateNavbarClass();
-    $(document).scroll(function() {
+    if ($("body.nav-transparent").length) {
       updateNavbarClass();
-    });
+      $(document).scroll(function() {
+        updateNavbarClass();
+      });
+    }
   }
 
   function updateNavbarClass() {

@@ -105,3 +105,36 @@ footer {
   }
 
 }
+
+&.footer-gray footer {
+  background: $color-background-gray;
+  color: $color-text-gray;
+
+  .footer-links ul li a {
+    color: $color-text-gray;
+    &:hover {
+      color: $color-text-inverse-secondary;
+    }
+  }
+
+  .footer-social {
+    ul.networks {
+      li {
+        a {
+          color: lighten($color-text-gray, 20%);
+
+          &:hover {
+            color: $color-text-inverse-secondary;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    a {
+      color: $color-text-inverse-secondary;
+    }
+
+  }
+}

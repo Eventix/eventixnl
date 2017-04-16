@@ -48,6 +48,7 @@ nav.navbar {
         &.btn {
           font-size: 15pt;
           margin-left: 5px;
+          color: $color-text-inverse;
         }
 
         &.inline {
@@ -125,4 +126,46 @@ nav.navbar {
     }
   }
 
+}
+
+&.nav-gray nav.navbar {
+  background: $color-background-gray;
+  color: $color-text-gray;
+
+  ul.navbar-nav {
+    > li {
+      a:not(.btn) {
+        color: $color-text-gray;
+      }
+      &.active {
+        a {
+          color: $color-text-inverse-secondary;
+        }
+      }
+      &.dropdown {
+        &.open {
+          background: $color-background-gray;
+          a {
+            color: $color-text-subtle;
+          }
+        }
+        @media (min-width: $screen-sm-min) {
+          &:hover {
+            background: $color-text-inverse;
+            a {
+              color: $color-text-subtle;
+            }
+          }
+        }
+        ul.dropdown-menu {
+          a {
+            color: $color-text-gray;
+            &:hover {
+              color: $color-text-inverse-secondary;
+            }
+          }
+        }
+      }
+    }
+  }
 }
