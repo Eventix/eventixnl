@@ -1,11 +1,11 @@
 .blog-post {
-  @extend .no-mark;
+
   $blog-border-color: #ddd;
 
   max-width: 640px;
   border: $blog-border-color solid 1px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px !important;
   background: white;
   font-weight: lighter;
   line-height: 2em;
@@ -15,6 +15,10 @@
 
   h2 {
     margin-top: 0;
+
+    &::before {
+      display: none !important;
+    }
   }
 
   .subtitle {
