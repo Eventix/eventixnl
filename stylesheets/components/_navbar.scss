@@ -16,8 +16,9 @@ nav.navbar {
       //padding-left: 15px;
       //margin-top: -4px;;
 
-      img {
+      img, svg {
         height: 30pt;
+        fill: $color-text-inverse;
       }
 
       @media (min-width: $screen-lg-min) {
@@ -25,7 +26,7 @@ nav.navbar {
         padding: 0;
         padding-left: 15px;
 
-        img {
+        svg {
           height: 40pt;
         }
       }
@@ -131,6 +132,12 @@ nav.navbar {
 &.nav-gray nav.navbar {
   background: $color-background-gray;
   color: $color-text-gray;
+
+  .navbar-header .navbar-brand {
+    img, svg {
+      fill: $color-text-inverse-secondary;
+    }
+  }
 
   ul.navbar-nav {
     > li {
