@@ -3,7 +3,7 @@
   transform-origin: left;
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 18%;
   display: inline-block;
 
   ul {
@@ -56,14 +56,6 @@
         transition: margin 0.3s;
       }
 
-      &:nth-child(3n) {
-        color: $color-text-primary;
-
-        &:before {
-          background: $color-background-primary;
-        }
-      }
-
       &:nth-child(3n+1) {
         color: $color-text-inverse;
 
@@ -77,6 +69,22 @@
 
         &:before {
           background: $color-background-light;
+        }
+      }
+      
+      &:nth-child(3n+3) {
+        color: $color-text-primary;
+
+        &:before {
+          background: $color-background-primary;
+        }
+      }
+
+      &:nth-child(3n+4) {
+        color: $color-text-primary;
+
+        &:before {
+          background: $color-text-inverse;
         }
       }
     }
