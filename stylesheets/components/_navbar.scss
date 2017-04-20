@@ -37,6 +37,9 @@ nav.navbar {
 
     > li {
 
+      padding-bottom: 8pt;
+      margin-bottom: -8pt;
+
       a {
         text-transform: lowercase;
         letter-spacing: $size-font-tracking-large;
@@ -102,7 +105,6 @@ nav.navbar {
 
         ul.dropdown-menu {
           border: 0;
-          width: 100%;
 
           a {
             text-transform: initial;
