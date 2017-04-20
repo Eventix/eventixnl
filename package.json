@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/gafderks/eventixnl#readme",
   "dependencies": {
+    "animatewithsass": "3.2.1",
     "bootstrap-sass": "^3.3.7",
     "compression": "1.6.2",
     "express": "^4.14.1",
@@ -41,7 +42,8 @@
     "node-sass": "4.5.0",
     "preprocess": "^3.1.0",
     "smooth-scroll": "git://github.com/cferdinandi/smooth-scroll.git#e39e069058c9ffeea92bdef88dd2daf1ad7c4a88",
-    "svgxuse": "^1.2.1"
+    "svgxuse": "^1.2.1",
+    "waypoints": "4.0.1"
   },
   "devDependencies": {}
 }

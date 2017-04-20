@@ -9,7 +9,10 @@
 // 2. Vendors
 @import
 '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss',
-'../node_modules/font-awesome/scss/font-awesome.scss';
+'../node_modules/font-awesome/scss/font-awesome.scss',
+// animate.css
+'../node_modules/animatewithsass/_properties.scss',
+'../node_modules/animatewithsass/_attention-seekers/_pulse.scss'; // we only need pulse.scss
 
 // 2a. Extensions to vendors
 @import
@@ -17,6 +20,7 @@
 
 // 3. Base stuff
 @import
+'base/animations.scss',
 'base/base.scss',
 'base/typography.scss';
 
