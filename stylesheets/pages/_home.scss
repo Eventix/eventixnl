@@ -11,13 +11,9 @@
 
     height: auto;
     min-height: 100vh;
-
   }
 
   .home-upper-overlay {
-    // background-image: url('../img/bg_home_header_overlay_transparent.png');
-    // background-repeat: no-repeat;
-    // background-size: cover;
     height: auto;
     min-height: 100vh;
   }
@@ -52,7 +48,6 @@
       padding-top: 20vh;
 
       .home-video {
-        /*margin-top: 10vh;*/
         margin-top: 45px;
       }
     }
@@ -64,6 +59,7 @@
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+    position: relative;
 
     section {
       padding: 50px 0;
@@ -168,15 +164,35 @@
 
   }
 
-  // BACKGROUNDS
-  .bg-pt-1 {
-    //background: url('../img/back-svg/back1.svg');
-    background-repeat: no-repeat;
-    background-position: right 0 top 0;
+  // Diamond background
+  #diamond-group {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+
+    #diamond-1 {
+      @include diamond(#cfeeff, 2000px);
+      //top: -2500px;
+    }
+
+    #diamond-2 {
+      @include diamond(#bad9eb, 3000px);
+    }
+
+    #diamond-3 {
+      @include diamond(#e4f5fd, 3000px);
+    }
   }
 
   // Mobile backgrounds
   @media (max-width: $screen-xs-max) {
+    #diamond-group {
+      display: none;
+    }
+
     section {
 
       &.bg-dark {
@@ -196,60 +212,3 @@
   }
 
 }
-
-$ratio: 1.64;
-$base1: 1500;
-$base2: 70;
-$base3: 3000;
-$base2TopOffset: 0;
-
-#diamond-group{
-  position:absolute;
-  height:100px;
-  z-index:0;
-  width:100%;
-  overflow:hidden;
-}
-#diamond-1 {
-  position:relative;
-  left:300px;
-  margin-top:000px;
-  width: 0;
-  height: 0;
-  border:$base1+px solid transparent;
-  border-bottom: ($base1*$ratio)+px solid #c9e0f1;
-  position: relative;
-  top: -624px;
-  max-width:100px;
-}
-#diamond-1:after {
-  content: '';
-  position: absolute;
-  left: -($base1)+px; top: ($base1*$ratio)+px;
-  width: 0;
-  height: 0;
-  border: ($base1)+px solid transparent;
-  border-top: ($base1*$ratio)+px solid #c9e0f1;
-}
-
-#diamond-2 {
-  position:relative;
-  margin-top:000px;
-  width: 0;
-  height: 0;
-  border:$base3+px solid transparent;
-  border-bottom: ($base3*$ratio)+px solid #f17165;
-  position: relative;
-  top: -7380px;
-  left:-5000px;
-}
-#diamond-2:after {
-  content: '';
-  position: absolute;
-  left: -($base3)+px; top: ($base3*$ratio)+px;
-  width: 0;
-  height: 0;
-  border: ($base3)+px solid transparent;
-  border-top: ($base3*$ratio)+px solid #f17165;
-}
-
