@@ -4,7 +4,7 @@ module.exports = function() {
     var lock = findElementPosition(document.getElementById('diamond-lock'));
     var group = findElementPosition(document.getElementById('diamond-group'));
     var markerMiddleY = 48; // the distance from the top to the middle of the marker
-    var markerDistanceX = -155; // the distance from the left of the heading to the tip of the diamond
+    var markerDistanceX = -210; // the distance from the left of the heading to the tip of the diamond
 
     // diamond 1
     var topDiamond1 = lock.top - (getDiamondRectSize('diamond-1').height / 2) - group.top + markerMiddleY;
