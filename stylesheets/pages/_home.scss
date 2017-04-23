@@ -74,6 +74,10 @@
       }
 
     }
+
+    #customers {
+      padding-bottom: 0;
+    }
   }
 
   .integration-reel {
@@ -105,6 +109,7 @@
       font-size: 0.9em;
       display: none;
       text-align: justify;
+      padding-bottom: 1em;
 
       &.active {
         display: block;
