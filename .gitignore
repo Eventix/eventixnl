@@ -2,6 +2,7 @@
 /public/js
 /public/*.html
 .sass-cache/
+.idea/
 
 # Logs
 logs
