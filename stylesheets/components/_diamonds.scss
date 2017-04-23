@@ -1,0 +1,22 @@
+@mixin diamond($color, $width, $ratio: 1.64) {
+  $height: $width * $ratio;
+
+  width: 0;
+  height: 0;
+  margin-top: 0;
+  position: absolute;
+  border: $width solid transparent;
+  border-bottom: $height solid $color;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -1 * $width;
+    top: $height;
+    border: $width solid transparent;
+    border-top: $height solid $color;
+  }
+
+}
