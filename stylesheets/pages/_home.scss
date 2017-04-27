@@ -98,13 +98,8 @@
     .partner-window {
       color: $color-text-inverse-secondary;
       font-size: 0.9em;
-      display: none;
       text-align: justify;
-      padding-bottom: 1em;
-
-      &.active {
-        display: block;
-      }
+      padding-bottom: 2em;
 
       .row:first-of-type > div {
         padding: 50px 25px;
@@ -129,7 +124,7 @@
       }
 
       .btn {
-        margin: 0 1em;
+        margin: 3em 1em;
       }
 
       h2 {

@@ -23,7 +23,6 @@ require('./components/navbar')(document);
 require('./components/hexagon-grid')();
 require('./components/device-frame')();
 require('./components/diamonds')();
-require('./components/reel-tabs')();
 
 ////
 // PAGES

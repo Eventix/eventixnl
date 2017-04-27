@@ -2,7 +2,26 @@
   background: $color-background-light;
   margin-top: 20px;
 
-  ul {
+  ol.carousel-indicators {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    bottom: auto;
+    padding-left: 0;
+    text-align: center;
+    margin-left: auto;
+
+    li {
+      width: auto;
+      height: auto;
+      text-indent: 0;
+      border: none;
+      background: none;
+    }
+  }
+
+  ul, ol {
     padding-left: 0;
     text-align: center;
 
