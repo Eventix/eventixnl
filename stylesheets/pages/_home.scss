@@ -3,6 +3,10 @@
   background-color: #68ADD7;
   background-image: none;
 
+  article:first-of-type {
+    margin-top: 3em;
+  }
+
   .home-upper {
     background-image: url('../img/bg_home_hero.jpg');
     background-repeat: no-repeat;
@@ -169,12 +173,12 @@
 
         @keyframes blink-animation {
           to {
-            background-color: transparentize(#3FD4AD, 0.2);
+            background-color: transparentize($color-success, 0.2);
           }
         }
         @-webkit-keyframes blink-animation {
           to {
-            background-color: transparentize(#3FD4AD, 0.2);
+            background-color: transparentize($color-success, 0.2);
           }
         }
       }
