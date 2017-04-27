@@ -2,10 +2,6 @@ module.exports = function(global) {
 
   require('svgxuse'); // fix svg's in IE
 
-
-  var scanTicket = require('./scan-ticket.js');
-  scanTicket(global);
-
   // Animate headings
   $('.page-home article:not(.no-mark) h2').each(function() {
     var that = $(this);
@@ -17,4 +13,13 @@ module.exports = function(global) {
       offset: '80%'
     });
   });
+
+  // Ticket scanning animation
+  $("#phone-scan").waypoint({
+    handler: function(direction) {
+      $("#phone-scan").addClass('animate');
+    },
+    offset: '90%'
+  });
+
 };

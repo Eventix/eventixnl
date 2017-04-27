@@ -611,9 +611,12 @@
 
         </article>
         <div class="col-md-6 col-sm-12 col-md-pull-6 ticket-scan">
-          <span id="ticketend"></span>
           <img src="img/e-ticket.svg" class="ticket-animate" id="ticket" />
-          <img src="img/iphone-scan-red.svg" id="phone-scan" class="phone img-responsive" />
+          <div id="phone-scan" class="device-frame device-frame-iphone device-frame-portrait phone">
+            <div class="device">
+              <div class="screen"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -839,50 +842,6 @@
 </div>
 
 <!-- @include partials/_footer.html -->
-
-<script>
-  // scanning the ticket
-  $(document).ready(function(){
-    var tk_scroll_start = $(this).scrollTop();
-    //var ticketstart = $('#ticketstart');
-    var ticketend = $('#ticketend');
-    //var startoffset = ticketstart.offset();
-    var endoffset = ticketend.offset();
-    var startoffset = {top: endoffset.top - 1000};
-    var animationdistance = 500;
-    var animationinit = -500;
-    if (ticketend.length){
-      $(document).scroll(function() {
-        tk_scroll_start = $(this).scrollTop(); // current location
-        if (tk_scroll_start < startoffset.top) { // before start
-          $("#phone-scan").css("left", animationinit + "px");
-        } else if (tk_scroll_start < endoffset.top) { // between start and end
-          $("#phone-scan").css("left", (animationinit + (animationdistance * ((tk_scroll_start - startoffset.top) /
-                                                                          (endoffset.top -
-                                                    startoffset.top)))) + "px");
-        } else { // after end
-          scanTicketOnce();
-          $("#phone-scan").css("left", (animationinit + animationdistance) + "px");
-        }
-      });
-    }
-  });
-
-  var ticketScanned = false;
-  function scanTicketOnce() {
-    if (!ticketScanned) {
-      scanTicket();
-      ticketScanned = true;
-    }
-  }
-
-  function scanTicket() {
-    $("#phone-scan").attr("src", 'img/iphone-scan-green.svg');
-    setTimeout(function() {
-      $("#phone-scan").attr("src", 'img/iphone-scan-red.svg');
-    }, 800);
-  }
-</script>
 
 </body>
 </html>

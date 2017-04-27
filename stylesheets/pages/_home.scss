@@ -146,15 +146,42 @@
     }
 
     .ticket-animate {
-      width: 150%;
+      width: 120%;
       position: absolute;
       z-index: 0;
     }
 
     .phone {
-      top: 50px;
+      top: -40px;
       z-index: 1;
       position: absolute;
+      left: -500px;
+      width: 200px;
+
+      &.animate {
+        left: 200px;
+        transition: left 4s;
+
+        .screen {
+          animation: blink-animation 0.5s ease 3.5s;
+          //transition: background-color 0.2s 3.5s;
+        }
+
+        @keyframes blink-animation {
+          to {
+            background-color: transparentize(#3FD4AD, 0.2);
+          }
+        }
+        @-webkit-keyframes blink-animation {
+          to {
+            background-color: transparentize(#3FD4AD, 0.2);
+          }
+        }
+      }
+
+      .screen {
+        background-color: transparent;
+      }
     }
 
   }
