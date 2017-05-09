@@ -22,9 +22,9 @@ require('./mixins/smooth-scroll')();
 require('./components/navbar')(document);
 require('./components/hexagon-grid')();
 require('./components/device-frame')();
-require('./components/diamonds')();
 
 ////
 // PAGES
 ////
 require('./home/module')(window);
+require('./pricing/module')(window);

@@ -15,6 +15,7 @@
       height: $hexagon-size * 1px;
       width: $hexagon-size * 1px;
       position: relative;
+      text-align: center;
 
       .hex {
         fill: #1B4D7E;
@@ -22,7 +23,7 @@
         width: $hexagon-size * 1px;
       }
 
-      img {
+      img, div {
         position: absolute;
         z-index: 3;
         top: 0;
@@ -31,11 +32,6 @@
         height: 100%;
         padding: 17%;
       }
-    }
-
-    p.hexagon-title {
-      color: $color-text-inverse-secondary;
-      padding: 10px 20px;
     }
 
     ul.dropdown-menu {
@@ -49,6 +45,17 @@
         font-weight: 300;
         &:hover {
           color: $color-text-accent;
+        }
+      }
+
+      li > p {
+        font-size: 11pt;
+        color: #888;
+        padding: 10px 20px;
+
+        &.hexagon-title {
+          color: $color-text-inverse-secondary;
+          font-size: 16pt;
         }
       }
     }

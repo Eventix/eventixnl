@@ -1,0 +1,169 @@
+&.page-pricing, body.page-pricing {
+  margin-top: 0;
+  background-color: #68ADD7;
+  background-image: none;
+
+  article:first-of-type {
+    margin-top: 3em;
+  }
+
+  .pricing-main {
+    position: relative;
+
+    section {
+      padding: 50px 0;
+
+      h2 {
+        font-size: 42pt;
+        margin-bottom: 20pt;
+      }
+
+    }
+  }
+
+  .hexagon-item {
+
+    &:hover .hex {
+      fill: #1B4D7E;
+    }
+
+    .hexagon div {
+      padding: 15%;
+    }
+
+
+    @mixin pricing-sizes($pricing-medium-size, $pricing-large-size) {
+
+      margin-right: -0.342 * $pricing-medium-size;
+
+      .pricing-name {
+        font-size: 0.13 * $pricing-medium-size;
+        letter-spacing: $size-font-tracking-larger;
+      }
+
+      .pricing-text {
+        color: $color-text-inverse-secondary;
+        font-size: 0.057 * $pricing-medium-size;
+        font-weight: lighter;
+        margin-top: -0.038 * $pricing-medium-size;
+
+        &.accent {
+          color: $color-text-accent;
+        }
+      }
+
+      .pricing-price {
+        font-size: 0.30 * $pricing-medium-size;
+        font-weight: bold;
+        letter-spacing: $size-font-tracking-large;
+        margin-top: -0.076 * $pricing-medium-size;
+      }
+
+      &.medium {
+        width: $pricing-medium-size;
+        height: $pricing-medium-size;
+
+        .hexagon, .hex {
+          width: $pricing-medium-size;
+          height: $pricing-medium-size;
+        }
+      }
+
+      &.large {
+        width: $pricing-large-size;
+        height: $pricing-large-size;
+
+        margin-top: 0.53 * $pricing-large-size;
+
+        .hexagon, .hex {
+          width: $pricing-large-size;
+          height: $pricing-large-size;
+        }
+
+        .pricing-name {
+          margin-top: 0.12 * $pricing-large-size;
+        }
+      }
+    }
+
+    @media (min-width: 380px) and (max-width: 539px) {
+      @include pricing-sizes(230px, 350px);
+    }
+
+    @media (min-width: 540px) and (max-width: 699px) {
+      @include pricing-sizes(230px, 350px);
+    }
+
+    @media (min-width: 700px) and (max-width: $screen-md-min - 1px) {
+      @include pricing-sizes(250px, 350px);
+    }
+
+    @media (min-width: $screen-md-min) and (max-width: $screen-lg-min - 1px) {
+      @include pricing-sizes(300px, 400px);
+      &:first-of-type {
+        margin-left: 70px;
+      }
+    }
+
+    @media (min-width: $screen-lg-min) {
+      @include pricing-sizes(350px, 500px);
+      &:first-of-type {
+        margin-left: 100px;
+      }
+    }
+
+  }
+
+  // Diamond background
+  #diamond-group {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+
+    background-image: url('../img/bg_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    #diamond-1 {
+      @include diamond(#bad9eb, 1000px);
+    }
+
+    #diamond-2 {
+      @include diamond(#e4f5fd, 3000px);
+    }
+
+    #diamond-3 {
+      @include diamond(#002955, 1000px);
+    }
+  }
+
+  // Mobile backgrounds
+  @media (max-width: $screen-xs-max) {
+    #diamond-group {
+      display: none;
+    }
+
+    section {
+
+      &.bg-dark {
+        background-color: $color-background-dark;
+      }
+
+      &.bg-light {
+        background-color: $color-background-light;
+      }
+
+      &.bg-primary {
+        background-color: $color-background-primary;
+      }
+
+    }
+
+  }
+
+}
