@@ -7,6 +7,8 @@
   background: transparent;
   border: $color-text-accent 4pt solid;
   color: $color-text-primary;
+  position: relative;
+  overflow: hidden;
 
   &.btn-large {
     font-size: 0.9 * $size-font-body-large;
@@ -20,6 +22,10 @@
     color: $color-text-inverse;
     background: $color-text-accent;
     border: 0;
+
+    &.rollover:after {
+      background-color: lighten($color-text-accent, 5%);
+    }
   }
 
   &.btn-success {
@@ -30,6 +36,10 @@
       background: $color-success;
       border: 0;
       color: $color-text-inverse;
+    }
+
+    &.rollover:after {
+      background-color: lighten($color-success, 5%);
     }
   }
 
@@ -43,7 +53,31 @@
       color: $color-text-inverse;
     }
 
+    &.rollover:after {
+      background-color: lighten($color-text-inverse-secondary, 5%);
+    }
 
+  }
+
+  &.rollover {
+    z-index: 1;
+
+    &:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -100%;
+      height: 100%;
+      content: '';
+      transform: translateY(0px);
+      transition: transform 0.3s;
+      z-index: -1;
+    }
+
+    &:hover:after {
+      transform: translateY(100%);
+      transition: transform 0.3s;
+    }
   }
 
 }
