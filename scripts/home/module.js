@@ -31,7 +31,7 @@ module.exports = function(global) {
     function alignDiamonds() {
       var lock            = diamonds.findElementPosition(document.getElementById('diamond-lock'));
       var group           = diamonds.findElementPosition(document.getElementById('diamond-group'));
-      var markerMiddleY   = 48; // the distance from the top to the middle of the marker
+      var markerMiddleY   = 35; // the distance from the top to the middle of the marker
       var markerDistanceX = -210; // the distance from the left of the heading to the tip of the diamond
 
       // diamond 1
