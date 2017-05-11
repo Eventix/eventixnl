@@ -31,6 +31,16 @@
       display: inline-block;
       position: relative;
 
+      @media (max-width: $screen-xs-max) {
+        &:first-of-type .dropdown-menu {
+          margin-left: 0;
+        }
+
+        &:last-of-type .dropdown-menu {
+          margin-left: -170px;
+        }
+      }
+
       img, svg {
         height: 40pt;
         display: inline-block;
@@ -58,7 +68,11 @@
         color: $color-text-subtle;
         letter-spacing: $size-font-tracking-larger;
         width: 300px;
-        margin-left: -50px;
+        margin-left: -95px;
+
+        @media(min-width: $screen-md-min) {
+          margin-left: -55px;
+        }
 
         .integration-bar-description {
           padding: 20px 20px;
