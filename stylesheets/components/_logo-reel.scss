@@ -23,6 +23,7 @@
 
   ul, ol {
     padding-left: 0;
+    margin-bottom: 0;
     text-align: center;
 
     li {
@@ -31,24 +32,21 @@
       position: relative;
 
       img, svg {
-        padding: 0 1.5em;
         height: 40pt;
         display: inline-block;
-        vertical-align: middle;
-        margin-top: -1.5em;
+        margin: 20px 27px;
         fill: white;
 
         @media(min-width: $screen-md-min) {
-          font-size: 70pt;
-          padding: 0 50px;
           height: 70pt;
-          margin-top: -50px;
+          margin: 35px 50px;
         }
       }
 
       .fa  {
         font-size: 40pt;
         padding: 20px 0.5em;
+        vertical-align: bottom;
 
         @media(min-width: $screen-md-min) {
           font-size: 70pt;

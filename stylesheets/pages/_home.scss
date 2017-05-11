@@ -33,6 +33,7 @@
 
       h1 {
         margin-bottom: .8*$size-font-h1;
+        font-weight: bold;
       }
 
       p {
@@ -77,6 +78,13 @@
 
   .integration-reel {
     background: $color-background-dark;
+
+    .integration-bar-title {
+      color: $color-text-accent;
+      padding: 5px 20px;
+      margin-bottom: -10px;
+      font-weight: bold;
+    }
 
     .integration-bar-description {
       padding: 20px 20px;

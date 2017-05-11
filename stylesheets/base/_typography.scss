@@ -34,6 +34,10 @@ h1 {
 }
 
 // COLORS
+.color-accent {
+  color: $color-text-accent;
+}
+
 .color-secondary {
   color: $color-text-subtle;
 }
@@ -47,9 +51,6 @@ h1 {
 
   .color-tertiary {
     color: $color-text-inverse-tertiary;
-  }
-  .color-quaternary {
-    color: $color-text-accent;
   }
 }
 
