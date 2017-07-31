@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <title>Eventix - VoordeelCalculator</title>
+  <!-- @include partials/_head.html -->
+</head>
+
+<body id="eventixnl-root" class="page-calculator">
+
+<!-- @include partials/_header.html -->
+
+<section class="main-content container">
+  <article>
+    <h2>
+      VoordeelCalculator
+    </h2>
+    <div class="subtitle">Bereken je voordeel als je overstapt naar Eventix</div>
+
+    <div class="row">
+      <div id="calculator-container" class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading"><strong>Stap 1</strong> | Verkoopaantallen</div>
+          <div class="panel-body">
+            <form class="form-inline" id="calc-step1">
+              <div class="form-group">
+                <label for="ticketsPerYear">Hoeveel tickets verkoop je per jaar?</label>
+                <div class="input-group">
+                  <input type="number" id="ticketsPerYear" required min="0" class="form-control" placeholder="aantal"
+                         aria-describedby="basic-addon2">
+                  <span class="input-group-addon" id="basic-addon2">tickets / jaar</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="averageTicketPrice">Wat is de gemiddelde prijs van een ticket?</label>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1">&euro;</span>
+                  <input type="number" id="averageTicketPrice" required min="0" step="0.01" class="form-control"
+                         placeholder="prijs"
+                         aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panel panel-default noshow" id="calc-step2-container">
+          <div class="panel-heading"><strong>Stap 2</strong> | Huidige ticketprovider - wat is je deal?</div>
+          <div class="panel-body">
+            <form class="form-inline" id="calc-step2">
+              <div class="form-group">
+                <label for="ticketProvider">Wat is je huidige ticketing provider?</label>
+                <select id="ticketProvider" required>
+                  <option value="" selected disabled hidden>Kies je provider</option>
+                  <option value="ticketscript">Ticketscript</option>
+                  <option value="ticketmaster">Ticketmaster</option>
+                  <option value="tibbaa">Tibbaa</option>
+                  <option value="paylogic">Paylogic</option>
+                  <option value="eventbrite">Eventbrite</option>
+                  <option value="eventgoose">Eventgoose</option>
+                  <option value="ticketkantoor">Ticketkantoor</option>
+                  <option value="ikbenaanwezig">Ik ben aanwezig</option>
+                  <option value="chipta">Chipta</option>
+                  <option value="eventix">Eventix</option>
+                  <option value="different">Anders</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panel panel-default noshow" id="calc-step3-container">
+          <div class="panel-heading"><strong>Stap 3</strong> | Kickback - verdien zelf aan de servicekosten</div>
+          <div class="panel-body">
+            <form class="form-inline" id="calc-step3">
+              <div class="form-group">
+                <label for="serviceCost">Wat betaalt je bezoeker op dit moment aan servicekosten per ticket
+                  bij een kaartje van <span>je huidige ticketprovider</span>?</label>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon3">&euro;</span>
+                  <input type="number" id="serviceCost" required min="0" step="0.01" class="form-control"
+                         placeholder="kosten"
+                         aria-describedby="basic-addon3">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="averageTicketPrice">Wat betaalt je bezoeker op dit moment aan transactiekosten bij
+                  een iDeal-betaling?</label>
+                <label class="radio-inline">
+                  <input type="radio" name="idealCostType" checked id="idealCostTypeFixed" value="fixed"> Vast
+                  bedrag
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="idealCostType" id="idealCostTypeRate" value="rate"> Percentage
+                </label>
+                <div class="input-group" id="idealCostFixedContainer">
+                  <span class="input-group-addon" id="basic-addon4">&euro;</span>
+                  <input type="number" id="idealCostFixed" min="0" step="0.01" class="form-control"
+                         placeholder="kosten"
+                         aria-describedby="basic-addon4">
+                </div>
+                <div class="input-group noshow" id="idealCostRateContainer">
+                  <input type="number" id="idealCostRate" min="0" max="100" step="0.1" class="form-control"
+                         placeholder="kosten"
+                         aria-describedby="basic-addon4">
+                  <span class="input-group-addon" id="basic-addon5">%</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panel panel-default noshow" id="calc-step4-container">
+          <div class="panel-heading"><strong>Stap 4</strong> | Kosten bij <span>je huidige ticketprovider</span></div>
+          <div class="panel-body">
+            <form class="form-inline" id="calc-step4">
+              <div class="form-group">
+                <label for="providerServiceCost">Servicekosten per ticket</label>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon6">&euro;</span>
+                  <input type="number" required id="providerServiceCost" step="0.01" min="0" class="form-control"
+                         placeholder="kosten"
+                         aria-describedby="basic-addon6,basic-addon7">
+                  <span class="input-group-addon" id="basic-addon7">/ ticket</span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="providerTransactionCost">Transactiekosten per ticket</label>
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon8">&euro;</span>
+                  <input type="number" required id="providerTransactionCost" step="0.01" min="0" class="form-control"
+                         placeholder="kosten"
+                         aria-describedby="basic-addon8,basic-addon9">
+                  <span class="input-group-addon" id="basic-addon9">/ ticket</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panel panel-default noshow" id="calc-result-container">
+          <div class="panel-heading"><strong>Resultaat</strong></div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </article>
+</section>
+
+<!-- @include partials/_footer.html -->
+
+</body>
+</html>
