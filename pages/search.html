@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <title>Eventix - Search</title>
+  <!-- @include partials/_head.html -->
+</head>
+
+<body id="eventixnl-root">
+
+<!-- @include partials/_header.html -->
+
+<section class="main-content container">
+  <article>
+    <h2>
+      Zoeken
+      <span>in het Eventix systeem</span>
+    </h2>
+    <div class="subtitle">Waar ben je naar op zoek?</div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ik zoek verloren tickets</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p><strong>Tickets kwijt, of niet ontvangen? Geen probleem, hier kun je ze terugvinden.</strong></p>
+            <p>Soms kan het zo zijn dat mailtjes van Eventix vanwege een spamfilter nooit je mailbox bereiken. Met onderstaande
+              tool kun je je tickets alsnog vinden.</p>
+            <p>Log in bij je bank en bekijk de afschrijving van je bestelling. <span class="text-underline">In de omschrijving
+      van de afschrijving vind je het betaalkenmerk. Dit betaalkenmerk bestaat uit een combinatie van letters en
+      cijfers en is 16 tekens lang.</span>
+              Vul het betaalkenmerk hieronder in om de tickets te downloaden.</p>
+
+            <figure>
+              <img src="img/paymentid.jpg" class="img-responsive" alt="Voorbeeld bankafschrift met betaalkenmerk gemarkeerd" />
+              <figcaption>Voorbeeld bankafschrift met betaalkenmerk gemarkeerd.</figcaption>
+            </figure>
+
+            <form style="margin: 20px;">
+              <div class="input-group" style="text-align:left; width:100%">
+                <span class="input-group-addon" id="ordernumber-label" style="text-align:left; width:15%">Betaalkenmerk:</span>
+                <input id="ordernumber" type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXX" aria-describedby="ordernumber-label" name="ordernumber">
+              </div>
+              <br>
+              <button type="button" class="btn btn-primary btn-sm" onclick="checkTickets()">ticket(s) ophalen</button><span
+              id="message"></span>
+            </form>
+
+            Na je aanvraag sturen we een mail naar het emailadres waarmee de tickets zijn besteld, met een melding dat de tickets online zijn opgehaald.
+            Lukt het je nog niet om je tickets te vinden? Neem dan contact met ons op via; <a
+            href="mailto:tickets@eventix.nl">tickets@eventix.nl</a>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Ik zoek de ticketshop van een
+              evenement</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>Selecteer hier het evenement waarvoor je tickets wilt kopen</p>
+
+            <form style="margin: 20px;">
+              <div class="input-group" style="text-align:left; width: 100%;">
+                <span class="input-group-addon" id="label" style="text-align:left; width:15%">Vul de event naam in: </span>
+                <input type="text" class="form-control" placeholder="event" aria-describedby="label" id="tags">
+              </div><br/>
+              <button type="button" class="btn btn-primary btn-sm" onclick="goToEvent()">bestel tickets</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- @include partials/_footer.html -->
+
+</body>
+</html>
