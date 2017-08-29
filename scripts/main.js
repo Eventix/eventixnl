@@ -28,4 +28,5 @@ require('./components/device-frame')();
 ////
 require('./home/module')(window);
 require('./pricing/module')(window);
+require('./login/module')(window);
 require('./calculator/module')(window);

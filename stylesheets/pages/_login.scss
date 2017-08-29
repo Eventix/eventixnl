@@ -1,0 +1,99 @@
+&.page-login, body.page-login {
+  margin-top: 0;
+  background-color: #68ADD7;
+  background-image: none;
+
+  article:first-of-type {
+    margin-top: 3em;
+  }
+
+  .login-main {
+    position: relative;
+    padding-top: 70px;
+
+    section {
+      padding: 50px 0;
+
+      h2 {
+        font-size: 42pt;
+        margin-bottom: 20pt;
+      }
+
+    }
+  }
+
+  .panel {
+    background: lighten($color-background-gray, 5%);
+
+    article {
+      margin: 20px 0;
+
+      h3 {
+        margin: 0 0 10px 0;
+
+        span {
+          color: $color-background-light;
+        }
+      }
+
+      .btn {
+        white-space: normal;
+      }
+
+    }
+
+  }
+
+  // Diamond background
+  #diamond-group {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+
+    background-image: url('../img/bg_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    #diamond-1 {
+      @include diamond(#bad9eb, 1000px);
+    }
+
+    #diamond-2 {
+      @include diamond(#e4f5fd, 3000px);
+    }
+
+    #diamond-3 {
+      @include diamond(#002955, 1000px);
+    }
+  }
+
+  // Mobile backgrounds
+  @media (max-width: $screen-xs-max) {
+    #diamond-group {
+      display: none;
+    }
+
+    section {
+
+      &.bg-dark {
+        background-color: $color-background-dark;
+      }
+
+      &.bg-light {
+        background-color: $color-background-light;
+      }
+
+      &.bg-primary {
+        background-color: $color-background-primary;
+      }
+
+    }
+
+  }
+
+}

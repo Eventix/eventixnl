@@ -6,9 +6,8 @@ article {
     margin-top: 10em;
   }
 
-  h2 {
+  h2, h3.with-mark {
     font-weight: bold;
-    font-size: $size-font-h2;
     letter-spacing: 0.1em;
     position: relative;
 
@@ -21,6 +20,14 @@ article {
         padding-right: .3em;
       }
     }
+  }
+
+  h2 {
+    font-size: $size-font-h2;
+  }
+
+  h3.with-mark {
+    font-size: 19pt;
   }
 
   // MARKS
