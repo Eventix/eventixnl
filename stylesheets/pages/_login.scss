@@ -3,6 +3,10 @@
   background-color: #68ADD7;
   background-image: none;
 
+  .btn-login {
+    display: none;
+  }
+
   article:first-of-type {
     margin-top: 3em;
   }
@@ -24,6 +28,8 @@
 
   .panel {
     background: lighten($color-background-gray, 5%);
+    margin: 0 15px 60px 15px;
+    border-radius: 17px;
 
     article {
       margin: 20px 0;
@@ -38,6 +44,18 @@
 
       .btn {
         white-space: normal;
+        margin-bottom: 5px;
+      }
+
+      form {
+        input, select {
+          border: transparent;
+          border-radius: 12px;
+        }
+
+        label {
+          color: lighten($color-text-gray, 30%);
+        }
       }
 
     }
@@ -60,15 +78,11 @@
     background-attachment: fixed;
 
     #diamond-1 {
-      @include diamond(#bad9eb, 1000px);
+      @include diamond(#cfeeff, 2000px);
     }
 
     #diamond-2 {
-      @include diamond(#e4f5fd, 3000px);
-    }
-
-    #diamond-3 {
-      @include diamond(#002955, 1000px);
+      @include diamond(#bad9eb, 3000px);
     }
   }
 
