@@ -4,7 +4,7 @@
   background-image: none;
 
   .btn-login {
-    display: none;
+    display: none !important;
   }
 
   article:first-of-type {
@@ -35,16 +35,26 @@
       margin: 20px 0;
 
       h3 {
-        margin: 0 0 10px 0;
+        margin: 0 0 30px 0;
 
         span {
           color: $color-background-light;
+
+          &::before {
+            color: $color-text-accent;
+          }
         }
       }
 
       .btn {
         white-space: normal;
         margin-bottom: 5px;
+
+        &.btn-lg {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          font-size: 16pt;
+        }
       }
 
       form {
@@ -53,8 +63,13 @@
           border-radius: 12px;
         }
 
-        label {
+        label, a {
           color: lighten($color-text-gray, 30%);
+          padding-left: 12px;
+        }
+
+        .checkbox label {
+          padding-left: 30px;
         }
       }
 
