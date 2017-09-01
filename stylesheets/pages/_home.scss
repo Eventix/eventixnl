@@ -115,6 +115,7 @@
       .row:first-of-type {
         background-repeat: no-repeat !important;
         background-size: cover !important;
+        padding: 30px;
 
         > div {
           padding: 25px 25px;
@@ -124,7 +125,6 @@
 
       .partner-text {
         background: rgba(0, 0, 0, 0.6);
-        margin: 30px;
       }
 
       .signature {
