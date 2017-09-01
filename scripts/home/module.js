@@ -43,8 +43,8 @@ module.exports = function(global) {
 
       // diamond 2
       var positionDiamond2 = diamonds.calculateTouchOffsets('diamond-1', 'diamond-2', 'left', 50);
-      document.getElementById('diamond-2').style.setProperty("top", positionDiamond2.y + "px");
-      document.getElementById('diamond-2').style.setProperty("left", positionDiamond2.x + "px");
+      document.getElementById('diamond-2').style.setProperty("top", positionDiamond2.y - 800 + "px");
+      document.getElementById('diamond-2').style.setProperty("left", positionDiamond2.x - 500 + "px");
 
       // diamond 3
       var extraOffset3     = 2000;

@@ -105,7 +105,6 @@
   }
 
   .partner-window-container {
-    background: darken($color-background-dark, 5);
 
     .partner-window {
       color: $color-text-inverse-secondary;
@@ -113,15 +112,19 @@
       text-align: justify;
       padding-bottom: 2em;
 
-      .row:first-of-type > div {
-        padding: 50px 25px;
-        padding-bottom: 0;
+      .row:first-of-type {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+
+        > div {
+          padding: 25px 25px;
+          padding-bottom: 0;
+        }
       }
 
-      .partner-image {
-        img {
-          margin: 0 auto;
-        }
+      .partner-text {
+        background: rgba(0, 0, 0, 0.6);
+        margin: 30px;
       }
 
       .signature {
@@ -152,6 +155,7 @@
   .ticket-scan {
     position: relative;
     height: 450px;
+    transform: rotate(-32deg);
 
     @media (min-width: $screen-md-min) {
       height: 1000px;
