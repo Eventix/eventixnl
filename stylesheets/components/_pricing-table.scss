@@ -1,0 +1,72 @@
+table.pricing-table {
+  border-spacing: 30px 10px;
+  border-collapse: separate;
+  background: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  tbody {
+
+
+
+
+    tr:first-of-type {
+      td {
+        border-top: solid $color-background-gray 1px;
+        padding-top: 20px;
+      }
+    }
+
+    td {
+      padding: 5px;
+      height: 1px;
+    }
+  }
+
+  tfoot {
+    text-align: center;
+
+    td {
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .pricing-table-block-container {
+    float: left;
+    height: 100%;
+    padding: 5px;
+    margin-right: 20px;
+
+    .pricing-table-block {
+      height: 15px;
+      width: 15px;
+      border-radius: 3px;
+
+      &.green {
+        background: $color-success;
+      }
+
+      &.red {
+        background: red;
+      }
+    }
+  }
+
+  .pricing-table-text {
+    font-weight: bold;
+    color: $color-text-primary;
+    letter-spacing: $size-font-tracking-larger;
+
+
+    .pricing-table-subtext {
+      color: $color-text-inverse-secondary;
+      font-weight: normal;
+      font-size: 9pt;
+
+      a {
+        color: $color-text-accent;
+      }
+    }
+  }
+}
