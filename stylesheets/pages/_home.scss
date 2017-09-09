@@ -104,54 +104,6 @@
 
   }
 
-  .partner-window-container {
-
-    .partner-window {
-      color: $color-text-inverse-secondary;
-      font-size: 0.9em;
-      text-align: justify;
-      padding-bottom: 2em;
-
-      .row:first-of-type {
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        padding: 30px;
-
-        > div {
-          padding: 25px 25px;
-          padding-bottom: 0;
-        }
-      }
-
-      .partner-text {
-        background: rgba(0, 0, 0, 0.6);
-      }
-
-      .signature {
-        .name {
-          font-size: 1.3em;
-          font-weight: bold;
-        }
-      }
-
-      p {
-        line-height: 2em;
-      }
-
-      .btn {
-        margin: 3em 1em;
-      }
-
-      h2 {
-        color: $color-text-inverse-secondary;
-        font-weight: bold;
-        letter-spacing: $size-font-tracking-larger;
-        margin-top: 0;
-        font-size: 3em;
-      }
-    }
-  }
-
   .ticket-scan {
     position: relative;
     height: 450px;
