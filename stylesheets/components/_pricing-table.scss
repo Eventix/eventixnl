@@ -4,12 +4,85 @@ table.pricing-table {
   background: white;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  margin-top: 20%;
+
+  thead {
+
+    tr.pricing-hexagons {
+      height: 120px;
+
+      .hexagon {
+        width: calc(100% + 63px);
+        margin-left: -31px;
+        position: relative;
+        text-align: center;
+        margin-top: calc(-50% - 53px);
+
+        .hex {
+          fill: $color-text-inverse-secondary;
+          width: 100%;
+        }
+
+        img, div {
+          position: absolute;
+          z-index: 3;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 15%;
+        }
+
+        .pricing-name {
+          letter-spacing: $size-font-tracking-larger;
+          font-size: 25pt;
+          margin-top: 10%;
+          color: $color-text-inverse;
+        }
+
+        .pricing-text {
+          color: $color-text-inverse-secondary;
+          //font-size: 0.057 * $pricing-medium-size;
+          font-weight: lighter;
+
+
+          &.accent {
+            color: $color-text-accent;
+          }
+        }
+
+        .pricing-price {
+          font-size: 40pt;
+          font-weight: bold;
+          letter-spacing: $size-font-tracking-large;
+          color: $color-text-inverse;
+        }
+
+        &.hexagon-large {
+          z-index: 2;
+          width: calc(130% + 63px);
+          margin-left: calc(-30%);
+          margin-top: calc(-70% - 53px);
+
+          .hex {
+            fill: $color-background-dark;
+          }
+        }
+
+        @media screen and (min-width: $screen-sm-min) {
+          .pricing-name {
+            font-size: 3vw;
+          }
+
+          .pricing-price {
+            font-size: 8vw;
+          }
+        }
+      }
+    }
+  }
 
   tbody {
-
-
-
-
     tr:first-of-type {
       td {
         border-top: solid $color-background-gray 1px;
