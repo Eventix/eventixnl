@@ -12,45 +12,49 @@
 <section class="main-content container">
   <article>
     <h2>
-      Search
-      <span>the Eventix system</span>
+      Zoeken
+      <span>in het Eventix systeem</span>
     </h2>
-    <div class="subtitle">What are you looking for?</div>
+    <div class="subtitle">Waar ben je naar op zoek?</div>
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">I'm looking for my tickets</a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ik zoek verloren tickets</a>
           </h4>
         </div>
         <div id="collapse1" class="panel-collapse collapse">
           <div class="panel-body">
-            <p><strong>Lost your tickets, or haven't received them? No problem, we can help you find them.</strong></p>
-            <p>Sometimes emails from Eventix can't find their way into your mailbox because of spam-filters. Using the tool below you can retrieve your tickets online.</p>
-            <p>Login to your bank account and look at the payment to Eventix on your bank statement. <span class="text-underline">In the description of the payment you will find a 16-character Payment ID consisting of letters and numbers.</span> Fill in the Payment ID below, to download your tickets.</p>
+            <p><strong>Tickets kwijt, of niet ontvangen? Geen probleem, hier kun je ze terugvinden.</strong></p>
+            <p>Soms kan het zo zijn dat mailtjes van Eventix vanwege een spamfilter nooit je mailbox bereiken. Met onderstaande
+              tool kun je je tickets alsnog vinden.</p>
+            <p>Log in bij je bank en bekijk de afschrijving van je bestelling. <span class="text-underline">In de omschrijving
+      van de afschrijving vind je het betaalkenmerk. Dit betaalkenmerk bestaat uit een combinatie van letters en
+      cijfers en is 16 tekens lang.</span>
+              Vul het betaalkenmerk hieronder in om de tickets te downloaden.</p>
 
             <figure>
               <img src="img/paymentid.jpg" class="img-responsive" alt="Voorbeeld bankafschrift met betaalkenmerk gemarkeerd" />
-              <figcaption>Example bank statement with an example Payment ID marked in red (your payment ID is different from this).</figcaption>
+              <figcaption>Voorbeeld bankafschrift met betaalkenmerk gemarkeerd.</figcaption>
             </figure>
 
             <form style="margin: 20px;">
               <div class="input-group" style="text-align:left; width:100%">
-                <span class="input-group-addon" id="ordernumber-label" style="text-align:left; width:15%">Payment ID:</span>
+                <span class="input-group-addon" id="ordernumber-label" style="text-align:left; width:15%">Betaalkenmerk:</span>
                 <input id="ordernumber" type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXX" aria-describedby="ordernumber-label" name="ordernumber">
               </div>
               <br>
-              <button type="button" class="btn btn-primary btn-sm" onclick="checkTickets()">recover ticket(s)</button><span
+              <button type="button" class="btn btn-primary btn-sm" onclick="checkTickets()">ticket(s) ophalen</button><span
               id="message"></span>
             </form>
 
-            After your request, we will send an email to the stated email address, with a notification that the tickets have been retrieved online.
-If the tool above doesn't return your tickets, or you have any other questions, contact us at <a
-            href="mailto:tickets@eventix.io">tickets@eventix.io</a>
+            Na je aanvraag sturen we een mail naar het emailadres waarmee de tickets zijn besteld, met een melding dat de tickets online zijn opgehaald.
+            Lukt het je nog niet om je tickets te vinden? Neem dan contact met ons op via; <a
+            href="mailto:tickets@eventix.nl">tickets@eventix.nl</a>
           </div>
         </div>
       </div>
-      <!-- <div class="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Ik zoek de ticketshop van een
@@ -70,7 +74,7 @@ If the tool above doesn't return your tickets, or you have any other questions, 
             </form>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </article>
 </section>
