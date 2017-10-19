@@ -31,7 +31,7 @@ article {
   }
 
   // MARKS
-  @media(min-width: $screen-sm-min) { // marks only show if the window is wide enough
+  @media(min-width: 800px) { // marks only show if the window is wide enough
     &:not(.no-mark) { // if we want a mark
       h2:before { // common mark properties
         content: '';

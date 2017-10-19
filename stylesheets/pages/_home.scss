@@ -112,41 +112,24 @@
 
   .ticket-scan {
     position: relative;
-    height: 450px;
-    transform: rotate(-32deg);
-
-    @media (min-width: $screen-md-min) {
-      height: 550px;
-    }
 
     .ticket-animate {
-      width: 450px;
-      @media (min-width: $screen-md-min) {
-        width: 600px;
-      }
-      position: absolute;
+      width: 80vw;
+      max-width: 100%;
       z-index: 0;
     }
 
     .phone {
       z-index: 1;
       position: absolute;
+      top: 10%;
       left: -500px;
       transform: translateX(0px);
-      width: 100px;
-
-      @media (min-width: $screen-md-min) {
-        width: 200px;
-        top: -40px;
-      }
+      width: 30%;
 
       &.animate {
-        transform: translateX(672px);
+        transform: translateX(500px) translateX(55%);
         transition: transform 2s;
-
-        @media (min-width: $screen-md-min) {
-          transform: translateX(690px);
-        }
 
         .screen {
           animation: blink-animation 0.5s ease 1.5s;
