@@ -138,6 +138,10 @@
         transform: translateX(500px) translateX(55%);
         transition: transform 2s;
 
+        .device {
+          transform: rotate(-32deg);
+        }
+
         .screen {
           animation: blink-animation 0.5s ease 1.5s;
         }
