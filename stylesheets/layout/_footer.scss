@@ -3,6 +3,10 @@ footer {
   color: $color-text-inverse-secondary;
   padding: 30pt 0;
 
+  .row:first-of-type {
+    margin-bottom: 15px;
+  }
+
   .footer-links {
 
     padding-bottom: 40pt;
