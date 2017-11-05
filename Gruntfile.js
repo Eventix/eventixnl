@@ -85,6 +85,21 @@ module.exports = function(grunt) {
           dest: ''
         }]
       }
+    },
+    i18next: {
+      dev: {
+        debug: true,
+        src: 'pages/**/*.html',
+        removeUnusedKeys: true,
+        dest: 'public',
+        options: {
+          lngs: ['en', 'nl'],
+          resource: {
+            loadPath: 'public/i18n/{{lng}}/{{ns}}.json',
+            savePath: 'i18n/{{lng}}/{{ns}}.json'
+          }
+        }
+      }
     }
   });
 
@@ -96,6 +111,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('i18next-scanner');
 
   grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify']);
   grunt.registerTask('default', ['mkdir', 'sass', 'browserify', 'preprocess', 'minify']);
