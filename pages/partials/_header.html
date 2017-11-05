@@ -9,7 +9,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
+          <span class="sr-only" data-i18n="header.nav.toggle-navigation">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -27,49 +27,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="nav navbar-nav">
           <li class="active dropdown">
             <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-               aria-expanded="false">
+               aria-expanded="false" data-i18n="header.nav.start">
               Start
-              <span class="sr-only">(current)</span>
+              <!--<span class="sr-only">(current)</span>-->
             </a>
             <ul class="dropdown-menu">
-              <li><a data-scroll href="index.html">Home</a></li>
-              <li><a data-scroll href="index.html#features" class="inline">Features</a></li>
-              <li><a data-scroll href="index.html#partners" class="inline">Integrations</a></li>
-              <li><a data-scroll href="index.html#how-it-works" class="inline">How it works</a></li>
-              <!-- <li><a data-scroll href="index.html#customers" class="inline">Customers</a></li> 
+              <li><a data-scroll href="index.html" data-i18n="header.nav.home">Home</a></li>
+              <li><a data-scroll href="index.html#features" class="inline" data-i18n="header.nav.features">Features
+              </a></li>
+              <li><a data-scroll href="index.html#partners" class="inline" data-i18n="header.nav.integrations">
+                Integrations</a></li>
+              <li><a data-scroll href="index.html#how-it-works" class="inline" data-i18n="header.nav.how-it-works">How
+                it works</a></li>
+              <!-- <li><a data-scroll href="index.html#customers" class="inline">Customers</a></li>
               <li><a data-scroll href="faq.html">FAQ</a></li>
               <li><a data-scroll href="search.html">Lost Tickets?</a></li> -->
               <!-- <li><a data-scroll href="usecases.html">Use Cases</a></li> -->
             </ul>
           </li>
           <li>
-            <a href="pricing.html">
+            <a href="pricing.html" data-i18n="header.nav.pricing">
               Pricing
             </a>
           </li>
           <li>
-            <a href="blog.html">
+            <a href="blog.html" data-i18n="header.nav.blog">
               Blog
             </a>
           </li>
           <li class="dropdown">
             <a href="developers.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-               aria-expanded="false">
+               aria-expanded="false" data-i18n="header.nav.developers">
               Developers
             </a>
             <ul class="dropdown-menu">
-              <li><a target="_blank" data-scroll href="https://api.eventix.io/3.0.0/docs">API documentation</a></li>
+              <li><a target="_blank" data-scroll href="https://api.eventix.io/3.0.0/docs"
+                     data-i18n="header.nav.api-documentation">API documentation</a></li>
               <!-- <li><a data-scroll href="developers.html#support">Support</a></li> -->
             </ul>
           </li>
           <li class="dropdown">
             <a href="faq.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-               aria-expanded="false">
+               aria-expanded="false" data-i18n="header.nav.support">
               Support
             </a>
             <ul class="dropdown-menu">
-              <li><a data-scroll href="faq.html">FAQ</a></li>
-              <li><a data-scroll href="search.html">Lost Tickets?</a></li>
+              <li><a data-scroll href="faq.html" data-i18n="header.nav.faq">FAQ</a></li>
+              <li><a data-scroll href="search.html" data-i18n="header.nav.lost-tickets">Lost Tickets?</a></li>
             </ul>
           </li>
           <!-- <li>
@@ -81,29 +85,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                aria-expanded="false">
               <span class="glyphicon glyphicon-globe"></span>
-              <span class="sr-only">Language</span>
+              <span class="sr-only" data-i18n="header.nav.language">Language</span>
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="https://eventix.io">
+                <a href="?lng=en">
                   English
                 </a>
               </li>
               <li>
-                <a href="https://eventix.nl">
+                <a href="?lng=nl">
                   Nederlands
                 </a>
               </li>
             </ul>
           </li>
           <li class="btn-login">
-            <a class="btn btn-primary btn-large btn-success rollover" role="button" href="https://dashboard.eventix.io">
+            <a class="btn btn-primary btn-large btn-success rollover" role="button"
+               href="https://dashboard.eventix.io" data-i18n="header.nav.login">
               Log In
             </a>
           </li>
           <li class="visible-lg btn-login">
-            <a class="btn btn-primary btn-large rollover" role="button" href="https://dashboard.eventix.io">
+            <a class="btn btn-primary btn-large rollover" role="button" href="https://dashboard.eventix.io"
+               data-i18n="header.nav.signup">
               Sign Up
             </a>
           </li>

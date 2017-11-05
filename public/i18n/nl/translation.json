@@ -1,5 +1,51 @@
 {
   "footer": {
-    "behind-scenes": "Achter de schermen werken we aan online ticketing. Nieuwsgierig?"
+    "newsletter": {
+      "behind-scenes": "Achter de schermen werken we aan online ticketing. Nieuwsgierig?",
+      "email": "E-mailadres",
+      "send": "Inschrijven voor de nieuwsbrief"
+    },
+    "links": {
+      "links": "Links",
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Tarieven",
+      "faq": "FAQ",
+      "recover-tickets": "",
+      "blog": "Blog",
+      "api-documentation": "API-documentatie"
+    },
+    "social": {
+      "follow-us": "of volg ons op social media"
+    },
+    "privacy": {
+      "terms-conditions": "Algemene voorwaarden",
+      "privacy": "Privacy",
+      "fair-use": "Fair use"
+    },
+    "contact": {
+      "phone": ""
+    },
+    "copyright": "2017© Copyright Eventix."
+  },
+  "header": {
+    "nav": {
+      "toggle-navigation": "Navigatie schakelen",
+      "start": "Start",
+      "home": "Home",
+      "features": "Features",
+      "integrations": "Integraties",
+      "how-it-works": "Hoe het werkt",
+      "pricing": "Tarieven",
+      "blog": "Blog",
+      "developers": "Ontwikkelaars",
+      "api-documentation": "API-documentatie",
+      "support": "Ondersteuning",
+      "faq": "FAQ",
+      "lost-tickets": "Tickets verloren?",
+      "language": "Taal",
+      "login": "log in",
+      "signup": "Registreer"
+    }
   }
 }

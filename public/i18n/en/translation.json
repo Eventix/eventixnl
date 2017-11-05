@@ -1,5 +1,51 @@
 {
   "footer": {
-    "behind-scenes": "Behind the scenes we're working on the future of online ticketing. Curious?"
+    "newsletter": {
+      "behind-scenes": "Behind the scenes we're working on the future of online ticketing. Curious?",
+      "email": "Email",
+      "send": "Subscribe for newsletter"
+    },
+    "links": {
+      "links": "Links",
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "recover-tickets": "Recover tickets",
+      "blog": "Blog",
+      "api-documentation": "API documentation"
+    },
+    "social": {
+      "follow-us": "or follow us on social media"
+    },
+    "privacy": {
+      "terms-conditions": "Terms & Conditions",
+      "privacy": "Privacy",
+      "fair-use": "Fair use"
+    },
+    "contact": {
+      "phone": "Call us: <a href='tel:31858883007'>(+31) 085 8883007</a>"
+    },
+    "copyright": "2017© Copyright Eventix."
+  },
+  "header": {
+    "nav": {
+      "toggle-navigation": "Toggle navigation",
+      "start": "Start",
+      "home": "Home",
+      "features": "Features",
+      "integrations": "Integrations",
+      "how-it-works": "How it works",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "developers": "Developers",
+      "api-documentation": "API documentation",
+      "support": "Support",
+      "faq": "FAQ",
+      "lost-tickets": "Lost tickets?",
+      "language": "Language",
+      "login": "Log In",
+      "signup": "Sign Up"
+    }
   }
 }

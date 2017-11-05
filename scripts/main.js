@@ -39,8 +39,21 @@ jqueryI18next = require('jquery-i18next');
 i18next.use(i18nextBrowserLanguageDetector);
 i18next.use(i18nextXHRBackend);
 i18next.init({
-  lng: 'nl',
-  debug: true,
+  detection: {
+    // order and from where user language should be detected
+    order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
+
+    // keys or params to lookup language from
+    lookupQuerystring: 'lng',
+    lookupCookie: 'i18next',
+    lookupLocalStorage: 'i18nextLng',
+
+    // cache user language on
+    caches: ['localStorage', 'cookie'],
+    excludeCacheFor: ['cimode'] // languages to not persist (cookie, localStorage)
+
+  },
+  debug: false,
   whitelist: ['nl', 'en'],
   ns: ['translation'],
   backend: {
