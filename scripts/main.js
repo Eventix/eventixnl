@@ -54,7 +54,7 @@ i18next.init({
 
   },
   debug: false,
-  whitelist: ['nl', 'en'],
+  whitelist: ['nl', 'en', 'es'],
   ns: ['translation'],
   backend: {
     loadPath: 'i18n/{{lng}}/{{ns}}.json'
