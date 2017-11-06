@@ -93,7 +93,7 @@ module.exports = function(grunt) {
         removeUnusedKeys: true,
         dest: 'public',
         options: {
-          lngs: ['en', 'nl'],
+          lngs: ['en', 'nl', 'es'],
           resource: {
             loadPath: 'public/i18n/{{lng}}/{{ns}}.json',
             savePath: 'i18n/{{lng}}/{{ns}}.json'

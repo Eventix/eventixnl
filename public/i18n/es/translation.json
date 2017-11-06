@@ -1,0 +1,51 @@
+{
+  "footer": {
+    "links": {
+      "links": "",
+      "home": "",
+      "features": "",
+      "pricing": "",
+      "faq": "",
+      "recover-tickets": "",
+      "blog": "",
+      "api-documentation": ""
+    },
+    "newsletter": {
+      "behind-scenes": "",
+      "email": "",
+      "send": ""
+    },
+    "social": {
+      "follow-us": ""
+    },
+    "privacy": {
+      "terms-conditions": "",
+      "privacy": "",
+      "fair-use": ""
+    },
+    "contact": {
+      "phone": ""
+    },
+    "copyright": ""
+  },
+  "header": {
+    "nav": {
+      "toggle-navigation": "",
+      "start": "",
+      "home": "",
+      "features": "",
+      "integrations": "",
+      "how-it-works": "",
+      "pricing": "",
+      "blog": "",
+      "developers": "",
+      "api-documentation": "",
+      "support": "",
+      "faq": "",
+      "lost-tickets": "",
+      "language": "",
+      "login": "",
+      "signup": ""
+    }
+  }
+}
