@@ -96,6 +96,7 @@ footer {
 
       &:after {
         content: " | ";
+        margin: 5px;
       }
 
       &:last-child:after {
