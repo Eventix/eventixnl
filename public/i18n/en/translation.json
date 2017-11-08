@@ -323,5 +323,49 @@
       }
     }
   },
-  "scrolltop": ""
+  "scrolltop": "",
+  "faq": {
+    "title": "",
+    "heading": "",
+    "subtitle": "",
+    "visitor": {
+      "heading": "",
+      "not-received": {
+        "heading": "",
+        "text": "",
+        "list": {
+          "1": "",
+          "2": ""
+        },
+        "image": ""
+      },
+      "print-ticket": {
+        "heading": "",
+        "text": ""
+      },
+      "looking-event": {
+        "heading": "",
+        "text": ""
+      }
+    },
+    "organizer": {
+      "heading": "",
+      "price-lower": {
+        "heading": "",
+        "text": ""
+      },
+      "free": {
+        "heading": "",
+        "text": ""
+      },
+      "service-cost": {
+        "heading": "",
+        "text": ""
+      },
+      "resend": {
+        "heading": "",
+        "text": ""
+      }
+    }
+  }
 }
