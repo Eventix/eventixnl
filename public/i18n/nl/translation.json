@@ -21,7 +21,10 @@
     "privacy": {
       "terms-conditions": "Algemene voorwaarden",
       "privacy": "Privacy",
-      "fair-use": "Fair use"
+      "fair-use": "Fair use",
+      "termsUrl": "",
+      "privacyUrl": "",
+      "fairUrl": ""
     },
     "contact": {
       "phone": ""
@@ -47,5 +50,277 @@
       "login": "log in",
       "signup": "Registreer"
     }
-  }
+  },
+  "home": {
+    "title": "",
+    "hero": {
+      "text": "Technisch ongeëvenaarde ticketing voor alle soorten evenementen. Probeer het gratis uit!",
+      "videoUrl": "",
+      "cta": "",
+      "heading": ""
+    },
+    "features": {
+      "category": {
+        "sports": "",
+        "business": "",
+        "theaters": "",
+        "festivals": ""
+      },
+      "heading": "",
+      "text": "",
+      "feature": {
+        "facebook": {
+          "title": "",
+          "action": ""
+        },
+        "marketing": {
+          "title": "",
+          "action": ""
+        },
+        "helpdesk": {
+          "title": "",
+          "action": ""
+        },
+        "ownership": {
+          "title": "",
+          "action": ""
+        },
+        "payments": {
+          "title": "",
+          "action": ""
+        },
+        "branding": {
+          "title": "",
+          "action": ""
+        },
+        "account": {
+          "title": "",
+          "action": ""
+        },
+        "season": {
+          "title": "",
+          "action": ""
+        },
+        "localization": {
+          "title": "",
+          "action": ""
+        },
+        "startnumber": {
+          "title": "",
+          "action": ""
+        },
+        "data": {
+          "title": "",
+          "action": ""
+        },
+        "import": {
+          "title": "",
+          "action": ""
+        },
+        "entrance": {
+          "title": "",
+          "action": ""
+        },
+        "products": {
+          "title": "",
+          "action": ""
+        },
+        "sales": {
+          "title": "",
+          "action": ""
+        },
+        "invoicing": {
+          "title": "",
+          "action": ""
+        },
+        "shop": {
+          "title": "",
+          "action": ""
+        },
+        "seating": {
+          "title": "",
+          "action": ""
+        },
+        "pos": {
+          "title": "",
+          "action": ""
+        }
+      }
+    },
+    "integrations": {
+      "heading": "",
+      "text": "",
+      "integration": {
+        "ticketswap": {
+          "heading": "",
+          "text": "",
+          "action": ""
+        },
+        "mailchimp": {
+          "heading": "",
+          "text": "",
+          "action": ""
+        },
+        "tagmanager": {
+          "heading": "",
+          "text": "",
+          "action": ""
+        },
+        "mobile": {
+          "heading": "",
+          "text": ""
+        },
+        "code": {
+          "heading": "",
+          "text": "",
+          "action": ""
+        }
+      }
+    },
+    "howitworks": {
+      "step1": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "step2": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "step3": {
+        "heading": "",
+        "subtitle": "",
+        "text": "",
+        "action": ""
+      },
+      "step4": {
+        "heading": "",
+        "subtitle": "",
+        "text": "",
+        "action": ""
+      }
+    }
+  },
+  "blog": {
+    "title": ""
+  },
+  "developers": {
+    "title": ""
+  },
+  "features": {
+    "title": "",
+    "feature": {
+      "branding": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "entrance": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "localization": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "analytics": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "feedback": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "helpdesk": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "import": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "invoices": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "servers": {
+        "heading": ""
+      },
+      "server": {
+        "subtitle": "",
+        "text": ""
+      },
+      "marketing": {
+        "heading": "",
+        "subtitle": "",
+        "text": "",
+        "list": {
+          "pixels": "",
+          "google": "",
+          "coupons": ""
+        }
+      },
+      "ownership": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "payouts": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "pos": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "products": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "season": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "seated": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "cart": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      },
+      "social": {
+        "heading": "",
+        "subtitle": "",
+        "text": "",
+        "list": {
+          "facebookshop": "",
+          "facebookattend": "",
+          "facebookbanner": "",
+          "pixels": ""
+        },
+        "text2": ""
+      },
+      "startnumbers": {
+        "heading": "",
+        "subtitle": "",
+        "text": ""
+      }
+    }
+  },
+  "scrolltop": ""
 }

@@ -53,6 +53,10 @@ i18next.init({
     excludeCacheFor: ['cimode'] // languages to not persist (cookie, localStorage)
 
   },
+  returnEmptyString: false,
+  fallbackLng: {
+    'default': ['en']
+  },
   debug: false,
   whitelist: ['nl', 'en', 'es'],
   ns: ['translation'],
