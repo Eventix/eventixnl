@@ -1,51 +1,51 @@
 {
   "footer": {
     "links": {
-      "links": "",
-      "home": "",
-      "features": "",
-      "pricing": "",
-      "faq": "",
-      "recover-tickets": "",
-      "blog": "",
-      "api-documentation": ""
+      "links": "Enlaces",
+      "home": "Inicio",
+      "features": "Funciones",
+      "pricing": "Precios",
+      "faq": "FAQ",
+      "recover-tickets": "Recuperar boletos",
+      "blog": "Blog"
+      "api-documentation": "Documentación de la API"
     },
     "newsletter": {
-      "behind-scenes": "",
-      "email": "",
-      "send": ""
+      "behind-scenes": "Tras bastidores, estamos trabajando en el futuro de la venta de boletos en línea. ¿Curioso?",
+      "email": "Email",
+      "send": "Enviar"
     },
     "social": {
-      "follow-us": ""
+      "follow-us": "Síguenos"
     },
     "privacy": {
-      "terms-conditions": "",
-      "privacy": "",
-      "fair-use": "",
+      "terms-conditions": "Términos y Condiciones ",
+      "privacy": "Privacidad",
+      "fair-use": "Uso justo",
       "termsUrl": "",
       "privacyUrl": "",
       "fairUrl": ""
     },
     "contact": {
-      "phone": ""
+      "phone": "Llámenos: (+31) 085 8883007"
     },
-    "copyright": ""
+    "copyright": "2017© Copyright Eventix."
   },
   "header": {
     "nav": {
       "toggle-navigation": "",
-      "start": "",
-      "home": "",
-      "features": "",
-      "integrations": "",
-      "how-it-works": "",
-      "pricing": "",
-      "blog": "",
-      "developers": "",
-      "api-documentation": "",
-      "support": "",
-      "faq": "",
-      "lost-tickets": "",
+      "start": "Inicio",
+      "home": "Inicio",
+      "features": "Funciones",
+      "integrations": "Integración",
+      "how-it-works": "Cómo funciona",
+      "pricing": "Precios",
+      "blog": "Blog",
+      "developers": "Desarrolladores",
+      "api-documentation": "Docuentacion de la API",
+      "support": "Soporte",
+      "faq": "FAQ",
+      "lost-tickets": "¿Boletos perdidos?",
       "language": "",
       "login": "",
       "signup": ""
@@ -54,273 +54,270 @@
   "home": {
     "title": "",
     "hero": {
-      "head": "",
-      "text": "",
-      "videoUrl": "",
-      "cta": "",
+      "head": "Su boleto a un evento totalmente vendido",
+      "text": " Venta de boletos sin preocupaciones, innovadoras herramientas de marketing y pagos a solicitud. Simple y gratis.",
+      "videoUrl": "https://www.youtube.com/watch?v=rS2n4u7SR1U",
+      "cta": "Empezar",
       "heading": ""
     },
     "features": {
       "category": {
-        "sports": "",
-        "business": "",
-        "theaters": "",
-        "festivals": ""
+        "sports": "Deportes",
+        "business": "Negocios",
+        "theaters": "Teatros",
+        "festivals": "Festivales"
       },
-      "heading": "",
-      "text": "",
+      "heading": "Funciones adaptadas a su evento",
+      "text": "Un completo conjunto de funciones para marketing, gestión, venta de boletos y crecimiento exitoso de su evento. Explore las diferentes posibilidades abajo. Todas las funciones están disponibles para eventos de todo tipo y tamaño.",
       "feature": {
         "facebook": {
-          "title": "",
+          "title": "Integración con Facebook",
           "action": ""
         },
         "marketing": {
-          "title": "",
+          "title": "Anuncie su evento como las grandes marcas",
           "action": ""
         },
         "helpdesk": {
-          "title": "",
+          "title": "Servicio de asistencia 24/7",
           "action": ""
         },
         "ownership": {
-          "title": "",
+          "title": "Propiedad de la data",
           "action": ""
         },
         "payments": {
-          "title": "",
+          "title": "Pagos semanales",
           "action": ""
         },
         "branding": {
-          "title": "",
+          "title": "E-mail, boletos y tienda con su marca",
           "action": ""
         },
         "account": {
-          "title": "",
+          "title": "Conecte con sus visitantes",
           "action": ""
         },
         "season": {
-          "title": "",
+          "title": "Pases de temporada",
           "action": ""
         },
         "localization": {
-          "title": "",
+          "title": "Venta de boletos localizada",
           "action": ""
         },
         "startnumber": {
-          "title": "",
+          "title": "Números de inicio",
           "action": ""
         },
         "data": {
-          "title": "",
+          "title": "Propiedad de la data",
           "action": ""
         },
         "import": {
-          "title": "",
+          "title": "Importe su lista de contactos",
           "action": ""
         },
         "entrance": {
-          "title": "",
+          "title": "Gestión de entrada avanzada",
           "action": ""
         },
         "products": {
-          "title": "",
+          "title": "Productos adicionales + acceso",
           "action": ""
         },
         "sales": {
-          "title": "",
+          "title": "Picos de ventas",
           "action": ""
         },
         "invoicing": {
-          "title": "",
+          "title": "Facturas",
           "action": ""
         },
         "shop": {
-          "title": "",
+          "title": "Carritos de compra",
           "action": ""
         },
         "seating": {
-          "title": "",
+          "title": "Reserva de asientos - todos los tamaños",
           "action": ""
         },
         "pos": {
-          "title": "",
+          "title": "Punto de Venta Eventix",
           "action": ""
         }
       }
     },
     "integrations": {
-      "heading": "",
-      "text": "",
+      "heading": "Integraciones perfectas",
+      "text": "Eventix se integra fácilmente con cualquier plataforma. Conecte con los plugins pre-configurados de los servicios web líderes en la industria o desarrolle sobre nuestra API abierta. Para obtener más información sobre el desarrollo de integraciones personalizadas, consulte la documentación de nuestra API.",
       "integration": {
         "ticketswap": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "TicketSwap",
+          "text": "Nosotros contrarrestamos el fraude en la venta de boletos en los mercados secundarios para todos los boletos vendidos a través de nuestra integración de Secure Swap con TicketSwap. Ellos comprueban la validez de cada boleto de Eventix vendido a través de TicketSwap. No se pueden ofrecer boletos falsos o boletos marcados como “intransferibles”. El boleto original es reemplazado por un boleto con un código único y datos personales del comprador de segunda mano.",
+          "action": "Aprenda más acerca de TicketSwap"
         },
         "mailchimp": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "MailChimp",
+          "text": "Manténgase en contacto con sus visitantes. Conectar a MailChimp mantiene su lista de correos actualizada, lo que resulta en campañas de MailChimp más eficientes. Envíe invitaciones para una página de registro o configure listas de correo.",
+          "action": "Aprenda más acerca de MailChimp"
         },
         "tagmanager": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "Google Tag Manager",
+          "text": "¡Permítanos ayudarlo con las funciones de marketing más avanzadas! Google Tag Manager le proporciona una descripción clara de lo que sucede en línea. De esta forma, puede llegar a conocer a su grupo objetivo de una manera única y personal. Monitoree detalladamente el comportamiento del cliente y conecte esta información para retargeting y seguimiento.",
+          "action": "Empiece a usar Google Tag Manager"
         },
         "mobile": {
-          "heading": "",
-          "text": ""
+          "heading": "Android e iOS",
+          "text": "Ofrecemos una experiencia principalmente móvil y estamos muy entusiasmados acerca de la integración de nuestra tienda de boletos en aplicaciones móviles. Implemente la tienda de boletos en su aplicación en Android e iOS. Ofrézcales a sus usuarios la experiencia de compra más fluida mientras ve aumentar sus ventas."
         },
         "code": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "Código Personalizado",
+          "text": "Le damos acceso a nuestra API, ¡lo que significa que puede desarrollar lo que desee! El servicio de venta de Boletos de Eventix está desarrollado completamente sobre la API de Boletos de Eventix. Ya hemos visto una gran cantidad de excelentes casos de uso como integraciones con Software de Administración, plataformas CRM, sistemas ERP como MS Dynamics y SAP.
+Las posibilidades son ilimitadas. Déjenos saber si necesita ayuda para desarrollar una integración. Estamos felices de ayudarlo.""action": "Lea más acerca de nuestra API"
         }
       }
     },
     "howitworks": {
       "step1": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Paso 1: Cree su evento en minutos",
+        "subtitle": "Aproveche el máximo potencial de su evento al empezar.",
+        "text": "Cree su evento en el panel de Eventix o impórtelo directamente desde Facebook. Podrá personalizar completamente su evento al gusto de sus visitantes. La experiencia que brinda empezará desde la creación misma del evento."
       },
       "step2": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Paso 2: Venda sus boletos tanto en línea como personalmente ",
+        "subtitle": "Una tienda de boletos completamente personalizable y amigable. ¡Pruébelo usted mismo!",
+        "text": "Cuando los visitantes compran boletos a través de su tienda, pueden hacerlo con unos pocos toques en sus teléfonos inteligentes. Su tienda se puede personalizar de muchas formas, incluyendo un diseño personalizado, agregando su botón de Me gusta de Facebook y un sinnúmero de boletos únicos."
       },
       "step3": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
-        "action": ""
+        "heading": "Paso 3: Un escaneo fácil hace que las colas se muevan rápido",
+        "subtitle": "¡Escanee hasta mil boletos por escáner, por hora!",
+        "text": "Con nuestra app Eventix, disponible para Android e iOS, cada teléfono inteligente puede convertirse en un escáner, por lo tanto, nunca se quedará sin dispositivos para escanear. La aplicación de escaneo es sencilla, fácil de usar y cuenta con soporte completo al cliente.",
+        "action": "Ver la app para ios en el app store"
       },
       "step4": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
-        "action": ""
+        "heading": "Paso 4: Use los datos para aumentar sus ventas",
+        "subtitle": "Conozca su audiencia y descubra lo que les gusta.",
+        "text": "La venta de boletos genera muchísimos datos. Estos datos proporcionan ideas interesantes para marketing, ventas y fortalece el vínculo personal entre usted y sus visitantes. Mida las conversiones y realice un seguimiento del retorno de su inversión en marketing para que pueda mejorar su estrategia. Muchas posibilidades esperan por usted, permita que su evento crezca.",
+        "action": "Empezar"
       }
     }
   },
   "blog": {
-    "title": ""
+    "title": "Blog"
   },
   "developers": {
-    "title": ""
+    "title": "Desarrolladores"
   },
   "features": {
-    "title": "",
+    "title": "Funciones",
     "feature": {
       "branding": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
-      },
+        "heading": "Su marca, en todos lados",
+        "subtitle": "Su marca personal a través de emails, boletos y tiendas de boletos.",
+        "text": "Usted ha puesto todo este tiempo y energía para lograr una cierta ‘sensación’ en su evento. Alentamos esto y queremos que la experiencia que brinde sea auténtica y completa. <br><br> Es por esto que le damos la opción de poner su marca en el evento, hasta en los detalles más pequeños incluyendo emails, tienda y diseños de boletos completamente personalizables.<br><br> Todo se hará con su marca, haciendo una experiencia completa. ¡Desde el momento en que los asistentes compren sus boletos!"      },
       "entrance": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Gestión de entrada avanzada",
+        "subtitle": "Escanee 1000 visitantes por hora por escáner con escáneres ilimitados e información en tiempo real",
+        "text": "La aplicación de escaneo de Eventix convierte a cada teléfono en un escáner y se puede descargar desde la app store. Se puede usar por la duración completa del evento en línea en persona. La app también le brinda información en tiempo real acerca de los asistentes, cuántos han ingresado y a qué hora.<br><br>Permítanos encargarnos de la parte mecánica del escaneo y los boletos para que pueda enfocarse en tareas más urgentes."
       },
       "localization": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Venta de boletos localizada",
+        "subtitle": "Nuestro sistema se adapta a donde sea que sus visitantes compren boletos",
+        "text": "Usted puede atraer gente de todo el mundo con su evento. Cuando decidan comprar un boleto, puede contar con nosotros. En el momento en que el visitante entra a nuestro sitio web, detectamos que idioma está usando su navegador y cambiamos al idioma de preferencia del visitante. El sistema también se adapta automáticamente a las monedas de esa región. Actualmente, admitimos los siguientes idiomas: Inglés, Holandés, Francés, Chino, Español, Alemán y Portugués"
       },
       "analytics": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Análisis de datos",
+        "subtitle": "Trabaje de forma más inteligente con análisis de datos",
+        "text": "Los datos se están haciendo más importantes cada día. Es por eso que hemos optimizado todas nuestras herramientas para recopilar datos que puede utilizar para mejorar su evento. También puede añadir sus preguntas al proceso de compra de boletos. Por lo tanto, usted puede mejorar su evento en cualquier forma que desee. <br><br> Cuando el visitante se registra con su cuenta de Facebook para comprar un boleto, automáticamente recopilamos  la información de su cuenta de Facebook. Por lo tanto, hacemos más personal el vínculo entre usted y su visitante. <br><br>La decisión es suya. Tenemos muchas preguntas que puede hacer antes de que alguien pueda comprar  un boleto. Sin embargo, también puede agregar sus preguntas o dejarlas fuera. <br><br>Son sus visitantes, conózcalos. "
       },
       "feedback": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Retroalimentación automatizada de los visitantes ",
+        "subtitle": "Siga mejorando mediante la retroalimentación fácil y rápida a través de encuestas.",
+        "text": "Usted es sólo tan bueno como su último evento. Por lo tanto, creemos que es aconsejable que solicite una retroalimentación de sus estimados visitantes. A través de nuestra asociación con Hugo, usted obtendrá una visión clara de lo que más les gustó a sus visitantes y qué pensaron que podría mejorar. <br><br> ¡Use este conocimiento para su provecho!"
       },
       "helpdesk": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Servicio de asistencia 24/7 ",
+        "subtitle": "Estamos aquí para usted",
+        "text": "Sabemos que las agencias con las que operamos trabajan 24/7. En Eventix, creemos que el aprendizaje proviene de escuchar. Por lo tanto, esperamos aprender con usted y guiarlo a través de nuestro sistema. Cada vez que nos contacte, lo escucharemos y ayudaremos. Puede enviarnos un email, llamarnos o chatear con nosotros en cualquier momento. <br><br> Estamos seguros de que podemos resolverlo juntos. Estamos aquí para usted."
       },
       "import": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Importe su lista de invitados",
+        "subtitle": "Suba su lista de invitados y envíe boletos con facilidad.",
+        "text": "Queremos que todos sus visitantes tengan una experiencia fluida. Pero, ya que se ha interesado en particular por la gente en su lista de invitados, nosotros también lo haremos. Si sube su lista de invitados, nos aseguraremos de que reciban sus boletos. <br><br> De esta manera, no habrá ningún problema con invitados faltantes en su lista. Si  decide agregar a alguien en el último momento, puede enviarles los boletos directamente a través de su panel de control de Eventix."
       },
       "invoices": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Envío de facturas",
+        "subtitle": "Claridad financiera para sus visitantes a través de la automatización",
+        "text": "Entendemos que las facturas son fundamentales para usted y sus clientes. A través de nuestro sistema, se pueden enviar fácilmente facturas a terceros. <br><br> Los asistentes pueden imprimir facturas de impuestos desde el email de confirmación de pedido. Los organizadores pueden imprimir facturas de impuestos en nombre de los visitantes."
       },
       "servers": {
-        "heading": ""
+        "heading": "Servidores escalables"
       },
       "server": {
-        "subtitle": "",
-        "text": ""
+        "subtitle": "En línea, las colas son algo del pasado, ¿por qué esperar?",
+        "text": "La gente odia hacer colas. Cuando la gente hace cola para comprar boletos, muchos de ellos, lamentablemente se dan por vencidos. Creemos que usted y sus visitantes merecen algo mejor que eso. <br><br> Nuestros servidores escalables garantizan que su tienda de boletos pueda manejar cualquier cantidad de boletos, lo que significa que no hay tiempo de espera para la venta de sus boletos. Todo el mundo podrá acceder y tendrá clientes felices. <br><br> Mientras los visitantes le agradecen por no tener que esperar, el email con el boleto es enviado dentro de cinco minutos posteriores a la finalización del pedido."
       },
       "marketing": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
+        "heading": "Herramientas de marketing ",
+        "subtitle": "Obtenga un conocimiento más profundo de los visitantes usando las herramientas de marketing que usan las grandes marcas.",
+        "text": "En Eventix tenemos muchas funciones, todas diseñadas para facilitar su vida diaria y la venta de boletos. Entonces, ¿cómo lo hacemos?",
         "list": {
-          "pixels": "",
-          "google": "",
-          "coupons": ""
+          "pixels": "Pixels <br><br>En Eventix tenemos muchas funciones, todas diseñadas para facilitar su vida diaria y la venta de boletos. Entonces, ¿cómo lo hacemos?",
+          "google": "•  Google Analytics y Google Adwords <br><br> Con Google, hay muchos trucos útiles que podemos aplicar a su evento. Google Analytics le da una visión clara de qué tipo de individuos navegan en su sitio web. Por ejemplo, Google Analytics le dará información acerca de la demografía, intereses y comportamiento de su grupo objetivo. <br><br> Con Google Adwords, usted puede anunciarse en el motor de búsqueda de Google haciendo que esté entre los resultados principales, mientras se anuncia también en los sitios web compatibles con Google Adwords. Aquí los clientes potenciales son captados a través de las palabras que buscan.",
+          "coupons": "• Cupones <br><br> ¿Qué tal un concurso de compartir y darle a me gusta? Tenemos una función en la que puede personalizar sus cupones para dar un descuento a esas personas especiales."
         }
       },
       "ownership": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Usted es dueño de sus datos",
+        "subtitle": "Su evento, sus datos, sus beneficios",
+        "text": "La información de los visitantes es clave para mejorar su evento y entender a su grupo objetivo. Realmente, es la forma más rápida en que su evento puede alcanzar su máximo potencial. <br><br> La privacidad es algo que valoramos mucho. Por lo tanto, la información que sus visitantes proporcionan confidencialmente, no será compartida con nadie más que usted. <br><br> Indíquenos qué tipo de datos desea recopilar y lo ayudaremos con eso. De esta manera, puede mejorar su evento hacia la dirección que desea tomar.<br><br> Y por favor, sea cuidadoso con los datos que recopila."
       },
       "payouts": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Su dinero, su plan de pago",
+        "subtitle": "Disfrute de un flujo de efectivo constante y flexible según sus preferencias",
+        "text": "Si decimos flexible, queremos decir flexible. ¡Usted podrá obtener sus pagos diariamente, semanalmente, después de una cantidad en específico o cuando lo solicite! Además, los pagos hechos a afiliados se pagarán automáticamente. De esta forma, los pagos se realizarán de forma justa y rápida, como siempre lo hemos hecho. <br><br> Sabemos que un  flujo de efectivo constante es importante y eventos diferentes necesitan diferentes flujos de efectivo."
       },
       "pos": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Conecte su Punto de Venta con Eventix",
+        "subtitle": "Sincronice su taquilla con sus ventas en línea.",
+        "text": "Principalmente trabajamos en línea. Sin embargo, si desea trabajar en persona, podemos ayudarlo. <br><br> Su punto de venta se sincroniza directamente con nuestro sistema en línea, dándole una visión clara de todas las ventas de boletos realizadas."
       },
       "products": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Un boleto con todos los productos",
+        "subtitle": "Queremos que nuestros boletos den su máximo potencial",
+        "text": "Hemos hecho posible obtener toda la información que necesita en un solo boleto. Un sinnúmero de productos pueden ser colocados en nuestros boletos. Algunos ejemplos son; donde se sientan los asistentes, el nombre de su empresa y cualquier preferencia alimenticia. <br><br> Así que, asegúrese de hacer un boleto que incluya todos los productos, así es más fácil para usted y sus visitantes. <br><br> ¡Explore las posibilidades de los boletos de Eventix! "
       },
       "season": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Disfrute por más tiempo con Boletos de Temporada para Eventos",
+        "subtitle": "Viva toda la temporada con sus visitantes.",
+        "text": "Tenemos muchos boletos, pero los pases de temporada tienen un lugar especial en Eventix. A través de nuestro sistema, usted puede rápidamente configurar boletos para eventos de temporada. <br><br> Ahora puede soportar la emoción junto con sus fanáticos, durante toda la temporada."
       },
       "seated": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Función Fácil compra de boletos con reserva de asientos ",
+        "subtitle": "Cree, edite e inserte planos de pisos interactivos en su tienda de boletos",
+        "text": "A través de nuestra asociación con Seats.io, hemos construido el motor para reservas de asientos más cómodo para que pueda personalizar su reserva. Diseñe su plano en horas, no semanas, y adáptelo sobre la marcha en cuestión de minutos, incluso después de que su evento haya salido a la venta."
       },
       "cart": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Carrito interactivo de compra de boletos ",
+        "subtitle": "Junte y pague todos sus boletos al mismo tiempo",
+        "text": "Entendemos que sus visitantes pueden querer comprar más de un producto a la vez. Queremos que se diviertan, no sólo en sus eventos, sino también mientras compran los boletos. Es por eso que facilitamos la compra de más boletos al mismo tiempo, usando un carrito de compras interactivo. <br><br>Los días de comprar múltiples boletos con varios pedidos han desaparecido, ahora todo está integrado y se compra en un solo paso."
       },
       "social": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
-        "list": {
-          "facebookshop": "",
-          "facebookattend": "",
-          "facebookbanner": "",
-          "pixels": ""
+        "heading": "Integrar con Facebook",
+        "subtitle": "Venta de boletos y crecimiento orgánico integrado con Facebook.",
+        "text": "Facebook es uno de los canales más importantes para el marketing en la actualidad. La mayoría de sus visitantes tienen Facebook, y es una excelente manera de llegar a ellos. Si las personas se registran con su cuenta de Facebook para comprar boletos de Eventix, en su fan page de Facebook se producen desarrollos interesantes que podrían beneficiarlo.",        "list": {
+          "facebookshop": "•  Tienda de Facebook <br><br> Su fan page de Facebook se convertirá en un punto de venta. Todos los visitantes pueden comprar los boletos en la misma página para evitar cualquier distracción. ",
+          "facebookattend": "•  Facebook Auto-Asistir <br><br> Con nuestra opción de Auto-Asistir, las personas que visiten su tienda se colocarán automáticamente como ‘interesados’ en su evento en Facebook. Si finalizan el pago, se colocarán automáticamente como ‘Asistirá'. De esta manera, más personas asistirán a su evento de Facebook, saldrá en sus feeds, llegando a su lista de amigos acerca de su evento.",
+          "facebookbanner": "•  Banner de Facebook en la Tienda <br><br> Mientras alguien ordene boletos en su tienda de boletos su banner de Facebook aparecerá en la misma página. Garantizando me gusta gratuitos y exposición para su fan page en Facebook y su marca.",
+          "pixels": "•  Píxeles <br><br> Eventix tiene dos píxeles, para LinkedIn y Facebook. Estos píxeles le muestran cuál visitante fue redireccionado de cuál enlace. Hacer seguimiento a los enlaces es perfecto para mostrar a cuál visitante vale la pena hacerle retargeting y hasta qué grado funcionan las publicaciones individuales en las redes sociales. <br><br> Estas aplicaciones darán como resultado marketing gratuito y ampliarán aún más el alcance de su evento. "
         },
         "text2": ""
       },
       "startnumbers": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
-      }
+        "heading": "Función Números de inicio automatizado",
+        "subtitle": "Los boletos incluyen números de inicio.",
+        "text": "Queremos ganar en la automatización. Es por eso que hemos automatizado la asignación de los números de inicio, cuando alguien compra un boleto, el boleto se numera automáticamente. <br><br> El número de inicio se incluye cuando un asistente compra un boleto. Así de fácil. "      }
     }
   },
   "scrolltop": "",
