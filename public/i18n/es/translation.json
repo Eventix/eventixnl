@@ -7,7 +7,7 @@
       "pricing": "Precios",
       "faq": "FAQ",
       "recover-tickets": "Recuperar boletos",
-      "blog": "Blog"
+      "blog": "Blog",
       "api-documentation": "Documentación de la API"
     },
     "newsletter": {
@@ -173,8 +173,8 @@
         },
         "code": {
           "heading": "Código Personalizado",
-          "text": "Le damos acceso a nuestra API, ¡lo que significa que puede desarrollar lo que desee! El servicio de venta de Boletos de Eventix está desarrollado completamente sobre la API de Boletos de Eventix. Ya hemos visto una gran cantidad de excelentes casos de uso como integraciones con Software de Administración, plataformas CRM, sistemas ERP como MS Dynamics y SAP.
-Las posibilidades son ilimitadas. Déjenos saber si necesita ayuda para desarrollar una integración. Estamos felices de ayudarlo.""action": "Lea más acerca de nuestra API"
+          "text": "Le damos acceso a nuestra API, ¡lo que significa que puede desarrollar lo que desee! El servicio de venta de Boletos de Eventix está desarrollado completamente sobre la API de Boletos de Eventix. Ya hemos visto una gran cantidad de excelentes casos de uso como integraciones con Software de Administración, plataformas CRM, sistemas ERP como MS Dynamics y SAP. Las posibilidades son ilimitadas. Déjenos saber si necesita ayuda para desarrollar una integración. Estamos felices de ayudarlo.",
+          "action": "Lea más acerca de nuestra API"
         }
       }
     },
