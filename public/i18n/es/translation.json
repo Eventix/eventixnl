@@ -215,7 +215,8 @@
       "branding": {
         "heading": "Su marca, en todos lados",
         "subtitle": "Su marca personal a través de emails, boletos y tiendas de boletos.",
-        "text": "Usted ha puesto todo este tiempo y energía para lograr una cierta ‘sensación’ en su evento. Alentamos esto y queremos que la experiencia que brinde sea auténtica y completa. <br><br> Es por esto que le damos la opción de poner su marca en el evento, hasta en los detalles más pequeños incluyendo emails, tienda y diseños de boletos completamente personalizables.<br><br> Todo se hará con su marca, haciendo una experiencia completa. ¡Desde el momento en que los asistentes compren sus boletos!"      },
+        "text": "Usted ha puesto todo este tiempo y energía para lograr una cierta ‘sensación’ en su evento. Alentamos esto y queremos que la experiencia que brinde sea auténtica y completa. <br><br> Es por esto que le damos la opción de poner su marca en el evento, hasta en los detalles más pequeños incluyendo emails, tienda y diseños de boletos completamente personalizables.<br><br> Todo se hará con su marca, haciendo una experiencia completa. ¡Desde el momento en que los asistentes compren sus boletos!"
+      },
       "entrance": {
         "heading": "Función Gestión de entrada avanzada",
         "subtitle": "Escanee 1000 visitantes por hora por escáner con escáneres ilimitados e información en tiempo real",
@@ -306,7 +307,8 @@
       "social": {
         "heading": "Integrar con Facebook",
         "subtitle": "Venta de boletos y crecimiento orgánico integrado con Facebook.",
-        "text": "Facebook es uno de los canales más importantes para el marketing en la actualidad. La mayoría de sus visitantes tienen Facebook, y es una excelente manera de llegar a ellos. Si las personas se registran con su cuenta de Facebook para comprar boletos de Eventix, en su fan page de Facebook se producen desarrollos interesantes que podrían beneficiarlo.",        "list": {
+        "text": "Facebook es uno de los canales más importantes para el marketing en la actualidad. La mayoría de sus visitantes tienen Facebook, y es una excelente manera de llegar a ellos. Si las personas se registran con su cuenta de Facebook para comprar boletos de Eventix, en su fan page de Facebook se producen desarrollos interesantes que podrían beneficiarlo.",
+        "list": {
           "facebookshop": "•  Tienda de Facebook <br><br> Su fan page de Facebook se convertirá en un punto de venta. Todos los visitantes pueden comprar los boletos en la misma página para evitar cualquier distracción. ",
           "facebookattend": "•  Facebook Auto-Asistir <br><br> Con nuestra opción de Auto-Asistir, las personas que visiten su tienda se colocarán automáticamente como ‘interesados’ en su evento en Facebook. Si finalizan el pago, se colocarán automáticamente como ‘Asistirá'. De esta manera, más personas asistirán a su evento de Facebook, saldrá en sus feeds, llegando a su lista de amigos acerca de su evento.",
           "facebookbanner": "•  Banner de Facebook en la Tienda <br><br> Mientras alguien ordene boletos en su tienda de boletos su banner de Facebook aparecerá en la misma página. Garantizando me gusta gratuitos y exposición para su fan page en Facebook y su marca.",
@@ -317,7 +319,8 @@
       "startnumbers": {
         "heading": "Función Números de inicio automatizado",
         "subtitle": "Los boletos incluyen números de inicio.",
-        "text": "Queremos ganar en la automatización. Es por eso que hemos automatizado la asignación de los números de inicio, cuando alguien compra un boleto, el boleto se numera automáticamente. <br><br> El número de inicio se incluye cuando un asistente compra un boleto. Así de fácil. "      }
+        "text": "Queremos ganar en la automatización. Es por eso que hemos automatizado la asignación de los números de inicio, cuando alguien compra un boleto, el boleto se numera automáticamente. <br><br> El número de inicio se incluye cuando un asistente compra un boleto. Así de fácil. "
+      }
     }
   },
   "scrolltop": "",
@@ -361,6 +364,93 @@
       },
       "resend": {
         "heading": "",
+        "text": ""
+      }
+    }
+  },
+  "pricing": {
+    "title": "",
+    "table": {
+      "standard": {
+        "name": "",
+        "text": "",
+        "price": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      },
+      "free": {
+        "name": "",
+        "price": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      },
+      "custom": {
+        "name": "",
+        "text": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      }
+    },
+    "payouts": {
+      "title": "",
+      "subtitle": "",
+      "frequency": {
+        "title": "",
+        "text": ""
+      },
+      "tuesday": {
+        "title": "",
         "text": ""
       }
     }

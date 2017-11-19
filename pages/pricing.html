@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <title>Eventix - Pricing</title>
+  <title data-i18n="pricing.title">Eventix - Pricing</title>
   <!-- @include partials/_head.html -->
 </head>
 
@@ -18,236 +18,236 @@
 
   <section id="features" class="color-inverse bg-dark" style="position: relative;">
     <div class="container">
-      <table class="pricing-table">
-        <thead>
-        <tr class="pricing-hexagons">
-          <td>
-            <div class="hexagon">
+      <div class="row pricing-table2">
+        <div class="col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-push-4" id="diamond-lock">
+          <div class="hexagon-container">
+            <div class="hexagon hexagon-large">
               <svg class="hex" viewBox="-0.004 0 1.008 1">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/hexagon.svg#hex"></use>
               </svg>
               <div>
-                <p class="pricing-name">Fee Free</p>
-                <p class="pricing-price">&euro;0</p>
+                <p class="pricing-name" data-i18n="pricing.table.standard.name">Regular price</p>
+                <p class="pricing-text" data-i18n="pricing.table.standard.text">Service fee per ticket</p>
+                <p class="pricing-price" data-i18n="pricing.table.standard.price">&euro;1</p>
               </div>
             </div>
-          </td>
-          <td>
-            <div class="hexagon hexagon-large" id="diamond-lock">
-              <svg class="hex" viewBox="-0.004 0 1.008 1">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/hexagon.svg#hex"></use>
-              </svg>
-              <div>
-                <p class="pricing-name">Regular price</p>
-                <p class="pricing-text">Service fee per ticket</p>
-                <p class="pricing-price">&euro;1</p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="hexagon">
-              <svg class="hex" viewBox="-0.004 0 1.008 1">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/hexagon.svg#hex"></use>
-              </svg>
-              <div>
-                <p class="pricing-name">Custom</p>
-                <p class="pricing-text">Service fee per ticket</p>
-                <p class="pricing-price">&euro;-</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-        </thead>
-        <tbody>
-
-        <tr>
-          <td>
-            <div class="pricing-table-block-container">
-              <!-- <div class="pricing-table-block green"></div> -->
-            </div>
-            <div class="pricing-table-text">
-              Charity!
-              <div class="pricing-table-subtext">
-                Your visitors don't have to pay for entry, but you still want to use a system for registration and entry control? Then our service is completely free to use!
-              </div>
-            </div>
-          </td>
-
-          <td>
-            <div class="pricing-table-block-container">
-            </div>
-            <div class="pricing-table-text">
+          </div>
+          <div class="pricing-table-head">
+            <div class="pricing-table-heading" data-i18n="pricing.table.standard.head.heading">
               Standard
-              <div class="pricing-table-subtext">
-                The most popular option. Complete and proven, for both big and small events, as well as theatres. We also provide the best value for money ticketing system.
-              </div>
             </div>
-          </td>
-          <td>
-            <div class="pricing-table-block-container">
+            <div class="pricing-table-subtext" data-i18n="pricing.table.standard.head.subtext">
+              The most popular option. Complete and proven, for both big and small events, as well as theatres. We also provide the best value for money ticketing system.
             </div>
-            <div class="pricing-table-text">
-              Custom
-              <div class="pricing-table-subtext">
-                For the pro’s (5000 tickets or more). We will uburden the complete ticket sales and entry control. <a href="mailto:info@eventix.io"><strong>Get in touch for prices</strong>.</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-           <td>
+          </div>
+          <div class="pricing-table-feature">
             <div class="pricing-table-block-container">
               <div class="pricing-table-block green"></div>
             </div>
-            <div class="pricing-table-text">
-              Completely free!
-              <div class="pricing-table-subtext">
-                0 service costs per ticket and 0 transaction costs.
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.standard.feature.free.heading">
+                No Transaction Costs.
               </div>
-            </div>
-          </td>
-
-          <td>
-            <div class="pricing-table-block-container">
-              <div class="pricing-table-block green"></div>
-            </div>
-            <div class="pricing-table-text">
-              No Transaction Costs.
-              <div class="pricing-table-subtext">
+              <div class="pricing-table-subtext" data-i18n="pricing.table.standard.feature.free.subtext">
                 No transaction costs on the most popular payment methods.
               </div>
             </div>
-          </td>
-          <td>
+          </div>
+          <div class="pricing-table-feature">
             <div class="pricing-table-block-container">
               <div class="pricing-table-block green"></div>
             </div>
-            <div class="pricing-table-text">
-              No Transaction Costs.
-              <div class="pricing-table-subtext">
-                No transaction costs on the most popular payment methods.
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.standard.feature.fullfeatured.heading">
+                Full Featured Eventix Ticketing.
               </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <div class="pricing-table-block-container">
-              <div class="pricing-table-block green"></div>
-            </div>
-            <div class="pricing-table-text">
-              Full Featured Eventix Ticketing.
-              <div class="pricing-table-subtext">
-                State of the art ticketing system and entrance, exept the payments.<br>
+              <div class="pricing-table-subtext" data-i18n="[html]pricing.table.standard.feature.fullfeatured.subtext">
+                State of the art ticketing system and entrance management solution.
+                <br>
                 <a href="https://eventix.io#features">Check our features</a>
               </div>
             </div>
-          </td>
-          <td>
+          </div>
+          <div class="pricing-table-feature">
             <div class="pricing-table-block-container">
               <div class="pricing-table-block green"></div>
             </div>
-            <div class="pricing-table-text">
-              Full Featured Eventix Ticketing.
-              <div class="pricing-table-subtext">
-                State of the art ticketing system and entrance management solution.<br>
-                <a href="https://eventix.io#features">Check our features</a>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.standard.feature.support.heading">
+                Full Support.
               </div>
-            </div>
-          </td>
-          <td>
-            <div class="pricing-table-block-container">
-              <div class="pricing-table-block green"></div>
-            </div>
-            <div class="pricing-table-text">
-              Full Featured Eventix Ticketing.
-              <div class="pricing-table-subtext">
-                State of the art ticketing system and entrance management solution.<br>
-                <a href="https://eventix.io#features">Check our features</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <div class="pricing-table-block-container">
-              <div class="pricing-table-block red"></div>
-            </div>
-            <div class="pricing-table-text">
-              Limited Support.
-              <div class="pricing-table-subtext">
-                Support on workdays from 9.00 -17.00<br/>
-                <!-- <a href="#">Read more...</a> -->
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="pricing-table-block-container">
-              <div class="pricing-table-block green"></div>
-            </div>
-            <div class="pricing-table-text">
-              Full Support.
-              <div class="pricing-table-subtext">
+              <div class="pricing-table-subtext" data-i18n="pricing.table.standard.feature.support.subtext">
                 24 hours, every workday, even on weekends, also for your ticket buyers.
               </div>
             </div>
-          </td>
-          <td>
+          </div>
+          <div class="pricing-table-action-container">
+            <a class="pricing-table-action" href="https://dashboard.eventix.io/?type=standard">
+              <button class="btn btn-primary" data-i18n="pricing.table.standard.action">Get Started</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-pull-4">
+          <div class="hexagon-container">
+            <div class="hexagon">
+            <svg class="hex" viewBox="-0.004 0 1.008 1">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/hexagon.svg#hex"></use>
+            </svg>
+            <div>
+              <p class="pricing-name" data-i18n="pricing.table.free.name">Fee Free</p>
+              <p class="pricing-price" data-i18n="pricing.table.free.price">&euro;0</p>
+            </div>
+          </div>
+          </div>
+          <div class="pricing-table-head">
+            <div class="pricing-table-heading" data-i18n="pricing.table.free.head.heading">
+              Charity!
+            </div>
+            <div class="pricing-table-subtext" data-i18n="pricing.table.free.head.subtext">
+              Your visitors don't have to pay for entry, but you still want to use a system for registration and entry control? Then our service is completely free to use!
+            </div>
+          </div>
+          <div class="pricing-table-feature">
             <div class="pricing-table-block-container">
               <div class="pricing-table-block green"></div>
             </div>
-            <div class="pricing-table-text">
-              Dedicated Account Manager.
-              <div class="pricing-table-subtext">
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.free.feature.free.heading">
+                Completely free!
+              </div>
+              <div class="pricing-table-subtext" data-i18n="pricing.table.free.feature.free.subtext">
+                0 service costs per ticket and 0 transaction costs.
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-feature">
+            <div class="pricing-table-block-container">
+              <div class="pricing-table-block green"></div>
+            </div>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.free.feature.fullfeatured.heading">
+                Full Featured Eventix Ticketing.
+              </div>
+              <div class="pricing-table-subtext" data-i18n="[html]pricing.table.free.feature.fullfeatured.subtext">
+                State of the art ticketing system and entrance, except the payments.
+                <br>
+                <a href="https://eventix.io#features">Check our features</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-feature">
+            <div class="pricing-table-block-container">
+              <div class="pricing-table-block red"></div>
+            </div>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.free.feature.support.heading">
+                Limited Support.
+              </div>
+              <div class="pricing-table-subtext" data-i18n="pricing.table.free.feature.support.subtext">
+                Support on workdays from 9.00-17.00
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-action-container">
+            <a class="pricing-table-action" href="https://dashboard.eventix.io?type=charity">
+              <button class="btn btn-primary" data-i18n="pricing.table.free.action">Get Started</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+          <div class="hexagon-container">
+            <div class="hexagon">
+              <svg class="hex" viewBox="-0.004 0 1.008 1">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/hexagon.svg#hex"></use>
+              </svg>
+              <div>
+                <p class="pricing-name" data-i18n="pricing.table.custom.name">Custom</p>
+                <p class="pricing-text" data-i18n="pricing.table.custom.text">Service fee per ticket</p>
+                <p class="pricing-price" data-i18n="pricing.table.custom.text">&euro;-</p>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-head">
+            <div class="pricing-table-heading" data-i18n="pricing.table.custom.head.heading">
+              Custom
+            </div>
+            <div class="pricing-table-subtext" data-i18n="[html]pricing.table.custom.head.subtext">
+              For the pro’s (5000 tickets or more). We will unburden the complete ticket sales and entry control. <a
+              href="mailto:info@eventix.io"><strong>Get in touch for prices</strong>.</a>
+            </div>
+          </div>
+          <div class="pricing-table-feature">
+            <div class="pricing-table-block-container">
+              <div class="pricing-table-block green"></div>
+            </div>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.custom.feature.free.heading">
+                No Transaction Costs.
+              </div>
+              <div class="pricing-table-subtext" data-i18n="pricing.table.custom.feature.free.subtext">
+                No transaction costs on the most popular payment methods.
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-feature">
+            <div class="pricing-table-block-container">
+              <div class="pricing-table-block green"></div>
+            </div>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.custom.feature.fullfeatured.heading">
+                Full Featured Eventix Ticketing.
+              </div>
+              <div class="pricing-table-subtext" data-i18n="[html]pricing.table.custom.feature.fullfeatured.subtext">
+                State of the art ticketing system and entrance management solution.
+                <br>
+                <a href="https://eventix.io#features">Check our features</a>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table-feature">
+            <div class="pricing-table-block-container">
+              <div class="pricing-table-block green"></div>
+            </div>
+            <div class="pricing-table-feature-description">
+              <div class="pricing-table-heading" data-i18n="pricing.table.custom.feature.support.heading">
+                Dedicated Account Manager.
+              </div>
+              <div class="pricing-table-subtext" data-i18n="pricing.table.custom.feature.support.subtext">
                 Your new best friend on speed dial to help you get the most out of your ticket sales.
               </div>
             </div>
-          </td>
-        </tr>
-        </tbody>
-        <tfoot>
-        <tr>
-          <td>
-            <a href="https://dashboard.eventix.io?type=charity">
-              <button class="btn btn-primary">Get Started</button>
+          </div>
+          <div class="pricing-table-action-container">
+            <a class="pricing-table-action" href="https://dashboard.eventix.io/?type=custom">
+              <button class="btn btn-primary" data-i18n="pricing.table.custom.action">Get Started</button>
             </a>
-          </td>
-          <td>
-            <a href="https://dashboard.eventix.io?type=standard">
-              <button class="btn btn-primary">Get Started</button>
-            </a>
-          </td>
-          <td>
-            <a href="https://dashboard.eventix.io?type=custom">
-              <button class="btn btn-primary">Get Started</button>
-            </a>
-          </td>
-        </tr>
-        </tfoot>
-      </table>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="" class="bg-light">
+  <section class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-push-6 hidden-sm hidden-xs text-right">
           <img class="img-responsive" style="transform: rotate(20deg); margin-top: 100px;" src="img/calendar.png" />
         </div>
         <article class="col-md-6 col-md-pull-6 text-left">
-          <h2>
+          <h2 data-i18n="pricing.payouts.title">
             Payouts
           </h2>
-          <div class="subtitle">We do weekly payouts!</div>
+          <div class="subtitle" data-i18n="pricing.payouts.subtitle">We do weekly payouts!</div>
 
-          <h3>Payment frequency</h3>
-          <p>In contrast to other ticketservice providers you can decide when you want to receive the money from your ticket sales. This can be a weekly, monthly, or after the event payout. We'll make sure this way you’ll be able to pay your expenses before the event.</p>
+          <h3 data-i18n="pricing.payouts.frequency.title">Payment frequency</h3>
+          <p data-i18n="pricing.payouts.frequency.text">In contrast to other ticketservice providers you can decide
+            when you want to receive the money from your ticket sales. This can be a weekly, monthly, or after the
+            event payout. We'll make sure this way you’ll be able to pay your expenses before the event.</p>
 
-          <h3>Happy Tuesday</h3>
-          <p>Payouts of the revenue generated per week from monday to sunday are processed automatically every next tuesday. This means the money will be in your bank account ultimately by wednesday.</p>
+          <h3 data-i18n="pricing.payouts.tuesday.title">Happy Tuesday</h3>
+          <p data-i18n="pricing.payouts.tuesday.text">Payouts of the revenue generated per week from monday to sunday
+            are processed automatically every next tuesday. This means the money will be in your bank account
+            ultimately by wednesday.</p>
         </article>
       </div>
     </div>

@@ -367,5 +367,92 @@
         "text": ""
       }
     }
+  },
+  "pricing": {
+    "title": "",
+    "table": {
+      "standard": {
+        "name": "",
+        "text": "",
+        "price": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      },
+      "free": {
+        "name": "",
+        "price": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      },
+      "custom": {
+        "name": "",
+        "text": "",
+        "head": {
+          "heading": "",
+          "subtext": ""
+        },
+        "feature": {
+          "free": {
+            "heading": "",
+            "subtext": ""
+          },
+          "fullfeatured": {
+            "heading": "",
+            "subtext": ""
+          },
+          "support": {
+            "heading": "",
+            "subtext": ""
+          }
+        },
+        "action": ""
+      }
+    },
+    "payouts": {
+      "title": "",
+      "subtitle": "",
+      "frequency": {
+        "title": "",
+        "text": ""
+      },
+      "tuesday": {
+        "title": "",
+        "text": ""
+      }
+    }
   }
 }
