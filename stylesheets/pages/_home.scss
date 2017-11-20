@@ -114,6 +114,10 @@
   #integration-carousel {
     .carousel-window {
       height: 450px;
+
+      > .row {
+        background: url('../img/partners/3d-ticketswap-website.jpg');
+      }
     }
   }
 
