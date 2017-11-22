@@ -112,11 +112,16 @@
   }
 
   #integration-carousel {
+
+    .carousel-window-container {
+      background: url('../img/eventixAPI2.jpg');
+    }
+
     .carousel-window {
       height: 450px;
 
       > .row {
-        background: url('../img/eventixAPI2.jpg');
+        background: transparent;
       }
     }
   }
