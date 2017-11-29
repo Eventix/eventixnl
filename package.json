@@ -19,9 +19,9 @@
   "author": "Eventix",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gafderks/eventixnl/issues"
+    "url": "https://github.com/eventix/eventixnl/issues"
   },
-  "homepage": "https://github.com/gafderks/eventixnl#readme",
+  "homepage": "http://eventix.io/",
   "dependencies": {
     "animatewithsass": "3.2.1",
     "bootstrap-sass": "^3.3.7",
@@ -38,6 +38,7 @@
     "grunt-mkdir": "1.0.0",
     "grunt-preprocess": "5.1.0",
     "grunt-sass": "2.0.0",
+    "grunt-sitemap": "1.2.1",
     "i18next": "10.0.7",
     "i18next-browser-languagedetector": "2.0.0",
     "i18next-xhr-backend": "1.4.3",

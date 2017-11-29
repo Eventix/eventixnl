@@ -100,6 +100,12 @@ module.exports = function(grunt) {
           }
         }
       }
+    },
+    sitemap: {
+      dist: {
+        pattern: ['public/**/*.html'], // this will exclude 'google*.html'
+        siteRoot: 'public/'
+      }
     }
   });
 
@@ -112,8 +118,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('i18next-scanner');
+  grunt.loadNpmTasks('grunt-sitemap');
 
   grunt.registerTask('minify', ['htmlmin', 'cssmin', 'uglify']);
-  grunt.registerTask('default', ['mkdir', 'sass', 'browserify', 'preprocess', 'minify']);
+  grunt.registerTask('default', ['mkdir', 'sass', 'browserify', 'preprocess', 'minify', 'sitemap']);
 
 };
