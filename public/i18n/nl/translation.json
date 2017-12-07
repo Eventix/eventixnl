@@ -1,15 +1,15 @@
 {
   "footer": {
     "newsletter": {
-      "behind-scenes": "Achter de schermen werken we aan online ticketing. Nieuwsgierig?",
+      "behind-scenes": "Achter de schermen werken wij aan de toekomst van online ticketing. Nieuwsgierig?",
       "email": "E-mailadres",
-      "send": "Inschrijven voor de nieuwsbrief"
+      "send": "Ontvang onze nieuwsbrief"
     },
     "links": {
       "links": "Links",
       "home": "Home",
       "features": "Features",
-      "pricing": "Prijzen",
+      "pricing": "Tarieven",
       "faq": "FAQ",
       "recover-tickets": "",
       "blog": "Blog",
@@ -39,13 +39,13 @@
       "features": "Features",
       "integrations": "Integraties",
       "how-it-works": "Hoe het werkt",
-      "pricing": "Prijzen",
+      "pricing": "Tarieven",
       "blog": "Blog",
       "developers": "Developers",
       "api-documentation": "API-documentatie",
       "support": "Support",
       "faq": "FAQ",
-      "lost-tickets": "Tickets verloren?",
+      "lost-tickets": "Ticket verloren?",
       "language": "Taal",
       "login": "log in",
       "signup": "Registreer"
@@ -54,43 +54,43 @@
   "home": {
     "title": "",
     "hero": {
-      "text": "Technisch ongeëvenaarde ticketing voor alle soorten evenementen. Probeer het gratis uit!",
-      "videoUrl": "",
-      "cta": "",
-      "heading": ""
+      "text": "Zorgeloze tiketing, innovatieve marketing tools en betalingen op aanvraag. Simpel en gratis.",
+      "videoUrl": "https://youtu.be/rS2n4u7SR1U",
+      "cta": "Start nu",
+      "heading": "Op maat gemaakte features voor jouw evenement "
     },
     "features": {
       "category": {
-        "sports": "",
-        "business": "",
-        "theaters": "",
-        "festivals": ""
+        "sports": "Sport",
+        "business": "Zakelijk",
+        "theaters": "Theater",
+        "festivals": "Festival"
       },
       "heading": "",
       "text": "",
       "feature": {
         "facebook": {
-          "title": "",
+          "title": "Facebook integratie",
           "action": ""
         },
         "marketing": {
-          "title": "",
+          "title": "Zet marketing in zoals de grootste merken",
           "action": ""
         },
         "helpdesk": {
-          "title": "",
+          "title": "24/7 Helpdesk",
           "action": ""
         },
         "ownership": {
-          "title": "",
+          "title": "Jij beheert jouw data",
           "action": ""
         },
         "payments": {
-          "title": "",
+          "title": "Wekelijkse uitbetalingen",
           "action": ""
         },
         "branding": {
-          "title": "",
+          "title": "Branded e-mail, tickets en shop",
           "action": ""
         },
         "account": {
@@ -98,106 +98,106 @@
           "action": ""
         },
         "season": {
-          "title": "",
+          "title": "Seizoens tickets",
           "action": ""
         },
         "localization": {
-          "title": "",
+          "title": "Gelocaliseerde ticketing",
           "action": ""
         },
         "startnumber": {
-          "title": "",
+          "title": "Start nummers",
           "action": ""
         },
         "data": {
-          "title": "",
+          "title": "Data analyse",
           "action": ""
         },
         "import": {
-          "title": "",
+          "title": "Importeer jouw gastenlijst",
           "action": ""
         },
         "entrance": {
-          "title": "",
+          "title": "Geavanceerde entree management",
           "action": ""
         },
         "products": {
-          "title": "",
+          "title": "Extra producten en toegang",
           "action": ""
         },
         "sales": {
-          "title": "",
+          "title": "Piek verkoop",
           "action": ""
         },
         "invoicing": {
-          "title": "",
+          "title": "Facturatie",
           "action": ""
         },
         "shop": {
-          "title": "",
+          "title": "Winkelwagen",
           "action": ""
         },
         "seating": {
-          "title": "",
+          "title": "Stoelselectie in alle maten",
           "action": ""
         },
         "pos": {
-          "title": "",
+          "title": "Punt van verkoop",
           "action": ""
         }
       }
     },
     "integrations": {
-      "heading": "",
-      "text": "",
+      "heading": "Naadloze integraties",
+      "text": "Eventix integreerd makkelijk met elk platform. Verbind met plugins van industrie leidende services of bouw verder op onze API. Om meer te lezen over het bouwen van custom integraties zie onze API documentatie. ",
       "integration": {
         "ticketswap": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "Ticketswap",
+          "text": "Wij voorkomen ticket fraude in secundaire markten voor al onze tickets door middel van onze Secure Swap integratie met TicketSwap. Zij checken de validiteit voor elke Eventix ticket die verkocht wordt via TicketSwap. Onjuiste tickets of tickets die als 'niet overdraagbaar'  worden gemarkeerd kunnen niet aangeboden worden. Het originele ticket wordt vervangen door een ticket met een unieke code en persoonlijke informatie van de tweedehands koper. " ",
+          "action": "Leer meer over TicketSwap"
         },
         "mailchimp": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "MailChimp",
+          "text": "Behoudt contact met jouw bezoekers. Het linken van MailChimp zorgt er voor dat jouw mail lijsten up to date blijven wat resulteert in effectievere MailChimp campagnes. Verstuur uitnodigingen voor een registratie pagina of zet een mailing lijst op. ",
+          "action": "Leer meer over MailChimp"
         },
         "tagmanager": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "Google Tag Manager",
+          "text": "Laat ons jouw helpen met de meest geavanceerde marketing features! Google Tag Manager geeft jou een helder overzicht over wat er online gebeurt. Op deze manier leer jij jouw doelgroep op een unieke persoonlijke manier kennen. Monitor gedetailleerd bezoekers gedrag en verbindt deze informatie voor retargeting en tracking.  ",
+          "action": "Begin nu met Google Tag Manager"
         },
         "mobile": {
-          "heading": "",
-          "text": ""
+          "heading": "Android en iOS",
+          "text": "Wij bieden een mobile-first ervaring en zijn zeer enthousiast over de integratie van onze ticket shops in mobiele apps. Implementeer de ticket shop in jouw Android en iOS app. Biedt jouw gebruiker de meest soepele koop ervaring terwijl jouw verkoop stijgt.  "
         },
         "code": {
-          "heading": "",
-          "text": "",
-          "action": ""
+          "heading": "Custom code",
+          "text": " Wij geven jou toegang tot onze API, dit betekend dat jij kunt maken wat je wilt! De Eventix Ticket service is volledige gebouwd op de Eventix ticketing API. Wij hebben al een hoop goede voorbeelden gezien van integraties met administratie sofwater, CRM, playformen en ERP systemen zoals MS Dynamics en SAP. De mogelijkheden zijn eindeloos. Laat ons weten als jij hulp wilt met het bouwe van een integratie. Wij helpen jou graag."
+          "action": "Lees meer over onze API"
         }
       }
     },
     "howitworks": {
       "step1": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Stap 1 Creëer jouw evenement in minuten",
+        "subtitle": "Begin de potentie van jouw evenement te realiseren",
+        "text": "Creëer jouw evenement in het Eventix dashboard of importeer deze gelijk van uit Facebook. Je kunt jouw evenement volledig aan de wensen van jouw bezoekers aanpassen. De ervaring die jij biedt begint bij het creëren van het evenment zelf."
       },
       "step2": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Stap 2 Verkoop jouw ticket on- en offline",
+        "subtitle": "En volledig aanpasbare en gebruiksvriendelijke ticket shop. Probeer het zelf!",
+        "text": "Wanneer bezoekers een ticket bestellen door jouw ticketshop kunnen zij dit doen binnen een paar tikken op hun smartphone. Jouw shop can op vele manieren aangepast worden, inclusief een persoonlijk design, jouw Facebook like knop toevoegen en elke hoeveelheid aan unieke tickets."
       },
       "step3": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
-        "action": ""
+        "heading": "Stap 3 Makkelijk scannen zorgt voor een korte rij",
+        "subtitle": "Scan tot duizend tickets per scanner, per uur!",
+        "text": "Met onze Eventix app, beschikbaar voor Android en iOS wordt elke smartphone een scanner. Hierdoor, zul je nooit te weinig scan apparaten hebben. The scan-app is rechtdoorzee, makkelijk de gebruiken en biedt volledige customer support.",
+        "action": "Zie onze apps in de appstore"
       },
       "step4": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
+        "heading": "Stap 4 Gebruik data om jouw verkoop te stimuleren",
+        "subtitle": "Leer jouw publiek kennen en ontdek waar ze van houden",
+        "text": "Jouw ticket sales genereert een hoop data. Deze data geeft mooie inzichten voor marketing, sales en versterkt te persoonlijke band tussen jou en jouw bezoekers. Meet conversie en volg de return op jouw marketing investeringen. Er wachten veel mogelijkheden op je, laat jouw evenemnt groeien.  ",
         "action": ""
       }
     }
@@ -212,113 +212,120 @@
     "title": "",
     "feature": {
       "branding": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Jouw branding, overal",
+        "subtitle": "Persoonlijke branding in jouw mails, tickets en ticket shops.",
+        "text": "Er is veel energie en tijd gestoken in de beleving rondom jouw evenement. Wij moedigen dit aan en willen dat de ervaring die jij levert authentiek en volledig overkomt. Daarom geven wij jou de optie om jouw evenement tot in de kleinste details te positioneren. Inclusief volledig aanpasbare mails, ticket shops en ticket ontwerpen. <br> <br> Alles wordt gedaan met jouw branding wat de beleving compleet maakt. Vanaf het moment dat bezoekers hun ticket bestellen!"
+
       },
       "entrance": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Geavanceerde toegang",
+        "subtitle": "Scan tot 1000 bezoekers per scanner, per uur!",
+        "text": "De Eventix scan app kan van elke smartphone een scanner maken en is te downloaden vanaf de Android en iOS app store. Deze scanner kan tijdens het hele evenement gebruikt worden, zowel on- als offline. De app geeft ook real-time inzichten over jouw bezoekers, hoeveel er ingecheckt hebben en hoe laat. Laat ons focussen op de technische kant van het scannen en de tickets, zodat jij je op het evenement kunt focussen."
       },
       "localization": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Gelokaliseerde ticketing",
+        "subtitle": "Ons systeem past zich aan aan jouw bezoeker", 
+        "text": "Met jouw evenement kun je bezoekers aantrekken van over de hele wereld. Wanneer zij beslissen om een ticket te kopen, zorgen wij dat het goed komt. <br><br>Vanaf het moment dat iemand jouw website bezoekt detecteren wij welke taal zijn browser gebruikt en veranderen wij de taal naar hun voorkeuren. Dit gebeurt ook met de valuta die in desbetreffende regio gebruikt wordt.<br><br> Momenteel ondersteunen wij de volgende talen: Engels, Nederlands, Frans, Chinees, Spaans, Duits en Portugees. "
       },
       "analytics": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Data analytics",
+        "subtitle": "Werk slimmer met data analytics",
+        "text": "Data wordt met de dag belangrijker. Daarom hebben wij al onze tools geoptimaliseerd om data te verzamelen en jouw evenement daar mee te verbeteren. Je kunt ook  precies vragen wat je wilt wanneer iemand zijn ticket koopt. Op deze manier kun je jouw evenement verbeteren op de punten waarvan jij denkt dat het nodig is.
+<br><br> Wanneer iemand inlogt met zijn Facebook account om een ticket te kopen, verzamelen wij automatisch die persoon zijn informatie van Facebook. Hierdoor wordt de band tussen jou en jouw bezoeker een stuk hechter. <br><br> De keuze ligt bij jou. Wij hebben vele vragen al opgesteld die jij aan de bezoeker kunt vragen wanneer zij een ticket kopen. Maar je kunt ook zelf vragen toevoegen of weglaten. 
+
+Het zijn jouw bezoekers, leer ze kennen."
       },
       "feedback": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Geautomatiseerde feedback van bezoekers",
+        "subtitle": "Blijf jezelf verbeteren door middel van feedback.",
+        "text": "Je bent net zo goed als jouw laatste evenement. Daarom geloven wij in het vragen van feedback aan bezoekers. Door middel van ons partnerschap met Hugo, krijg jij een helder overzicht van wat bezoekers het leukst vonden en waar nog verbeterd kan worden. <br><br> Gebruik deze kennis in je voordeel."
       },
       "helpdesk": {
-        "heading": "",
+        "heading": "24/7 Helpdesk",
         "subtitle": "",
-        "text": ""
+        "text": "Wij weten dat de branches waarmee wij werken 24/7 bezig zijn. Bij Eventix geloven wij dat leren komt van luisteren. Wij leren graag samen met jou terwijl we samen door het systeem gaan. Wanneer je ons wilt bereiken zullen wij luisteren en jou op je weg helpen. Je kunt ons mailen, bellen of met ons chatten wanneer jou dat uitkomt. <br><br> Samen komen we er wel uit. Wij zijn er voor je."
       },
       "import": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Importeer jouw gastenlijst",
+        "subtitle": "Upload jouw gastenlijst en verzend makkelijk tickets",
+        "text": "Wij willen jouw bezoekers een soepele ervaring bieden. Sinds jij de mensen op jouw gastenlijst belangrijk vindt vinden wij dat ook. Als jij jouw gastenlijst upload zullen wij ervoor zorgen dat deze speciale bezoekers de tickets krijgen.
+<br><br>Op deze manier zullen er geen namen missen op jouw lijst. Als je beslist om iemand op het laatste moment toe te voegen kun je hem direct tickets sturen vanuit het Eventix dashboard.
+"
       },
       "invoices": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Facturatie",
+        "subtitle": "Financiële helderheid door automatisering",
+        "text": "Wij begrijpen dat facturen essentieel kunnen zijn voor jou en jouw klanten. Door ons systeem worden facturen makkelijk verstuurd naar andere partijen. Bezoekers kunnen hun belasting facturen printen vanuit hun mail. Organisatoren kunnen de belasting facturen ook printen namens de bezoekers.
+"
       },
       "servers": {
-        "heading": ""
+        "heading": "Schaalbare servers"
       },
       "server": {
-        "subtitle": "",
-        "text": ""
+        "subtitle": "Online wachten behoort tot het verleden",
+        "text": "Onze schaalbare servers zorgen er voor dat jouw ticket shop elk aantal tickets aan kan. Dit betekend dat er geen wachtrij is tijdens het bestellen van tickets. Iedereen kan direct zijn tickets kopen, daar worden jouw bezoekers vast blij van.<br><br> De email met tickets wordt verstuurd binnen vijf minuten naar het adres van jouw bezoeker."
       },
       "marketing": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
+        "heading": "Marketing tools",
+        "subtitle": "Krijg diepe inzichten door het gebruiken van de marketing tools van de grootste merken
+",
+        "text": "Bij Eventix hebben wij vele features. Allen ontworpen om jouw dagelijks leven en het verkopen van kaarten makkelijker te maken.",
         "list": {
-          "pixels": "",
-          "google": "",
-          "coupons": ""
+          "pixels": "Wij hebben twee pixels. Een voor LinkedIn en een voor Facebook. Pixels laten jou zien welke bezoeker van welke link vandaan komt. Links tracken is nuttig omdat je kunt kijken welke social media posts het beste werken, welke bezoeker je het best kunt retargetten en hier een optimale verkoop uit te halen.",
+          "google": "Met Google zijn er vele mooie trucs toe te passen voor jouw evenement. <br><BR> Google Analytics biedt jou een helder overzicht over welke personen op jouw website komen. Bijvoorbeeld, kan Google Analytics jou informatie geven over de demografie, interesses en gedrag van jouw bezoekers. <br><BR>Met Google Adwords kun je adverteren binnen de zoekmachine van Google waardoor jij het bovenste zoekresultaat kunt worden. Ook adverteert Google Adwords op websites die dit toestaan. Hier worden potentiële klanten getarget door hun zoekopdrachten in het verleden.",
+          "coupons": "Eventix biedt een functie waar je jouw coupon kan aanpassen zoals jij wilt. Zo kun je bezoekers speciale korting geven op jouw ticket. "
         }
       },
       "ownership": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
-      },
+        "heading": "Jouw data is jouw eigendom",
+        "subtitle": "Jouw evenement, jouw data, jouw voordelen",
+        "text": "Bezoekersinformatie is de sleutel tot het verbeteren van jouw evenement en het begrijpen van je doelgroep. Het is de snelste manier om het maximale uit jouw evenement te halen. <br><BR> Wij hechten veel waarde aan privacy. Daarom, wordt de informatie die de bezoekers aan jou toevertrouwen met niemand gedeeld behalve met jou. <br><BR> Laat ons weten welke data je wilt verzamelen en wij helpen jou hier mee. Op deze manier kun jij jouw evenement de richting in sturen die jij wilt. <BR><BR> En alsjeblieft, wees voorzichtig met de data die je verzamelt.      },
       "payouts": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Jouw geld, jouw betalingsmomenten",
+        "subtitle": "Geniet van een constante, flexibele cash flow naar jouw voorkeur",
+        "text": "Kies uit het ontvangen van je betalingen in dagelijkse porties, wekelijkse porties, na een bepaald bedrag of op aanvraag. De betalingen naar derde partijen gaat automatisch. Op deze manier zullen betalingen altijd eerlijk en snel gemaakt worden. Zoals wij dat graag zien. <BR><BR> Wij begrijpen dat een regelematige cash flow belangrijk is en verschillende evenementen een andere cash flow nodig hebben."
       },
       "pos": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Verbind jouw loket met Eventix",
+        "subtitle": "Laat jouw punt van verkoop synchroniseren met de online verkoop",
+        "text": "Wij werken voornamelijk online maar als jij offline werkt is dit geen probleem. <BR><BR> Jouw punt van verkop wordt direct gesynchroniseerd met ons online systeem. Dit geeft jou een helder overzicht van alle gemaakte verkopen."
       },
       "products": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Een ticket met alle producten",
+        "subtitle": "Wij willen dat onze tickets hun volle potentie bereiken",
+        "text": "Wij hebben het mogelijk gemaakt dat alle informatie op een ticket komt te staan. Elk nummer aan producten kan op onze tickets gezet worden. Een paar voordelen hiervan zijn; waar bezoekers zitten, de naam van het bedrijf en voedselvoorkeuren. <BR><BR> Ontdek de mogelijkheden van Eventix tickets en zorg ervoor dat alle producten op een ticket staan, dit is makkelijker voor jou en jouw bezoeker."
       },
       "season": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Geniet langer met seizoenstickets",
+        "subtitle": "Laat je bezoekers een seizoen lang mee genieten",
+        "text": "Wij hebben vele tickets, maar seizoenstickets hebben een speciale plaats bij Eventix. Dankzij ons systeem, kun je makkelijk en snel seizoenstickets maken. Nu kunnen de fans de spanning een seizoen lang mee maken, samen met jou."
       },
       "seated": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Makkelijk gemaakte zitplaatsen",
+        "subtitle": "Teken, bewerk en embed interactieve plattegronden in jouw ticketshop",
+        "text": "Dankzij ons partnerschap met Seats.io hebben wij de meest comfortabele zitplaats engine gebouwd om jouw aanpasbare, gereserveerde, zitplaatsen. Ontwerp jouw plattegrond in uren, niet weken en pas het aan in minuten, zelf nadat je evenement in de verkoop is gegaan. Voor meer informatie kun je kijken op Seats.io"
       },
       "cart": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Een interactieve winkelwagen",
+        "subtitle": "Bundel en betaal alle tickets tegelijkertijd",
+        "text": "Wij begrijpen dat jouw bezoekers meer producten tegelijkertijd willen kopen. Wij willen dat zij plezier hebben, niet alleen op jouw evenement maar ook terwijl zij hun tickets kopen. Daarom hebben wij het makkelijk gemaakt om meerdere tickets te kopen in een interactieve winkelwagen. <BR><BR> De dagen van meerdere tickets met meerdere bestellingen kopen is voorbij. Alles wordt nu gebundeld en in een keer gekocht. "
       },
       "social": {
-        "heading": "",
-        "subtitle": "",
-        "text": "",
+        "heading": "Integreer met Facebook",
+        "subtitle": "Geïntegreerde ticketing en organische groei met Facebook",
+        "text": "Vandaag de dag is Facebook een van de belangrijkste kanalen voor marketing. De meeste van jouw bezoekers hebben Facebook, en dit is een geweldige manier om hen te bereiken. Als mensen inloggen met hun Facebook account om tickets te bestellen van Eventix, op jouw Facebook pagina, gebeuren er mooie dingen.. Hier kun jij je voordeel uit halen.",
         "list": {
-          "facebookshop": "",
-          "facebookattend": "",
-          "facebookbanner": "",
-          "pixels": ""
+          "facebookshop": "Jouw Facebook fan pagina wordt een verkooppunt. Elke bezoeker kan tickets op dezelfde pagina kopen om zo afleiding te vermijden.",
+          "facebookattend": "Met onze Facebook Auto Attend optie, worden mensen die jouw shop bezoeken automatisch op ‘Geïnteresseerd’ gezet op jouw Facebook evenement. Als zij de betaling afronden worden ze automatisch op ‘Gaat’ gezet. Op deze manier zullen meer mensen aangemeld staan op jouw Facebook evenement, dit wordt zichtbaar in de tijdlijn van deze personen, waardoor hun vriendenlijst jouw evenement te zien krijgt.",
+          "facebookbanner": "Terwijl iemand tickets besteld in jouw ticket shop zal jouw  Facebook banner bovenaan de pagina verschijnen. Hierdoor krijg jij gratis likes en zichtbaarheid op jouw Facebook fan pagina en jouw merk.",
+          "pixels": "Eventix heeft twee pixels, een voor LinkedIn en een voor Facebook. Deze pixels laten zien welke bezoeker vanaf welke link naar jouw pagina komt. Het volgen van deze links is perfect om jou inzicht te geven welke bezoeker je kunt retargetten en in hoeverre social media berichten jou iets opleveren.<BR><BR> Deze applicaties resulteren in gratis marketing en zullen het bereik van jouw evenement vergroten."
         },
         "text2": ""
       },
       "startnumbers": {
-        "heading": "",
-        "subtitle": "",
-        "text": ""
+        "heading": "Geautomatiseerde startnummers",
+        "subtitle": "Ticket inclusief startnummer",
+        "text": "Wij willen winnen met automatisering. Daarom hebben wij het geven van startnummers verbonden met het kopen van tickets. Wanneer iemand een ticket koopt krijgt hij ook automatisch een startnummer. "
       }
     }
   },
