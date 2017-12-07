@@ -4,7 +4,7 @@
   "description": "Eventix.nl website",
   "main": "server.js",
   "engines": {
-    "node": "6.x"
+    "node": "^8.9.2"
   },
   "scripts": {
     "postinstall": "grunt",
