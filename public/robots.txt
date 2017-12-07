@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 User-Agent: *
 Disallow:
 
 Sitemap: https://eventix.io/sitemap.xml
+=======
+User-agent: *
+Allow: /
+>>>>>>> Stashed changes
