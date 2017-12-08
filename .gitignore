@@ -87,3 +87,5 @@ fabric.properties
 *.css.map
 
 public/sftp-config\.json
+
+sftp-config\.json
